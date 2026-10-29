@@ -3,9 +3,9 @@
 "SR 101 - Thinking With Machines.rdf" expects them, and optionally zip the
 folder so you can hand it to someone.
 
-PDFs whose licenses allow redistribution may already be here; this script
-skips any file that exists. The others are downloaded only to your computer
-and are kept out of the repository by .gitignore.
+Every reading is openly licensed, and the repository normally already holds
+all the PDFs, so this is only needed to fill in any that are missing. It
+skips any file that exists.
 
 Usage (from this folder):
     python3 fetch_readings.py            download what's missing
@@ -49,8 +49,7 @@ def make_zip(readings):
             p = os.path.join(HERE, r["path"])
             if os.path.exists(p):
                 z.write(p, f"SR 101 Zotero readings/{r['path']}")
-    print(f"\nMade {ZIP_NAME}. It contains every PDF you have here, including ones whose")
-    print("licenses don't allow redistribution, so share it with your own students, not publicly.")
+    print(f"\nMade {ZIP_NAME}. Every reading in it is openly licensed; see SOURCES.md.")
 
 
 def main():

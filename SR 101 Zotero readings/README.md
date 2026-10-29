@@ -3,12 +3,12 @@
 This folder is a Zotero collection of the SR 101 readings, in the same form as a Zotero "Export Collection… → Zotero RDF" with files.
 
 - `SR 101 - Thinking With Machines.rdf` has the reference for each reading and points to its PDF under `files/`. Importing it creates a Zotero collection with that name.
-- `files/` holds the PDFs. Only the ones whose licenses allow redistribution are in the repository (see `SOURCES.md`).
-- `fetch_readings.py` downloads the rest to your own computer.
+- `files/` holds the PDFs. Every reading was chosen because its license allows the PDF to be shared publicly (see `SOURCES.md`).
+- `fetch_readings.py` downloads any PDF that's missing.
 
-## Getting the PDFs
+## If a PDF is missing
 
-On a Mac, open Terminal in this folder and run:
+The PDFs should already be in `files/`. If one isn't, open Terminal in this folder and run:
 
 ```
 python3 fetch_readings.py
@@ -26,6 +26,6 @@ Then, in Obsidian, run **Second Reader: APA Zotero import** for each reading you
 
 ## Giving the collection to other people
 
-Run `python3 fetch_readings.py --zip`. It makes `SR 101 Zotero readings.zip` with the Zotero file and every PDF, ready to post on Canvas. People unzip it and follow "Importing into Zotero" above.
+Run `python3 fetch_readings.py --zip`. It makes `SR 101 Zotero readings.zip` with the Zotero file and every PDF, ready to post on Canvas or anywhere else. People unzip it and follow "Importing into Zotero" above.
 
-That zip includes PDFs whose licenses don't allow redistribution, so give it to your own students rather than posting it publicly. Anyone using the GitHub copy runs `fetch_readings.py` themselves.
+All the readings are openly licensed. Two of them (Kosmyna et al. and Doshi & Hauser) are licensed for noncommercial use only, so don't sell the package.

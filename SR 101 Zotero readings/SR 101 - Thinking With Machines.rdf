@@ -10,251 +10,8 @@
  xmlns:vcard="http://nwalsh.com/rdf/vCard#">
 
     <rdf:Description rdf:about="#item_1">
-        <z:itemType>preprint</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <foaf:name>arXiv</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Tamkin</foaf:surname>
-                        <foaf:givenName>Alex</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>McCain</foaf:surname>
-                        <foaf:givenName>Miles</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Handa</foaf:surname>
-                        <foaf:givenName>Kunal</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Durmus</foaf:surname>
-                        <foaf:givenName>Esin</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Lovitt</foaf:surname>
-                        <foaf:givenName>Liane</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Rathi</foaf:surname>
-                        <foaf:givenName>Ankur</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Huang</foaf:surname>
-                        <foaf:givenName>Saffron</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Mountfield</foaf:surname>
-                        <foaf:givenName>Alfred</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Hong</foaf:surname>
-                        <foaf:givenName>Jerry</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ritchie</foaf:surname>
-                        <foaf:givenName>Stuart</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Stern</foaf:surname>
-                        <foaf:givenName>Michael</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Clarke</foaf:surname>
-                        <foaf:givenName>Brian</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Goldberg</foaf:surname>
-                        <foaf:givenName>Landon</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Sumers</foaf:surname>
-                        <foaf:givenName>Theodore R.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Mueller</foaf:surname>
-                        <foaf:givenName>Jared</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>McEachen</foaf:surname>
-                        <foaf:givenName>William</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Mitchell</foaf:surname>
-                        <foaf:givenName>Wes</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Carter</foaf:surname>
-                        <foaf:givenName>Shan</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Clark</foaf:surname>
-                        <foaf:givenName>Jack</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Kaplan</foaf:surname>
-                        <foaf:givenName>Jared</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ganguli</foaf:surname>
-                        <foaf:givenName>Deep</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <link:link rdf:resource="#item_101"/>
-        <dc:title>Clio: Privacy-Preserving Insights into Real-World AI Use</dc:title>
-        <dc:date>2024</dc:date>
-        <dc:identifier>DOI 10.48550/arXiv.2412.13678</dc:identifier>
-        <z:language>en</z:language>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://arxiv.org/abs/2412.13678</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dc:description>License: No license shown on arXiv (arXiv's default non-exclusive license)</dc:description>
-    </rdf:Description>
-    <z:Attachment rdf:about="#item_101">
-        <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/1/Tamkin et al. (2024) - Clio Privacy-Preserving Insights into Real-World AI Use.pdf"/>
-        <dc:title>PDF</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://arxiv.org/pdf/2412.13678v1</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <z:linkMode>1</z:linkMode>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <bib:Article rdf:about="#item_2">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="#journal_2"/>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Steyvers</foaf:surname>
-                        <foaf:givenName>Mark</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Tejeda</foaf:surname>
-                        <foaf:givenName>Heliodoro</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Kumar</foaf:surname>
-                        <foaf:givenName>Aakriti</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Belem</foaf:surname>
-                        <foaf:givenName>Catarina</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Karny</foaf:surname>
-                        <foaf:givenName>Sheer</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Hu</foaf:surname>
-                        <foaf:givenName>Xinyue</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Mayer</foaf:surname>
-                        <foaf:givenName>Lukas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Smyth</foaf:surname>
-                        <foaf:givenName>Padhraic</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <link:link rdf:resource="#item_102"/>
-        <dc:title>What Large Language Models Know and What People Think They Know</dc:title>
-        <dc:date>2025</dc:date>
-        <z:language>en</z:language>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://arxiv.org/abs/2401.13835</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dc:description>License: No license shown on the arXiv preprint; journal version not checked</dc:description>
-    </bib:Article>
-    <bib:Journal rdf:about="#journal_2">
-        <dc:title>Nature Machine Intelligence</dc:title>
-        <dc:identifier>DOI 10.1038/s42256-024-00976-7</dc:identifier>
-    </bib:Journal>
-    <z:Attachment rdf:about="#item_102">
-        <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/2/Steyvers et al. (2025) - What Large Language Models Know and What People Think They Know.pdf"/>
-        <dc:title>PDF</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://arxiv.org/pdf/2401.13835v2</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <z:linkMode>1</z:linkMode>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <rdf:Description rdf:about="#item_3">
         <z:itemType>conferencePaper</z:itemType>
-        <dcterms:isPartOf rdf:resource="#proceedings_3"/>
+        <dcterms:isPartOf rdf:resource="#proceedings_1"/>
         <dc:publisher>
             <foaf:Organization>
                 <foaf:name>ACM</foaf:name>
@@ -306,7 +63,7 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_103"/>
+        <link:link rdf:resource="#item_101"/>
         <dc:title>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers</dc:title>
         <dc:date>2025</dc:date>
         <dc:identifier>DOI 10.1145/3706598.3713778</dc:identifier>
@@ -318,12 +75,12 @@
         </dc:identifier>
         <dc:description>License: CC BY 4.0 (stated in the PDF)</dc:description>
     </rdf:Description>
-    <bib:Proceedings rdf:about="#proceedings_3">
+    <bib:Proceedings rdf:about="#proceedings_1">
         <dc:title>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</dc:title>
     </bib:Proceedings>
-    <z:Attachment rdf:about="#item_103">
+    <z:Attachment rdf:about="#item_101">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/3/Lee et al. (2025) - The Impact of Generative AI on Critical Thinking Self-Reported Reductions in Cog.pdf"/>
+        <z:path rdf:resource="files/1/Lee et al. (2025) - The Impact of Generative AI on Critical Thinking Self-Reported Reductions in Cog.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -333,9 +90,9 @@
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <bib:Article rdf:about="#item_4">
+    <bib:Article rdf:about="#item_2">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="#journal_4"/>
+        <dcterms:isPartOf rdf:resource="#journal_2"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -346,7 +103,7 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_104"/>
+        <link:link rdf:resource="#item_102"/>
         <dc:title>AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking</dc:title>
         <dc:date>2025</dc:date>
         <bib:pages>6</bib:pages>
@@ -356,17 +113,17 @@
                 <rdf:value>https://www.mdpi.com/2075-4698/15/1/6</rdf:value>
             </dcterms:URI>
         </dc:identifier>
-        <dc:description>License: CC BY (MDPI open access; check version on the article page)</dc:description>
+        <dc:description>License: CC BY (MDPI open access)</dc:description>
     </bib:Article>
-    <bib:Journal rdf:about="#journal_4">
+    <bib:Journal rdf:about="#journal_2">
         <prism:volume>15</prism:volume>
         <dc:title>Societies</dc:title>
         <dc:identifier>DOI 10.3390/soc15010006</dc:identifier>
         <prism:number>1</prism:number>
     </bib:Journal>
-    <z:Attachment rdf:about="#item_104">
+    <z:Attachment rdf:about="#item_102">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/4/Gerlich (2025) - AI Tools in Society Impacts on Cognitive Offloading and the Future of Critical T.pdf"/>
+        <z:path rdf:resource="files/2/Gerlich (2025) - AI Tools in Society Impacts on Cognitive Offloading and the Future of Critical T.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -376,82 +133,9 @@
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <bib:Article rdf:about="#item_5">
+    <bib:Article rdf:about="#item_3">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="#journal_5"/>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Bastani</foaf:surname>
-                        <foaf:givenName>Hamsa</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Bastani</foaf:surname>
-                        <foaf:givenName>Osbert</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Sungu</foaf:surname>
-                        <foaf:givenName>Alp</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ge</foaf:surname>
-                        <foaf:givenName>Haosen</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Kabakcı</foaf:surname>
-                        <foaf:givenName>Özge</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Mariman</foaf:surname>
-                        <foaf:givenName>Rei</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <link:link rdf:resource="#item_105"/>
-        <dc:title>Generative AI without Guardrails Can Harm Learning: Evidence from High School Mathematics</dc:title>
-        <dc:date>2025</dc:date>
-        <bib:pages>e2422633122</bib:pages>
-        <z:language>en</z:language>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://doi.org/10.1073/pnas.2422633122</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dc:description>License: Not verified</dc:description>
-    </bib:Article>
-    <bib:Journal rdf:about="#journal_5">
-        <prism:volume>122</prism:volume>
-        <dc:title>Proceedings of the National Academy of Sciences</dc:title>
-        <dc:identifier>DOI 10.1073/pnas.2422633122</dc:identifier>
-        <prism:number>26</prism:number>
-    </bib:Journal>
-    <z:Attachment rdf:about="#item_105">
-        <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/5/Bastani et al. (2025) - Generative AI without Guardrails Can Harm Learning Evidence from High School Mat.pdf"/>
-        <dc:title>PDF</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://www.pnas.org/doi/pdf/10.1073/pnas.2422633122</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <z:linkMode>1</z:linkMode>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <bib:Article rdf:about="#item_6">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="#journal_6"/>
+        <dcterms:isPartOf rdf:resource="#journal_3"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -474,7 +158,7 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_106"/>
+        <link:link rdf:resource="#item_103"/>
         <dc:title>The Effects of Over-Reliance on AI Dialogue Systems on Students' Cognitive Abilities: A Systematic Review</dc:title>
         <dc:date>2024</dc:date>
         <bib:pages>28</bib:pages>
@@ -486,14 +170,14 @@
         </dc:identifier>
         <dc:description>License: CC BY 4.0 (stated in the PDF)</dc:description>
     </bib:Article>
-    <bib:Journal rdf:about="#journal_6">
+    <bib:Journal rdf:about="#journal_3">
         <prism:volume>11</prism:volume>
         <dc:title>Smart Learning Environments</dc:title>
         <dc:identifier>DOI 10.1186/s40561-024-00316-7</dc:identifier>
     </bib:Journal>
-    <z:Attachment rdf:about="#item_106">
+    <z:Attachment rdf:about="#item_103">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/6/Zhai et al. (2024) - The Effects of Over-Reliance on AI Dialogue Systems on Students' Cognitive Abili.pdf"/>
+        <z:path rdf:resource="files/3/Zhai et al. (2024) - The Effects of Over-Reliance on AI Dialogue Systems on Students' Cognitive Abili.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -503,7 +187,79 @@
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <rdf:Description rdf:about="#item_7">
+    <bib:Article rdf:about="#item_4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="#journal_4"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jose</foaf:surname>
+                        <foaf:givenName>Binny</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cherian</foaf:surname>
+                        <foaf:givenName>Jaya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Verghis</foaf:surname>
+                        <foaf:givenName>Alie Molly</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varghise</foaf:surname>
+                        <foaf:givenName>Sony Mary</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>S</foaf:surname>
+                        <foaf:givenName>Mumthas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joseph</foaf:surname>
+                        <foaf:givenName>Sibichan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_104"/>
+        <dc:title>The Cognitive Paradox of AI in Education: Between Enhancement and Erosion</dc:title>
+        <dc:date>2025</dc:date>
+        <bib:pages>1550621</bib:pages>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://doi.org/10.3389/fpsyg.2025.1550621</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>License: CC BY (stated on the article page)</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="#journal_4">
+        <prism:volume>16</prism:volume>
+        <dc:title>Frontiers in Psychology</dc:title>
+        <dc:identifier>DOI 10.3389/fpsyg.2025.1550621</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_104">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/4/Jose et al. (2025) - The Cognitive Paradox of AI in Education Between Enhancement and Erosion.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_5">
         <z:itemType>preprint</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -562,21 +318,21 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_107"/>
+        <link:link rdf:resource="#item_105"/>
         <dc:title>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task</dc:title>
         <dc:date>2025</dc:date>
         <dc:identifier>DOI 10.48550/arXiv.2506.08872</dc:identifier>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>https://arxiv.org/abs/2506.08872</rdf:value>
+                <rdf:value>https://arxiv.org/abs/2506.08872v1</rdf:value>
             </dcterms:URI>
         </dc:identifier>
-        <dc:description>License: CC BY-NC-SA 4.0 (arXiv license link)</dc:description>
+        <dc:description>License: CC BY-NC-SA 4.0 (arXiv license link, v1)</dc:description>
     </rdf:Description>
-    <z:Attachment rdf:about="#item_107">
+    <z:Attachment rdf:about="#item_105">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/7/Kosmyna et al. (2025) - Your Brain on ChatGPT Accumulation of Cognitive Debt when Using an AI Assistant.pdf"/>
+        <z:path rdf:resource="files/5/Kosmyna et al. (2025) - Your Brain on ChatGPT Accumulation of Cognitive Debt when Using an AI Assistant.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -586,95 +342,7 @@
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <bib:Article rdf:about="#item_8">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="#journal_8"/>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Fan</foaf:surname>
-                        <foaf:givenName>Yizhou</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Tang</foaf:surname>
-                        <foaf:givenName>Luzhen</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Le</foaf:surname>
-                        <foaf:givenName>Huixiao</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Shen</foaf:surname>
-                        <foaf:givenName>Kejie</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Tan</foaf:surname>
-                        <foaf:givenName>Shufang</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Zhao</foaf:surname>
-                        <foaf:givenName>Yueying</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Shen</foaf:surname>
-                        <foaf:givenName>Yuan</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Li</foaf:surname>
-                        <foaf:givenName>Xinyu</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Gašević</foaf:surname>
-                        <foaf:givenName>Dragan</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <link:link rdf:resource="#item_108"/>
-        <dc:title>Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence on Learning Motivation, Processes, and Performance</dc:title>
-        <dc:date>2025</dc:date>
-        <z:language>en</z:language>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://arxiv.org/abs/2412.09315</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dc:description>License: No license shown on the arXiv preprint; journal version not checked</dc:description>
-    </bib:Article>
-    <bib:Journal rdf:about="#journal_8">
-        <dc:title>British Journal of Educational Technology</dc:title>
-        <dc:identifier>DOI 10.1111/bjet.13544</dc:identifier>
-    </bib:Journal>
-    <z:Attachment rdf:about="#item_108">
-        <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/8/Fan et al. (2025) - Beware of Metacognitive Laziness Effects of Generative Artificial Intelligence o.pdf"/>
-        <dc:title>PDF</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://arxiv.org/pdf/2412.09315</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <z:linkMode>1</z:linkMode>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <rdf:Description rdf:about="#item_9">
+    <rdf:Description rdf:about="#item_6">
         <z:itemType>preprint</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -697,7 +365,7 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_109"/>
+        <link:link rdf:resource="#item_106"/>
         <dc:title>Generative Artificial Intelligence Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content</dc:title>
         <dc:date>2023</dc:date>
         <dc:identifier>DOI 10.48550/arXiv.2312.00506</dc:identifier>
@@ -709,9 +377,9 @@
         </dc:identifier>
         <dc:description>License: CC BY-NC-ND 4.0 (arXiv license link, v1)</dc:description>
     </rdf:Description>
-    <z:Attachment rdf:about="#item_109">
+    <z:Attachment rdf:about="#item_106">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/9/Doshi &amp; Hauser (2023) - Generative Artificial Intelligence Enhances Individual Creativity but Reduces th.pdf"/>
+        <z:path rdf:resource="files/6/Doshi &amp; Hauser (2023) - Generative Artificial Intelligence Enhances Individual Creativity but Reduces th.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -721,7 +389,7 @@
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <rdf:Description rdf:about="#item_10">
+    <rdf:Description rdf:about="#item_7">
         <z:itemType>preprint</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -732,143 +400,192 @@
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Fang</foaf:surname>
-                        <foaf:givenName>Cathy Mengying</foaf:givenName>
+                        <foaf:surname>Buçinca</foaf:surname>
+                        <foaf:givenName>Zana</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Liu</foaf:surname>
-                        <foaf:givenName>Auren R.</foaf:givenName>
+                        <foaf:surname>Malaya</foaf:surname>
+                        <foaf:givenName>Maja Barbara</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Danry</foaf:surname>
-                        <foaf:givenName>Valdemar</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Lee</foaf:surname>
-                        <foaf:givenName>Eunhae</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Chan</foaf:surname>
-                        <foaf:givenName>Samantha W. T.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Pataranutaporn</foaf:surname>
-                        <foaf:givenName>Pat</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Maes</foaf:surname>
-                        <foaf:givenName>Pattie</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Phang</foaf:surname>
-                        <foaf:givenName>Jason</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Lampe</foaf:surname>
-                        <foaf:givenName>Michael</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ahmad</foaf:surname>
-                        <foaf:givenName>Lama</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Agarwal</foaf:surname>
-                        <foaf:givenName>Sandhini</foaf:givenName>
+                        <foaf:surname>Gajos</foaf:surname>
+                        <foaf:givenName>Krzysztof Z.</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_110"/>
-        <dc:title>How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study</dc:title>
-        <dc:date>2025</dc:date>
-        <dc:identifier>DOI 10.48550/arXiv.2503.17473</dc:identifier>
+        <link:link rdf:resource="#item_107"/>
+        <dc:title>To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making</dc:title>
+        <dc:date>2021</dc:date>
+        <dc:identifier>DOI 10.48550/arXiv.2102.09692</dc:identifier>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>https://arxiv.org/abs/2503.17473</rdf:value>
+                <rdf:value>https://arxiv.org/abs/2102.09692</rdf:value>
             </dcterms:URI>
         </dc:identifier>
-        <dc:description>License: No license shown on arXiv (arXiv's default non-exclusive license)</dc:description>
+        <dc:description>License: CC BY 4.0 (arXiv license link)</dc:description>
     </rdf:Description>
-    <z:Attachment rdf:about="#item_110">
+    <z:Attachment rdf:about="#item_107">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/10/Fang et al. (2025) - How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use A.pdf"/>
+        <z:path rdf:resource="files/7/Buçinca et al. (2021) - To Trust or to Think Cognitive Forcing Functions Can Reduce Overreliance on AI i.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>https://arxiv.org/pdf/2503.17473v2</rdf:value>
+                <rdf:value>https://arxiv.org/pdf/2102.09692</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <bib:Report rdf:about="#item_11">
-        <z:itemType>report</z:itemType>
+    <rdf:Description rdf:about="#item_8">
+        <z:itemType>preprint</z:itemType>
         <dc:publisher>
             <foaf:Organization>
-                <foaf:name>Anthropic</foaf:name>
+                <foaf:name>arXiv</foaf:name>
             </foaf:Organization>
         </dc:publisher>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Herdağdelen</foaf:surname>
-                        <foaf:givenName>Amaç</foaf:givenName>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenName>Mrinank</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Joren</foaf:surname>
-                        <foaf:givenName>Hailey</foaf:givenName>
+                        <foaf:surname>Tong</foaf:surname>
+                        <foaf:givenName>Meg</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Tamkin</foaf:surname>
-                        <foaf:givenName>Alex</foaf:givenName>
+                        <foaf:surname>Korbak</foaf:surname>
+                        <foaf:givenName>Tomasz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duvenaud</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Askell</foaf:surname>
+                        <foaf:givenName>Amanda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bowman</foaf:surname>
+                        <foaf:givenName>Samuel R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Newton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Durmus</foaf:surname>
+                        <foaf:givenName>Esin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hatfield-Dodds</foaf:surname>
+                        <foaf:givenName>Zac</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnston</foaf:surname>
+                        <foaf:givenName>Scott R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kravec</foaf:surname>
+                        <foaf:givenName>Shauna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maxwell</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCandlish</foaf:surname>
+                        <foaf:givenName>Sam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ndousse</foaf:surname>
+                        <foaf:givenName>Kamal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rausch</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schiefer</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenName>Da</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Miranda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perez</foaf:surname>
+                        <foaf:givenName>Ethan</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_111"/>
-        <dc:title>Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls</dc:title>
-        <dc:date>2026</dc:date>
+        <link:link rdf:resource="#item_108"/>
+        <dc:title>Towards Understanding Sycophancy in Language Models</dc:title>
+        <dc:date>2023</dc:date>
+        <dc:identifier>DOI 10.48550/arXiv.2310.13548</dc:identifier>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>https://anthropic.com/research/agents-judgment-calls</rdf:value>
+                <rdf:value>https://arxiv.org/abs/2310.13548v4</rdf:value>
             </dcterms:URI>
         </dc:identifier>
-        <dc:description>License: Not stated</dc:description>
-    </bib:Report>
-    <z:Attachment rdf:about="#item_111">
+        <dc:description>License: CC BY 4.0 (arXiv license link, v4)</dc:description>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_108">
         <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/11/Herdağdelen et al. (2026) - Who's Aligned to Whom How AI Agents Shape Experts' Research Judgment Calls.pdf"/>
+        <z:path rdf:resource="files/8/Sharma et al. (2023) - Towards Understanding Sycophancy in Language Models.pdf"/>
         <dc:title>PDF</dc:title>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf</rdf:value>
+                <rdf:value>https://arxiv.org/pdf/2310.13548v4</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <z:linkMode>1</z:linkMode>

@@ -4,13 +4,13 @@ course: "SR 101: Thinking With Machines (sample course)"
 offering: Sample term
 meeting: 4
 date: 2027-02-03
-topic: "Writing, memory, and metacognition"
+topic: "Who makes the judgment calls"
 tags: [class-note, teaching]
 ---
 
-# Class 04 - 2027-02-03: Writing, memory, and metacognition
+# Class 04 - 2027-02-03: Who makes the judgment calls
 
-Previous: [[Class 03 - 2027-01-27 - Student]] · Next: [[Class 05 - 2027-02-10 - Student]] · [[SR 101 - Course home|Course home]] · [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
+Previous: [[Class 03 - 2027-01-27 - Student]] · Next: none · [[SR 101 - Course home|Course home]] · [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
 
 ## Themes or goals
 ![[Syllabus - SR 101 Thinking With Machines - student copy#^w04-goal]]

@@ -1,9 +1,2 @@
-# PDFs whose licenses don't allow redistribution stay out of the repo.
-# fetch_readings.py downloads them on your own machine.
-files/1/Tamkin et al. (2024) - Clio Privacy-Preserving Insights into Real-World AI Use.pdf
-files/2/Steyvers et al. (2025) - What Large Language Models Know and What People Think They Know.pdf
-files/5/Bastani et al. (2025) - Generative AI without Guardrails Can Harm Learning Evidence from High School Mat.pdf
-files/8/Fan et al. (2025) - Beware of Metacognitive Laziness Effects of Generative Artificial Intelligence o.pdf
-files/10/Fang et al. (2025) - How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use A.pdf
-files/11/Herdağdelen et al. (2026) - Who's Aligned to Whom How AI Agents Shape Experts' Research Judgment Calls.pdf
+*.part
 SR 101 Zotero readings.zip

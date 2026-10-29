@@ -4,11 +4,11 @@ course: "SR 101: Thinking With Machines (sample course)"
 offering: Sample term
 meeting: 2
 date: 2027-01-20
-topic: "Confidence, effort, and critical thinking"
+topic: "Learning when the machine has the answers"
 tags: [class-note, teaching]
 ---
 
-# Class 02 - 2027-01-20: Confidence, effort, and critical thinking
+# Class 02 - 2027-01-20: Learning when the machine has the answers
 
 Previous: [[Class 01 - 2027-01-13 - Student]] · Next: [[Class 03 - 2027-01-27 - Student]] · [[SR 101 - Course home|Course home]] · [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
 

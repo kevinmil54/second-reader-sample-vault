@@ -1,6 +1,6 @@
 # SR 101 starter vault
 
-This folder (`second-reader-sample-vault`) is a ready-made Obsidian vault for the Second Reader note system, with a six-week sample course on how people interact with large language models.
+This folder (`second-reader-sample-vault`) is a ready-made Obsidian vault for the Second Reader note system, with a four-week sample course on how people interact with large language models.
 
 1. Unzip it somewhere on your computer (not inside another vault).
 2. Open Obsidian, choose "Open folder as vault", and select the `second-reader-sample-vault` folder itself.

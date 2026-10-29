@@ -4,11 +4,11 @@ course: "SR 101: Thinking With Machines (sample course)"
 offering: Sample term
 meeting: 1
 date: 2027-01-13
-topic: "What people use AI assistants for"
+topic: "Confidence, effort, and critical thinking"
 tags: [class-note, teaching]
 ---
 
-# Class 01 - 2027-01-13: What people use AI assistants for
+# Class 01 - 2027-01-13: Confidence, effort, and critical thinking
 
 Previous: none · Next: [[Class 02 - 2027-01-20 - Student]] · [[SR 101 - Course home|Course home]] · [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
 
