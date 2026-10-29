@@ -22,7 +22,7 @@ second-reader-sample-vault/        open this folder in Obsidian
   .obsidian/                       Second Reader, Dataview, Templater and Style Settings plugins,
                                    AnuPpuccin theme and settings; no personal data
   SR 101 Zotero readings/
-    SR 101 readings.ris            references for Zotero, pointing at files/
+    SR 101 - Thinking With Machines.rdf   Zotero collection file, pointing at files/
     files/                         PDFs whose licenses allow redistribution
     fetch_readings.py              downloads the others to your own computer
   SOURCES.md                       every reading with its license
@@ -31,7 +31,7 @@ second-reader-sample-vault/        open this folder in Obsidian
 ## Getting started
 
 1. Download this repository (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy) and unzip it.
-2. Fetch the readings and import them into Zotero, following `SR 101 Zotero readings/README.md`.
+2. Fetch the readings and import the Zotero collection, following `SR 101 Zotero readings/README.md`.
 3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 
 You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader, which is in Obsidian's community plugin directory, comes installed in the vault. It runs on desktop only.

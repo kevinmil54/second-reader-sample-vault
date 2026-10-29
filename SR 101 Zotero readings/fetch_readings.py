@@ -1,20 +1,25 @@
 #!/usr/bin/env python3
-"""Download the SR 101 readings into files/ so Zotero can import them with
-"SR 101 readings.ris".
+"""Download the SR 101 readings into files/, where the Zotero file
+"SR 101 - Thinking With Machines.rdf" expects them, and optionally zip the
+folder so you can hand it to someone.
 
 PDFs whose licenses allow redistribution may already be here; this script
 skips any file that exists. The others are downloaded only to your computer
 and are kept out of the repository by .gitignore.
 
 Usage (from this folder):
-    python3 fetch_readings.py
+    python3 fetch_readings.py            download what's missing
+    python3 fetch_readings.py --zip      then make "SR 101 Zotero readings.zip"
 """
 import json
 import os
 import sys
 import urllib.request
+import zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+RDF = "SR 101 - Thinking With Machines.rdf"
+ZIP_NAME = "SR 101 Zotero readings.zip"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) SecondReaderSample/1.0"
 
 
@@ -34,6 +39,18 @@ def fetch(url, dest):
         os.remove(tmp)
         raise ValueError("response was not a PDF (the site may require a browser)")
     os.replace(tmp, dest)
+
+
+def make_zip(readings):
+    out = os.path.join(HERE, ZIP_NAME)
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
+        z.write(os.path.join(HERE, RDF), f"SR 101 Zotero readings/{RDF}")
+        for r in readings:
+            p = os.path.join(HERE, r["path"])
+            if os.path.exists(p):
+                z.write(p, f"SR 101 Zotero readings/{r['path']}")
+    print(f"\nMade {ZIP_NAME}. It contains every PDF you have here, including ones whose")
+    print("licenses don't allow redistribution, so share it with your own students, not publicly.")
 
 
 def main():
@@ -58,9 +75,12 @@ def main():
     if failed:
         print("\nDownload these by hand in a browser and save them under the path shown:")
         for r in failed:
-            print(f"  {r['path']}  <-  {r['urls'][0]}\n      ({r['title']})")
-        sys.exit(1)
-    print("\nAll readings are in files/. Import 'SR 101 readings.ris' into Zotero.")
+            print(f"  {r['path']}\n      <- {r['urls'][0]}")
+    else:
+        print(f"\nAll readings are in files/. Import '{RDF}' into Zotero.")
+    if "--zip" in sys.argv:
+        make_zip(readings)
+    sys.exit(1 if failed else 0)
 
 
 if __name__ == "__main__":
