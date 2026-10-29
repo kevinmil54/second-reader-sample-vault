@@ -16,8 +16,11 @@ second-reader-sample-vault/        open this folder in Obsidian
     Syllabus - SR 101 Thinking With Machines - student copy.md
     SR 101 - Course home.md
     Meeting notes/                 one note per class, pulling goals, questions and readings from the syllabus
-  Literature notes/                empty; Second Reader's import fills it
-  Permanent notes/  Synthesis notes/  Projects/  Inbox/  Attachments/  Uploads/
+  Literature notes/                one note per reading, linked to the reader's own Zotero copy
+  Authors/                         one note per lead author: short bio, links, room for a photo
+  Images/                          figures from the papers and from Zotero highlights
+  Permanent notes/  Synthesis notes/  Projects/  Inbox/  Uploads/
+  Tools/make_literature_notes.py   makes the literature and author notes from a Zotero RDF export
   Templates/                       literature, permanent, synthesis, project and class meeting templates
   .obsidian/                       Second Reader, Dataview, Templater and Style Settings plugins,
                                    AnuPpuccin theme and settings; no personal data
@@ -49,7 +52,17 @@ Full references and licenses are in [SOURCES.md](SOURCES.md).
 
 ## Using it for your own course
 
-Replace the syllabus, course home and meeting notes with your own. For your students, keep a master syllabus with your own Zotero links, run **Second Reader: Make class copy of syllabus**, and give them the student copy with a Zotero RDF export of your readings. The plugin README's "For instructors" section has the details.
+Replace the syllabus, course home and meeting notes with your own. Then:
+
+1. In Zotero, export your course collection with **Export Collection… → Zotero RDF**, checking **Export Files**.
+2. Make the literature and author notes from it:
+
+   ```
+   python3 Tools/make_literature_notes.py --rdf "path/to/Your Course.rdf" --vault .
+   ```
+
+   Each note carries the reading's citation key from your Zotero, so after your students import the same RDF, **open pdf** and highlight sync find their own copy. Add author bios with `--authors authors.json` (format in the script's header).
+3. For the syllabus, keep a master copy with your own Zotero links and run **Second Reader: Make class copy of syllabus**. The plugin README's "For instructors" section has the details.
 
 ## Licenses
 

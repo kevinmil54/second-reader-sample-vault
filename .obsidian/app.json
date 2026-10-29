@@ -6,7 +6,7 @@
   "propertiesInDocument": "visible",
   "readableLineLength": true,
   "spellcheck": true,
-  "attachmentFolderPath": "Attachments",
+  "attachmentFolderPath": "Images",
   "livePreview": true,
   "defaultViewMode": "preview",
   "showInlineTitle": true,
@@ -16,6 +16,7 @@
     "SR 101 Zotero readings/",
     "README.md",
     "LICENSE.md",
-    "SOURCES.md"
+    "SOURCES.md",
+    "Tools/"
   ]
 }

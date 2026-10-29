@@ -22,7 +22,7 @@ It skips PDFs that are already here. If a site refuses the download, the script 
 2. When asked about files, choose **Copy files to the Zotero storage folder**.
 3. Check that each item has a PDF under it. If one doesn't, drag that PDF from `files/` onto the item.
 
-Then, in Obsidian, run **Second Reader: APA Zotero import** for each reading you want to start. Keep the titles Zotero shows: the syllabus finds your literature notes by title.
+The literature notes in the vault are already made and carry each reading's citation key, so they find these items in your Zotero. Don't rename the items or change their citation keys.
 
 ## Giving the collection to other people
 

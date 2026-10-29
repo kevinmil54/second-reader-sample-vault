@@ -17,7 +17,7 @@
     {
       "name": "APA Zotero import",
       "outputPathTemplate": "Literature notes/{{title}}.md",
-      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageOutputPathTemplate": "Images/{{citekey}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "Templates/Literature Note Template - Zotero Import.md",
       "cslStyle": "apa"

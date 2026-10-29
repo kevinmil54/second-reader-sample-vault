@@ -18,3 +18,4 @@ A starter vault for the Second Reader note system, with one sample course.
 - Your own ideas, one per note: `Permanent notes`
 - Notes that pull ideas together: `Synthesis notes`
 - Course project work: `Projects`
+- The people who wrote the readings: `Authors`

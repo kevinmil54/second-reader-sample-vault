@@ -1,0 +1,80 @@
+{
+  "Hao-Ping Lee": {
+    "position": "PhD candidate, Human-Computer Interaction Institute, Carnegie Mellon University (homepage, August 2026)",
+    "bio": "Lee is a PhD student at CMU's Human-Computer Interaction Institute, advised by Sauvik Das and Jodi Forlizzi. His research covers privacy and security, human-computer interaction, and responsible AI, with a focus on privacy risks from AI and how AI systems affect people's agency. He has interned at IBM Research, Microsoft Research and Brave.",
+    "homepage": "https://hankhplee.com/",
+    "openalex": "A5062891440",
+    "sources": [
+      "https://hankhplee.com/",
+      "https://hcii.cmu.edu/people/hao-ping-hank-lee"
+    ]
+  },
+  "Michael Gerlich": {
+    "position": "Head of the Center for Strategic Corporate Foresight and Sustainability, SBS Swiss Business School (November 2025)",
+    "bio": "Gerlich is a management researcher whose recent work deals with AI's effects on society, organizations and individuals, including public perception and acceptance of AI. He holds a PhD from Anglia Ruskin University and an MBA from the University of Cambridge, and worked for more than 30 years in business, including as a CEO, before his academic career.",
+    "homepage": "https://www.aru.ac.uk/people/michael-gerlich",
+    "openalex": "A5058773312",
+    "sources": [
+      "https://www.sbs.edu/news/sbs-swiss-business-school-celebrates-prof-dr-michael-gerlich-recognized-among-the-top-10-leading-speakers-to-follow-in-2025-2-2/",
+      "https://www.aru.ac.uk/people/michael-gerlich"
+    ]
+  },
+  "Chunpeng Zhai": {
+    "position": "Lecturer and tutor, School of Engineering and Technology, CQUniversity, Australia",
+    "bio": "Zhai (also known as Gary Zhai) holds an MA in Applied Linguistics and a PhD in Computer Science from CQUniversity. His research spans intelligent information systems, e-learning, and applied linguistics and education, including how culture, empathy and humor can improve learning outcomes.",
+    "homepage": "https://staff-profiles.cqu.edu.au/home/view/26478",
+    "openalex": "A5087956754",
+    "sources": [
+      "https://staff-profiles.cqu.edu.au/home/view/26478"
+    ]
+  },
+  "Binny Jose": {
+    "position": "Assistant Professor, Department of Health and Wellness, Marian College Kuttikkanam (Autonomous), Kerala, India; also affiliated with Lincoln University College, Malaysia (affiliations in the 2025 paper)",
+    "bio": "Jose was corresponding author of this paper. No published biography or statement of research interests was found beyond these affiliations.",
+    "homepage": "https://loop.frontiersin.org/people/2719972/overview",
+    "openalex": "A5095913993",
+    "sources": [
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full",
+      "https://loop.frontiersin.org/people/2719972/overview"
+    ]
+  },
+  "Nataliya Kosmyna": {
+    "position": "Research Scientist, Fluid Interfaces group, MIT Media Lab; Radcliffe Fellow, Harvard Radcliffe Institute, 2026–2027",
+    "bio": "Kosmyna builds brain-computer interfaces, drawing on AI, neuroscience and human-computer interaction. Her work includes EEG-based interfaces, measuring engagement and fatigue, assistive communication for people with ALS, and the cognitive cost of tools such as LLM chatbots. She earned her PhD at Université Grenoble-Alpes in 2015, was a postdoctoral researcher at Inria Rennes, and joined the MIT Media Lab in 2017.",
+    "homepage": "https://www.media.mit.edu/people/nkosmyna/",
+    "openalex": "A5068310449",
+    "sources": [
+      "https://www.media.mit.edu/people/nkosmyna/",
+      "https://www.radcliffe.harvard.edu/people/nataliya-kosmyna"
+    ]
+  },
+  "Anil R. Doshi": {
+    "position": "Strategy and Entrepreneurship faculty, UCL School of Management",
+    "bio": "Doshi studies how data and information environments shape behavior, with research on generative AI, social media and the commercial space sector. He holds a doctorate from the Technology and Operations Management unit at Harvard Business School and an AB from Dartmouth, and teaches data analytics and generative AI at UCL.",
+    "homepage": "https://www.mgmt.ucl.ac.uk/people/anildoshi",
+    "openalex": "A5011170431",
+    "sources": [
+      "https://www.mgmt.ucl.ac.uk/people/anildoshi"
+    ]
+  },
+  "Zana Buçinca": {
+    "position": "Assistant Professor, Work and Organization Studies, MIT Sloan School of Management, with a joint appointment in MIT EECS (from fall 2026)",
+    "bio": "Buçinca studies human-AI interaction and the future of work, designing explanations and systems for AI-assisted decision-making that aim to improve both task performance and people's skills and agency. She received her PhD in computer science from Harvard in 2025, advised by Krzysztof Gajos, and was a postdoctoral researcher at Microsoft before joining MIT.",
+    "homepage": "https://zbucinca.github.io/",
+    "openalex": "A5073269010",
+    "sources": [
+      "https://zbucinca.github.io/",
+      "https://mitsloan.mit.edu/centers-initiatives/institute-work-and-employment-research/bucinca-to-join-iwer-faculty"
+    ]
+  },
+  "Mrinank Sharma": {
+    "position": "Led the Safeguards Research Team at Anthropic until February 2026",
+    "bio": "Sharma holds a PhD in statistical machine learning from the University of Oxford and then worked on AI safety at Anthropic, where his research included AI sycophancy and safeguards against misuse of AI. He left Anthropic in February 2026.",
+    "homepage": "https://www.mrinanksharma.net/",
+    "openalex": null,
+    "sources": [
+      "https://www.mrinanksharma.net/",
+      "https://www.exchange4media.com/people-movement-news/anthropic-safeguards-researcher-mrinank-sharma-resigns-warns-of-interconnected-crises-151859.html"
+    ]
+  }
+}

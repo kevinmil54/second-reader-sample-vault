@@ -156,11 +156,16 @@ import it the same way.
 ## 4. Set up Obsidian for the Second Reader note system
 
 ### Vault folders
-Create five folders at the top level of your vault (in Obsidian's file
+Create these folders at the top level of your vault (in Obsidian's file
 explorer, right-click the vault's root → **New folder**, once per name):
 
 **Templates**, **Literature notes**, **Permanent notes**, **Synthesis
-notes**, **Project notes**
+notes**, **Projects**, **Authors**, **Images**
+
+`Authors` holds one note per author (a short bio, links and, if you like,
+a photo), which literature notes embed. `Images` holds figures from the
+papers, images from your Zotero highlights, and screenshots; set it as the
+attachment folder under Settings → Files and links.
 
 If you're using your instructor's starter vault, these folders are already
 there.
