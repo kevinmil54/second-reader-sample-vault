@@ -34,7 +34,7 @@ second-reader-sample-vault/        open this folder in Obsidian
 2. Fetch the readings and import them into Zotero, following `SR 101 Zotero readings/README.md`.
 3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 
-You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader runs on desktop only.
+You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader, which is in Obsidian's community plugin directory, comes installed in the vault. It runs on desktop only.
 
 ## The sample course
 

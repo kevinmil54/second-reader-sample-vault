@@ -12,7 +12,7 @@ The PDFs in `SR 101 Zotero readings/files/` belong to their authors and publishe
 
 ## Second Reader plugin
 
-`.obsidian/plugins/second-reader-promote/` contains a build of the Second Reader plugin, licensed under the GNU General Public License v3.0. Its source code is at https://github.com/kevinmil54/second-reader-obsidian-promote
+`.obsidian/plugins/second-reader-promote/` contains the Second Reader plugin (version 2.9.0, as released in Obsidian's community plugin directory), licensed under the GNU General Public License v3.0. Its source code is at https://github.com/kevinmil54/second-reader-obsidian-promote
 
 ## AnuPpuccin theme
 

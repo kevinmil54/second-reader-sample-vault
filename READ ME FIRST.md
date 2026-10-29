@@ -4,7 +4,7 @@ This folder (`second-reader-sample-vault`) is a ready-made Obsidian vault for th
 
 1. Unzip it somewhere on your computer (not inside another vault).
 2. Open Obsidian, choose "Open folder as vault", and select the `second-reader-sample-vault` folder itself.
-3. Obsidian will ask whether you trust the author of this vault. Choose "Trust author and enable plugins". If it does not ask, go to Settings > Community plugins and choose "Turn on community plugins". Second Reader, Dataview, Templater and Style Settings are already installed, along with the AnuPpuccin theme and its settings.
+3. Obsidian will ask whether you trust the author of this vault. Choose "Trust author and enable plugins". If it does not ask, go to Settings > Community plugins and choose "Turn on community plugins". Second Reader, Dataview, Templater and Style Settings are already installed from Obsidian's community plugin directory, along with the AnuPpuccin theme and its settings. Obsidian keeps them up to date like any other community plugin.
 4. Open Settings > Second Reader and click the download button next to "PDF Utility".
 5. Install Zotero 7 with the Better BibTeX add-on (Part 3 of `STUDENT SETUP GUIDE - SR 101.md`).
 6. Import the course readings into Zotero (the `README.md` in the `SR 101 Zotero readings` folder).
