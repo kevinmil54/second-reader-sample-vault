@@ -1,0 +1,10 @@
+.DS_Store
+*.part
+
+# Obsidian state that's personal to each machine
+Sample Vault/.obsidian/workspace.json
+Sample Vault/.obsidian/workspace-mobile.json
+Sample Vault/.obsidian/plugins/*/data.json
+Sample Vault/.obsidian/plugins/second-reader-promote/pdfannots2json*
+Sample Vault/.trash/
+Sample Vault/Uploads/*.zip

@@ -1,0 +1,196 @@
+TY  - JOUR
+TI  - Clio: Privacy-Preserving Insights into Real-World AI Use
+AU  - Tamkin, Alex
+AU  - McCain, Miles
+AU  - Handa, Kunal
+AU  - Durmus, Esin
+AU  - Lovitt, Liane
+AU  - Rathi, Ankur
+AU  - Huang, Saffron
+AU  - Mountfield, Alfred
+AU  - Hong, Jerry
+AU  - Ritchie, Stuart
+AU  - Stern, Michael
+AU  - Clarke, Brian
+AU  - Goldberg, Landon
+AU  - Sumers, Theodore R.
+AU  - Mueller, Jared
+AU  - McEachen, William
+AU  - Mitchell, Wes
+AU  - Carter, Shan
+AU  - Clark, Jack
+AU  - Kaplan, Jared
+AU  - Ganguli, Deep
+PY  - 2024
+T2  - arXiv
+DO  - 10.48550/arXiv.2412.13678
+UR  - https://arxiv.org/abs/2412.13678
+N1  - License: No license shown on arXiv (arXiv's default non-exclusive license)
+L1  - files/1/Tamkin_2024.pdf
+ER  - 
+
+TY  - JOUR
+TI  - What Large Language Models Know and What People Think They Know
+AU  - Steyvers, Mark
+AU  - Tejeda, Heliodoro
+AU  - Kumar, Aakriti
+AU  - Belem, Catarina
+AU  - Karny, Sheer
+AU  - Hu, Xinyue
+AU  - Mayer, Lukas
+AU  - Smyth, Padhraic
+PY  - 2025
+T2  - Nature Machine Intelligence
+DO  - 10.1038/s42256-024-00976-7
+UR  - https://arxiv.org/abs/2401.13835
+N1  - License: No license shown on the arXiv preprint; journal version not checked
+L1  - files/2/Steyvers_2025.pdf
+ER  - 
+
+TY  - CPAPER
+TI  - The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers
+AU  - Lee, Hao-Ping
+AU  - Sarkar, Advait
+AU  - Tankelevitch, Lev
+AU  - Drosos, Ian
+AU  - Rintel, Sean
+AU  - Banks, Richard
+AU  - Wilson, Nicholas
+PY  - 2025
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+PB  - ACM
+DO  - 10.1145/3706598.3713778
+UR  - https://doi.org/10.1145/3706598.3713778
+N1  - License: CC BY 4.0 (stated in the PDF)
+L1  - files/3/Lee_2025.pdf
+ER  - 
+
+TY  - JOUR
+TI  - AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+AU  - Gerlich, Michael
+PY  - 2025
+T2  - Societies
+VL  - 15
+IS  - 1
+SP  - 6
+DO  - 10.3390/soc15010006
+UR  - https://www.mdpi.com/2075-4698/15/1/6
+N1  - License: CC BY (MDPI open access; check version on the article page)
+L1  - files/4/Gerlich_2025.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Generative AI without Guardrails Can Harm Learning: Evidence from High School Mathematics
+AU  - Bastani, Hamsa
+AU  - Bastani, Osbert
+AU  - Sungu, Alp
+AU  - Ge, Haosen
+AU  - Kabakcı, Özge
+AU  - Mariman, Rei
+PY  - 2025
+T2  - Proceedings of the National Academy of Sciences
+VL  - 122
+IS  - 26
+SP  - e2422633122
+DO  - 10.1073/pnas.2422633122
+UR  - https://doi.org/10.1073/pnas.2422633122
+N1  - License: Not verified
+L1  - files/5/Bastani_2025.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Effects of Over-Reliance on AI Dialogue Systems on Students' Cognitive Abilities: A Systematic Review
+AU  - Zhai, Chunpeng
+AU  - Wibowo, Santoso
+AU  - Li, Lily D.
+PY  - 2024
+T2  - Smart Learning Environments
+VL  - 11
+SP  - 28
+DO  - 10.1186/s40561-024-00316-7
+UR  - https://doi.org/10.1186/s40561-024-00316-7
+N1  - License: CC BY 4.0 (stated in the PDF)
+L1  - files/6/Zhai_2024.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task
+AU  - Kosmyna, Nataliya
+AU  - Hauptmann, Eugene
+AU  - Yuan, Ye Tong
+AU  - Situ, Jessica
+AU  - Liao, Xian-Hao
+AU  - Beresnitzky, Ashly Vivian
+AU  - Braunstein, Iris
+AU  - Maes, Pattie
+PY  - 2025
+T2  - arXiv
+DO  - 10.48550/arXiv.2506.08872
+UR  - https://arxiv.org/abs/2506.08872
+N1  - License: CC BY-NC-SA 4.0 (arXiv license link)
+L1  - files/7/Kosmyna_2025.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence on Learning Motivation, Processes, and Performance
+AU  - Fan, Yizhou
+AU  - Tang, Luzhen
+AU  - Le, Huixiao
+AU  - Shen, Kejie
+AU  - Tan, Shufang
+AU  - Zhao, Yueying
+AU  - Shen, Yuan
+AU  - Li, Xinyu
+AU  - Gašević, Dragan
+PY  - 2025
+T2  - British Journal of Educational Technology
+DO  - 10.1111/bjet.13544
+UR  - https://arxiv.org/abs/2412.09315
+N1  - License: No license shown on the arXiv preprint; journal version not checked
+L1  - files/8/Fan_2025.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Generative Artificial Intelligence Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content
+AU  - Doshi, Anil R.
+AU  - Hauser, Oliver P.
+PY  - 2023
+T2  - arXiv
+DO  - 10.48550/arXiv.2312.00506
+UR  - https://arxiv.org/abs/2312.00506v1
+N1  - License: CC BY-NC-ND 4.0 (arXiv license link, v1)
+L1  - files/9/Doshi_2023.pdf
+ER  - 
+
+TY  - JOUR
+TI  - How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study
+AU  - Fang, Cathy Mengying
+AU  - Liu, Auren R.
+AU  - Danry, Valdemar
+AU  - Lee, Eunhae
+AU  - Chan, Samantha W. T.
+AU  - Pataranutaporn, Pat
+AU  - Maes, Pattie
+AU  - Phang, Jason
+AU  - Lampe, Michael
+AU  - Ahmad, Lama
+AU  - Agarwal, Sandhini
+PY  - 2025
+T2  - arXiv
+DO  - 10.48550/arXiv.2503.17473
+UR  - https://arxiv.org/abs/2503.17473
+N1  - License: No license shown on arXiv (arXiv's default non-exclusive license)
+L1  - files/10/Fang_2025.pdf
+ER  - 
+
+TY  - RPRT
+TI  - Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls
+AU  - Herdağdelen, Amaç
+AU  - Joren, Hailey
+AU  - Tamkin, Alex
+PY  - 2026
+PB  - Anthropic
+UR  - https://anthropic.com/research/agents-judgment-calls
+N1  - License: Not stated
+L1  - files/11/Herdagdelen_2026.pdf
+ER  - 

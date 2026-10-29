@@ -1,0 +1,102 @@
+[
+  {
+    "n": 1,
+    "path": "files/1/Tamkin_2024.pdf",
+    "urls": [
+      "https://arxiv.org/pdf/2412.13678v1"
+    ],
+    "redistribute": false,
+    "title": "Clio: Privacy-Preserving Insights into Real-World AI Use"
+  },
+  {
+    "n": 2,
+    "path": "files/2/Steyvers_2025.pdf",
+    "urls": [
+      "https://arxiv.org/pdf/2401.13835v2"
+    ],
+    "redistribute": false,
+    "title": "What Large Language Models Know and What People Think They Know"
+  },
+  {
+    "n": 3,
+    "path": "files/3/Lee_2025.pdf",
+    "urls": [
+      "https://dl.acm.org/doi/pdf/10.1145/3706598.3713778",
+      "https://advait.org/files/lee_2025_ai_critical_thinking_survey.pdf"
+    ],
+    "redistribute": true,
+    "title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers"
+  },
+  {
+    "n": 4,
+    "path": "files/4/Gerlich_2025.pdf",
+    "urls": [
+      "https://www.mdpi.com/2075-4698/15/1/6/pdf"
+    ],
+    "redistribute": true,
+    "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking"
+  },
+  {
+    "n": 5,
+    "path": "files/5/Bastani_2025.pdf",
+    "urls": [
+      "https://www.pnas.org/doi/pdf/10.1073/pnas.2422633122"
+    ],
+    "redistribute": false,
+    "title": "Generative AI without Guardrails Can Harm Learning: Evidence from High School Mathematics"
+  },
+  {
+    "n": 6,
+    "path": "files/6/Zhai_2024.pdf",
+    "urls": [
+      "https://slejournal.springeropen.com/counter/pdf/10.1186/s40561-024-00316-7.pdf"
+    ],
+    "redistribute": true,
+    "title": "The Effects of Over-Reliance on AI Dialogue Systems on Students' Cognitive Abilities: A Systematic Review"
+  },
+  {
+    "n": 7,
+    "path": "files/7/Kosmyna_2025.pdf",
+    "urls": [
+      "https://arxiv.org/pdf/2506.08872v1"
+    ],
+    "redistribute": true,
+    "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task"
+  },
+  {
+    "n": 8,
+    "path": "files/8/Fan_2025.pdf",
+    "urls": [
+      "https://arxiv.org/pdf/2412.09315"
+    ],
+    "redistribute": false,
+    "title": "Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence on Learning Motivation, Processes, and Performance"
+  },
+  {
+    "n": 9,
+    "path": "files/9/Doshi_2023.pdf",
+    "urls": [
+      "https://arxiv.org/pdf/2312.00506v1"
+    ],
+    "redistribute": true,
+    "title": "Generative Artificial Intelligence Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content"
+  },
+  {
+    "n": 10,
+    "path": "files/10/Fang_2025.pdf",
+    "urls": [
+      "https://arxiv.org/pdf/2503.17473v2"
+    ],
+    "redistribute": false,
+    "title": "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study"
+  },
+  {
+    "n": 11,
+    "path": "files/11/Herdagdelen_2026.pdf",
+    "urls": [
+      "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+    ],
+    "redistribute": false,
+    "title": "Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls"
+  }
+]
