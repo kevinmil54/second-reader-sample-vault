@@ -1,0 +1,25 @@
+/* SR 101 sample vault: callout types used in the syllabus, plus two small
+   layout tweaks. CC BY 4.0, like the rest of the sample vault. */
+
+/* Themes or goals */
+.callout[data-callout="goal"] {
+  --callout-color: 26, 125, 164;
+  --callout-icon: lucide-target;
+}
+
+/* Questions to think about before class */
+.callout[data-callout="question"] {
+  --callout-color: 210, 112, 162;
+  --callout-icon: lucide-message-circle-question;
+}
+
+/* Keep callout icons and titles on one line */
+.callout .callout-title {
+  align-items: center;
+}
+
+/* Tighter space below the properties block */
+.metadata-container {
+  border-style: solid;
+  margin: 0;
+}

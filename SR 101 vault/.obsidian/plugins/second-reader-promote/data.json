@@ -1,0 +1,24 @@
+{
+  "newNoteFolder": "Permanent notes",
+  "templatePath": "Templates/Permanent Note Template.md",
+  "database": "Zotero",
+  "noteImportFolder": "Literature notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "APA Zotero import",
+      "outputPathTemplate": "Literature notes/{{title}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Templates/Literature Note Template - Zotero Import.md",
+      "cslStyle": "apa"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "all-imported-notes",
+  "_importedLegacyZoteroSettings": true
+}

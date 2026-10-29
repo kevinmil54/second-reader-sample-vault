@@ -1,39 +1,39 @@
 # Second Reader sample vault
 
-A starter Obsidian vault for the [Second Reader](https://github.com/kevinmil54/second-reader-obsidian-promote) literature-note workflow, with a six-week sample course, SR 101: Thinking With Machines, built on eleven open-access readings about how people interact with large language models.
+A starter Obsidian vault for the [Second Reader](https://github.com/kevinmil54/second-reader-obsidian-promote) literature-note workflow, set up the way I set up vaults for my own courses, with a six-week sample course, SR 101: Thinking With Machines, built on eleven freely available readings about how people interact with large language models.
 
 Use it to try Second Reader before setting up your own course, or as a starting point for one.
 
 ## What's here
 
 ```
-Sample Vault/                 open this folder in Obsidian
-  Start here.md
-  Classes/SR 101 - Thinking With Machines/Sample term/
-    Syllabus - student copy.md
-    Meeting notes/            one note per class meeting
-  Literature notes/           empty; Second Reader's import fills it
-  Permanent notes/
-  Synthesis notes/
-  Project notes/
-  Templates/                  literature, permanent, synthesis, project and meeting-note templates
-  Attachments/
-  Uploads/
-  .obsidian/                  Second Reader plugin included, no personal settings
-Readings for Zotero/
-  SR 101 readings.ris         references for Zotero, pointing at files/
-  files/                      PDFs whose licenses allow redistribution
-  fetch_readings.py           downloads the others to your own computer
-SOURCES.md                    every reading with its license
+SR 101 vault/                      open this folder in Obsidian
+  READ ME FIRST.md
+  Home.md
+  STUDENT SETUP GUIDE - SR 101.md
+  How was GenAI used in the preparation of these materials.md
+  Classes/SR 101 Sample term/
+    Syllabus - SR 101 Thinking With Machines - student copy.md
+    SR 101 - Course home.md
+    Meeting notes/                 one note per class, pulling goals, questions and readings from the syllabus
+  Literature notes/                empty; Second Reader's import fills it
+  Permanent notes/  Synthesis notes/  Projects/  Inbox/  Attachments/  Uploads/
+  Templates/                       literature, permanent, synthesis, project and class meeting templates
+  .obsidian/                       Second Reader plugin, AnuPpuccin theme, settings; no personal data
+SR 101 Zotero readings/
+  SR 101 readings.ris              references for Zotero, pointing at files/
+  files/                           PDFs whose licenses allow redistribution
+  fetch_readings.py                downloads the others to your own computer
+SOURCES.md                         every reading with its license
 ```
 
 ## Getting started
 
 1. Download this repository (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy) and unzip it.
-2. Fetch the readings and import them into Zotero, following `Readings for Zotero/README.md`.
-3. Open `Sample Vault` in Obsidian with **Open folder as vault**, trust the plugins, and read `Start here`.
+2. Fetch the readings and import them into Zotero, following `SR 101 Zotero readings/README.md`.
+3. Open `SR 101 vault` in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 
-You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader runs on desktop only. The full setup guide is [STUDENT-SETUP-GUIDE.md](https://github.com/kevinmil54/second-reader-obsidian-promote/blob/main/STUDENT-SETUP-GUIDE.md) in the plugin repository.
+You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader runs on desktop only.
 
 ## The sample course
 
@@ -50,8 +50,8 @@ Full references and licenses are in [SOURCES.md](SOURCES.md).
 
 ## Using it for your own course
 
-Replace the syllabus and meeting notes with your own. For your students, keep a master syllabus with your own Zotero links, run **Second Reader: Make class copy of syllabus**, and give them the student copy along with a Zotero RDF export of your readings. The plugin README's "For instructors" section has the details.
+Replace the syllabus, course home and meeting notes with your own. For your students, keep a master syllabus with your own Zotero links, run **Second Reader: Make class copy of syllabus**, and give them the student copy with a Zotero RDF export of your readings. The plugin README's "For instructors" section has the details.
 
 ## Licenses
 
-The notes, syllabus and templates are CC BY 4.0. The readings keep their own licenses (see SOURCES.md). The bundled Second Reader plugin is GPL-3.0. See [LICENSE.md](LICENSE.md).
+The notes, syllabus, templates and CSS snippet are CC BY 4.0. The readings keep their own licenses (see SOURCES.md). The bundled Second Reader plugin and AnuPpuccin theme are GPL-3.0. See [LICENSE.md](LICENSE.md).

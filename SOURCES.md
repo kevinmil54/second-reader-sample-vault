@@ -1,6 +1,6 @@
 # Readings and their licenses
 
-The notes, syllabus and templates in this repository are licensed under CC BY 4.0 (see LICENSE.md). The readings keep their own licenses. Only PDFs whose licenses allow redistribution are included in `Readings for Zotero/files/`; the others are downloaded on your own computer by `fetch_readings.py`.
+The notes, syllabus and templates in this repository are licensed under CC BY 4.0 (see LICENSE.md). The readings keep their own licenses. Only PDFs whose licenses allow redistribution are included in `SR 101 Zotero readings/files/`; the others are downloaded on your own computer by `fetch_readings.py`.
 
 | # | Week | Reading | License | PDF in repo |
 |---|---|---|---|---|

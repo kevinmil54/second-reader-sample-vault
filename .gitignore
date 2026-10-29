@@ -2,9 +2,14 @@
 *.part
 
 # Obsidian state that's personal to each machine
-Sample Vault/.obsidian/workspace.json
-Sample Vault/.obsidian/workspace-mobile.json
-Sample Vault/.obsidian/plugins/*/data.json
-Sample Vault/.obsidian/plugins/second-reader-promote/pdfannots2json*
-Sample Vault/.trash/
-Sample Vault/Uploads/*.zip
+SR 101 vault/.obsidian/workspace.json
+SR 101 vault/.obsidian/workspace-mobile.json
+SR 101 vault/.obsidian/plugins/second-reader-promote/pdfannots2json*
+SR 101 vault/.trash/
+SR 101 vault/Uploads/*.zip
+
+# Plugin settings: only the clean ones shipped with the vault are tracked
+SR 101 vault/.obsidian/plugins/*/data.json
+!SR 101 vault/.obsidian/plugins/second-reader-promote/data.json
+!SR 101 vault/.obsidian/plugins/obsidian-style-settings/data.json
+!SR 101 vault/.obsidian/plugins/templater-obsidian/data.json

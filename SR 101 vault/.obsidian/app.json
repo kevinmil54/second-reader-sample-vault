@@ -1,0 +1,15 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "propertiesInDocument": "visible",
+  "readableLineLength": true,
+  "spellcheck": true,
+  "attachmentFolderPath": "Attachments",
+  "livePreview": true,
+  "defaultViewMode": "preview",
+  "showInlineTitle": true,
+  "foldHeading": true,
+  "foldIndent": true
+}

@@ -1,0 +1,456 @@
+*This is the general Second Reader setup guide. In the SR 101 starter vault, the folders, templates, plugin and import format are already set up, so you can skip Part 4 steps a–f. The import command in this vault is "Second Reader: APA Zotero import".*
+
+# Setting Up Your Second Reader Note System
+
+This gets your computer ready to take literature notes the Second Reader way:
+import a paper from Zotero into a structured note, then read it in Zotero
+with your note open right beside it — typing your own notes and highlighting
+as you go. One click syncs your highlights into the note as quotes with page
+numbers (without touching anything you've typed), and one checkbox promotes
+your best ideas into standalone permanent notes. It's a one-time setup
+(30–45 minutes) — after that, each new paper takes seconds to turn into a
+note.
+
+**Already set up from an earlier version?** Don't redo this setup — follow
+**[UPDATING.md](https://github.com/kevinmil54/second-reader-obsidian-promote/blob/main/UPDATING.md)** instead.
+
+Works on **Mac or Windows**. Steps are marked where they differ.
+
+---
+
+## How the pieces fit together
+
+Every paper you read becomes a **Literature note** — your own notes on that
+source, plus whatever Second Reader adds. From there, ideas worth keeping on
+their own move through three more note types, each with its own top-level
+folder in your vault:
+
+- **Permanent notes** — one idea per note, in your own words, built to stand
+  alone years from now. You create these by checking a box in a literature
+  note.
+- **Synthesis notes** — gather your Permanent notes on one topic (e.g.
+  "College students are reading less than they once did") and state what
+  you now think, short enough to reread in two minutes.
+- **Project notes** — the argument-and-evidence framework for something
+  you're actually writing (a paper, a talk) — pulls from your Permanent
+  notes so you start from a structure instead of a blank page.
+
+```
+Literature note → Permanent notes → Synthesis note
+                                  ↘ Project note
+```
+
+A Permanent note's **Connections** section is where you link it to the
+Synthesis and Project notes that draw on it — you build those links by hand
+as your vault grows; nothing does it for you automatically.
+
+---
+
+## 1. Get a good markdown editor
+
+Your notes are plain text files in a format called **Markdown** (`# heading`,
+`**bold**`, `[[links]]`). Obsidian (step 2) *is* a markdown editor and will
+be where you do almost all your writing — but it's worth having a
+lightweight general-purpose one too, for quickly opening a `.md` file
+without launching Obsidian.
+
+**Recommended: [Zettlr](https://www.zettlr.com/)** — free, open-source, and
+identical on Mac and Windows. Unlike a general code editor, it's built
+specifically for academic Markdown writing (citations, footnotes, live
+preview), which fits this note-taking system well.
+
+- **Mac:** Download the `.dmg` → open it → drag **Zettlr** to Applications.
+- **Windows:** Download the installer → run it → accept the defaults.
+
+**If you work with R or Quarto:** use **[Positron](https://positron.posit.co/)**
+instead (or alongside Zettlr) — Posit's IDE built for R, Python, and Quarto
+(`.qmd`) documents. Same install pattern on both platforms: download →
+run the installer → open.
+
+**Avoid TextEdit (Mac) and WordPad (Windows) for this** unless you switch
+them to plain-text mode — both default to rich text and will quietly corrupt
+a `.md` file with hidden formatting. Plain Notepad on Windows is fine in a
+pinch; on Mac, use TextEdit's **Format → Make Plain Text** first.
+
+---
+
+## 2. Install Obsidian
+
+1. Go to **[obsidian.md](https://obsidian.md/)** and click **Download** — it
+   detects your OS automatically.
+2. **Mac:** open the downloaded `.dmg`, drag **Obsidian** into Applications,
+   launch it.
+   **Windows:** run the downloaded installer, launch Obsidian when it
+   finishes.
+3. On first launch: **Create a new vault** (a vault is just a folder of
+   notes). If your instructor gave you a starter vault instead, choose
+   **Open folder as vault** and pick that folder.
+
+---
+
+## 3. Install Zotero
+
+Zotero is where your papers live; it's what feeds Obsidian the metadata
+(title, authors, citation key) for each note.
+
+1. Go to **[zotero.org/download](https://www.zotero.org/download/)** and
+   download **Zotero 7** for your OS.
+2. **Mac:** open the `.dmg`, drag Zotero to Applications.
+   **Windows:** run the installer.
+3. Launch Zotero. Create a free account at zotero.org when prompted, and
+   sign in (Zotero → Settings → Sync) — this backs up your library and lets
+   you use Zotero on more than one device. Not required, but you'll want it.
+4. **Turn on the setting that lets Obsidian talk to Zotero:** Zotero →
+   Settings → **Advanced** → check **"Allow other applications to
+   communicate with Zotero."** Zotero must be running (in the background is
+   fine) whenever you import a note in Obsidian.
+5. **Install the Better BibTeX plugin.** This is what generates the stable
+   citation key (like `smith2023learning`) and the formatted APA reference
+   the templates use — without it, those fields come out blank.
+   - Download the latest `.xpi` from
+     **[the Better BibTeX releases page](https://github.com/retorquere/zotero-better-bibtex/releases/latest)**
+     (the file named `zotero-better-bibtex-X.X.X.xpi`).
+   - In Zotero: **Tools → Plugins** → gear icon (top right) → **"Install
+     Plugin From File..."** → select the downloaded `.xpi`.
+   - Restart Zotero.
+
+### 3a. Install the Zotero Connector (browser extension)
+
+This is what saves an article into Zotero straight from your browser.
+
+1. Go to **[zotero.org/download](https://www.zotero.org/download/)** and
+   scroll to **"Zotero Connector."** It detects your browser (Chrome,
+   Firefox, Edge, Safari) and gives you the right install button.
+2. Click it, then confirm the install in your browser's extension store.
+3. **To use it:** open an article's webpage (or its PDF), click the Zotero
+   icon that appears in your browser's toolbar. It saves the citation info —
+   and the PDF, when available — into whichever collection is currently
+   selected in the Zotero app. Zotero must be open for this to work.
+
+### 3b. Add the class readings to Zotero
+
+Your instructor posts the course readings on Canvas as a single download
+(a `.zip` file). Importing it puts every reading — with its PDF — into your
+own Zotero library in one step. **Install Better BibTeX (step 3.5) before
+doing this.**
+
+1. Download the readings file from Canvas and unzip it (**Mac:**
+   double-click it; **Windows:** right-click → **Extract All…**). You'll get
+   a folder containing a `.rdf` file and a `files` folder.
+2. In Zotero: **File → Import…** → choose **"A file (BibTeX, RIS, Zotero
+   RDF, etc.)"** → **Next** → select the `.rdf` file inside the folder you
+   just unzipped.
+3. On the options screen:
+   - Leave **"Place imported collections and items into new collection"**
+     checked, so the readings arrive in their own collection.
+   - Under **File Handling**, choose **"Copy files to the Zotero storage
+     folder."**
+4. Click **Next**, then **Finish**. The readings appear in a new collection
+   in your library, each with its PDF.
+
+When your instructor adds readings later, they'll post another file —
+import it the same way.
+
+---
+
+## 4. Set up Obsidian for the Second Reader note system
+
+### Vault folders
+Create five folders at the top level of your vault (in Obsidian's file
+explorer, right-click the vault's root → **New folder**, once per name):
+
+**Templates**, **Literature notes**, **Permanent notes**, **Synthesis
+notes**, **Project notes**
+
+If you're using your instructor's starter vault, these folders are already
+there.
+
+Everything below — the plugin's defaults, the import format, the
+templates' Connections section — assumes these exist with these exact
+names (plain spaces, no underscores or abbreviations).
+
+### a. Turn on community plugins
+Settings (gear icon) → **Community plugins** → **Turn on community
+plugins** (you'll see a one-time warning about third-party code — this is
+expected).
+
+### b. Install "BRAT"
+Settings → Community plugins → **Browse** → search **"BRAT"** (Beta
+Reviewers Auto-update Tool) → **Install** → **Enable**. BRAT is what lets
+you install the Second Reader plugin below, which isn't in Obsidian's
+official plugin list.
+
+### c. Install "Second Reader"
+One plugin does everything: imports papers from Zotero, syncs your
+highlights, and promotes permanent-note candidates. You **don't** need the
+separate "Zotero Integration" community plugin — Second Reader includes it.
+
+1. Command Palette (`Cmd/Ctrl+P`) → **"BRAT: Add a beta plugin for
+   testing."**
+2. Paste: `kevinmil54/second-reader-obsidian-promote`
+3. When asked for a version, **pick the specific version number (e.g.
+   `2.0.0` — check the [releases page](https://github.com/kevinmil54/second-reader-obsidian-promote/releases)
+   for the latest) rather than "Latest version"** — "Latest version" has
+   failed to install for some people even though a specific number works
+   fine.
+4. Settings → Community plugins → enable **"Second Reader."** If it doesn't
+   take effect right away, reload Obsidian (Command Palette → "Reload app
+   without saving") and try again — this has occasionally needed a couple
+   of tries.
+5. **If you have the "Zotero Integration" plugin from another class, turn
+   it off** (Settings → Community plugins) — otherwise you'll see two sets
+   of look-alike commands. Second Reader reminds you with a message until
+   you do.
+
+### d. Get the two templates into your vault
+Your instructor will give you two files — **`Literature Note Template -
+Zotero Import.md`** and **`Permanent Note Template.md`** — or you can get
+them from
+**[the class repo's Templates folder](https://github.com/kevinmil54/second-reader-obsidian-promote/tree/main/Templates)**
+(open each file there and use the download button). Put both into the
+`Templates` folder you created above.
+
+Your instructor may also give you a **Synthesis Note Template** and a
+**Project Template** (they're in the starter vault). Put them in
+`Templates` too. The lists of notes they build for you need the
+**Dataview** community plugin (Settings → Community plugins → Browse →
+"Dataview" → Install → Enable); without it, those lists show as code.
+
+### e. Check the promote settings
+Settings → **Second Reader** → **Promote candidates** (at the top). It
+already defaults to `Templates/Permanent Note Template.md` for **Template
+path** and `Permanent notes` for **New note folder** — check both match
+where you put things, and adjust if you used different folder names.
+
+### f. Check the import format
+Second Reader comes with this import format already set up, with the
+reference in APA 7th edition. Look under **Zotero import & highlight sync**
+→ **Import Formats** on the same Settings page and check it matches the
+list below. If you have no import format (for example after deleting it),
+add one with these settings:
+- **Name:** **"Literature Note"** — this name matters (see the note below).
+- **Template:** the path to `Templates/Literature Note Template - Zotero
+  Import.md`
+- **Output path template:** `Literature notes/{{title}}.md` — this names
+  each note after the reading's title, which is how the class syllabus finds
+  your notes. (If you set this up earlier with `{{citekey}}`, Second Reader
+  offers to fix it for you — see [UPDATING.md](https://github.com/kevinmil54/second-reader-obsidian-promote/blob/main/UPDATING.md).)
+- **Bibliography Style:** search **"APA"** → choose **American Psychological
+  Association 7th edition**
+
+**Important:** once you save this, Obsidian gets a *new* command named after
+it — **"Second Reader: Literature Note."** That's the command you'll use to
+create every literature note. (The command always takes the format's name,
+so if you named your format something else — or upgraded from an earlier
+version with a differently named format — look for "Second Reader:" followed
+by that name.)
+
+### g. (Optional, recommended) Auto-open imported notes
+Same Settings page → toggle **"Open the created or updated note(s) after
+import"** on, so each new literature note opens automatically.
+
+### h. Know where the sync button is
+You'll use this every time you read, so it's worth finding now. There are
+three ways to sync your Zotero highlights into a note — use whichever you
+like:
+
+1. **The highlighter button at the top of your literature note (easiest).**
+   When a literature note is open, a small **highlighter-pen icon** appears
+   in the row of icons at the **top-right corner of the note**, next to the
+   `⋮` (more options) button. Hover over it and it says **"Sync Zotero
+   highlights into this note."** It only shows up in literature notes made
+   by the import command, so if you don't see it, you're probably looking at
+   a different note.
+2. **The highlighter button in the ribbon.** The ribbon is the thin vertical
+   strip of icons along the **far-left edge** of the Obsidian window. The
+   same highlighter-pen icon is in there — hover over the icons to find the
+   one that says "Sync Zotero highlights into this note."
+   - Don't see a strip of icons at all? Turn it on: Settings →
+     **Appearance** → **Show ribbon**.
+   - Too many icons to spot it? Drag the highlighter to the top of the
+     strip, or right-click the ribbon to hide icons you don't use.
+3. **A keyboard shortcut (optional).** Settings → **Hotkeys** → search
+   **"Sync highlights"** → click `+` → press a shortcut you'll remember
+   (e.g. `Cmd/Ctrl + Shift + S`). The command is also in the Command
+   Palette as **"Second Reader: Sync highlights into current note."**
+
+---
+
+## Reading a paper: notes and highlights together
+
+Once setup is done, this is the whole routine per paper.
+
+### Before you start reading
+
+1. **Make sure the article is in your Zotero.** Class readings already are,
+   from step 3b. For anything else, click the Zotero Connector button on the
+   article's webpage (best — pulls in full metadata), or drag the PDF
+   straight into the Zotero app window. If you dragged in a bare PDF and
+   the title or authors are blank, right-click the item → **"Retrieve
+   Metadata for PDF."**
+2. **Create the literature note.** In Obsidian: Command Palette →
+   **"Second Reader: Literature Note"** (the command named after your import
+   format from step 4f). Search for the article by title or author and
+   select it. Obsidian creates the note, pre-filled with title, authors,
+   year, an **Open PDF** link, the Zotero link, and the full APA reference.
+   Make every class reading's note this way — don't rename the note, so the
+   syllabus can find it.
+3. **Open the paper** with the **Open PDF** link at the top of the note, or
+   with the **open pdf** link next to that reading in the class syllabus
+   (see [Using the class syllabus](#using-the-class-syllabus)).
+
+### While you read
+
+4. **Put the paper and the note side by side.** Open the PDF in **Zotero's
+   own reader** (the **Open PDF** link from step 3 opens it there, or
+   double-click the PDF in Zotero) on one half of your screen, and your
+   literature note in Obsidian on the other.
+   - **Mac:** hover over a window's green button → **Tile Window to Left of
+     Screen**, then click the other window to fill the right side.
+   - **Windows:** press `Win + ←` in one window, then pick the other window
+     to fill the right side.
+5. **Type and highlight in whatever rhythm suits you.** Highlight passages
+   worth keeping in Zotero, and add a comment to a highlight when you have
+   a reaction (click the highlight, then type in its comment box). At the
+   same time, type your own notes into the literature note — "Summary (in my
+   own words)," "Key ideas," questions as they occur to you.
+   Highlight in **Zotero's** reader, not Preview or Adobe — Zotero's reader
+   is what records the real (printed) page number for each highlight.
+   - **Keeping a figure or table:** use the **select-area** tool in Zotero's
+     reader to draw a box around it. When you sync, the image comes into
+     "Quotes worth keeping" with its page number, like a highlight.
+6. **Sync whenever you like** — after each section, or only at the end.
+   Click the **highlighter-pen icon at the top-right of your literature
+   note** (or use the ribbon icon or your shortcut — see step 4h). Every
+   highlight and comment made since your last sync appears under **"Quotes
+   worth keeping,"** each with its page number. Nothing you've typed is
+   touched — it's safe to sync in the middle of a sentence.
+   - Edit, trim, or react to imported quotes freely; syncing again won't
+     undo your edits or duplicate quotes.
+   - You can move a quote into another section (say, next to the idea it
+     supports) — it won't be re-added to the Quotes section.
+   - Each quote ends with a code like `^nb-ABCD1234`. Leave it: it's how
+     sync knows the quote is already in your note, and it lets you link to
+     that exact quote from a permanent note.
+
+### Promoting ideas
+
+7. When an idea is worth its own standalone note, write its title in your
+   own words under **"Permanent note candidates."** Want to add more before
+   promoting it? Press **Enter, then Tab** right after the title to write an
+   indented line or two — that carries over into the new note too.
+8. **Check its box** — a new permanent note is created automatically, built
+   from the Permanent Note Template, and that line becomes a link to it.
+9. **Coming back to the paper later?** Keep highlighting in Zotero and sync
+   again — new highlights are added and everything else stays as you left
+   it.
+10. Over time, gather related Permanent notes into a **Synthesis note** (in
+   your `Synthesis notes` folder) that says what you now think about a
+   topic. Use **Project notes** (in `Project notes`) when you're actually
+   writing something and want to pull together the Permanent notes that
+   support it. Link back to a Permanent note's **Connections** section as
+   you build these.
+
+---
+
+## Using the class syllabus
+
+Your instructor gives you the syllabus as an Obsidian note (download it
+from Canvas and put it anywhere in your vault). Each reading in it has two
+links:
+
+> Zotero: **open pdf** · Literature note: **[[Title of the reading]]**
+
+**The literature-note link shows where you are with each reading** by its
+color:
+
+| Link looks like | Meaning |
+|---|---|
+| Dimmed (Obsidian's "not created yet" style) | You haven't made the literature note yet |
+| Normal link color | You've made the note but haven't written in it yet |
+| **Yellow** | You've synced Zotero highlights into it, but haven't typed anything yet |
+| **Green** | You've written your own notes in it |
+
+Click the link to open the note (or to create it, if it's dimmed — but use
+the import command from step 2 above instead, so the note gets filled in).
+
+**"open pdf" opens your own copy of the reading** in Zotero's PDF reader.
+It works once you've made that reading's literature note; if you haven't, a
+message tells you which command to run. (Zotero needs to be open.)
+
+### Handing in a week's literature notes
+
+Under each week's heading in the syllabus there is a link, **Package my
+Week N literature notes for upload**. Click it and Second Reader:
+
+1. finds the literature notes you have worked on for that week's readings
+   (one file per reading). Notes that are still blank, and readings you
+   haven't made a note for, are skipped and listed in the message;
+2. puts them in a zip named like `ED 336 Week 05 literature notes - Your Name.zip`
+   in the `Uploads` folder of your vault;
+3. shows the zip in Finder (Explorer on Windows), ready to upload to Canvas.
+
+The first time, it asks for your name; you can change it later under
+Settings → Second Reader → "Your name". Clicking the link again replaces
+that week's zip with a fresh one. You can also run **"Second Reader: Package
+a week's literature notes for upload"** with the syllabus open and pick the
+week.
+
+---
+
+## Getting updates later
+
+The plugin improves from time to time. To pick up a new version:
+
+- **Manual:** Command Palette → **"BRAT: Check for updates to all beta
+  plugins and UPDATE."**
+- **Automatic:** Settings → **BRAT** → enable **"Auto-update plugins at
+  startup"** — then every time you open Obsidian, it checks and updates in
+  the background.
+
+If you installed by picking a **specific version number** rather than
+"Latest version" (step 4c, if you hit that BRAT hiccup), the update check
+might not pick up the new release. If "Check for updates" doesn't move you
+forward, remove the plugin (Command Palette → **"BRAT: Remove a beta
+plugin"**) and re-add it — that always works.
+
+If your literature-note template is too old to bring in highlights, Second
+Reader offers to update it for you (it asks when Obsidian starts, and again
+if you try to sync). You can also run **"Second Reader: Update
+literature-note template"** from the Command Palette at any time. It only
+changes the "Quotes worth keeping" section and saves a backup of your old
+template first. For any other template change, re-download it from
+**[the class repo](https://github.com/kevinmil54/second-reader-obsidian-promote/tree/main/Templates)**
+and replace your copy.
+
+### Upgrading to Second Reader 2
+
+If you set things up earlier this term (with "Second Reader: Promote
+Candidates" plus the separate "Zotero Integration" plugin), follow the
+step-by-step instructions in **[UPDATING.md](https://github.com/kevinmil54/second-reader-obsidian-promote/blob/main/UPDATING.md)**.
+
+---
+
+## Troubleshooting
+
+| Symptom | Fix |
+|---|---|
+| "Second Reader: Literature Note" doesn't appear in the Command Palette | Plugin isn't enabled, the import format isn't set up yet (step 4f), or Obsidian needs a full restart (not just a reload). If you upgraded, look for "Second Reader: …" — the old "Zotero Integration: …" names are gone. |
+| An import made an empty note titled with just the citekey (e.g. `smith2023learning`) | That came from the old generic "Import notes" command, which ignores your template (Second Reader 2.0.1 and later no longer have it). Delete the empty note and use the command named after your import format ("Second Reader: Literature Note"). |
+| Every Zotero command appears twice | The old "Zotero Integration" plugin is still on — turn it off in Settings → Community plugins. |
+| Import or sync fails / "could not connect to Zotero" / "is Zotero running?" | Zotero desktop must be running. Check Zotero → Settings → Advanced → "Allow other applications to communicate with Zotero" is checked. |
+| Sync says "No new highlights" but you just highlighted | The highlights were made in another PDF app (Preview, Adobe) — make them in **Zotero's** PDF reader. Also check that the note you have open is the literature note for that paper. |
+| "open pdf" in the syllabus says you haven't made the literature note yet, but you have | The note's name doesn't match the syllabus link. If it's named by citation key (like `cai2009`), run **"Second Reader: Name literature notes by title"**; if you renamed it, rename it back to the title shown in the syllabus link. |
+| "open pdf" says it couldn't find a PDF | Make sure Zotero is open, and that the reading has its PDF attached in your Zotero library (re-import the class readings file from Canvas if it's missing). |
+| A syllabus link stays dimmed after you made the note | The note's name has to match the link exactly. If your notes are named by citation key (like `cai2009`), run **"Second Reader: Name literature notes by title"** — it renames them and fixes your import format. Otherwise rename the note to the title shown in the link. |
+| A syllabus link is green but you haven't written anything | Anything typed in the note body counts — check for a stray word or line. Filling in the top section (your name, course, date read) doesn't count. |
+| Readings import into Zotero without PDFs | When importing the class readings file, choose **"Copy files to the Zotero storage folder"**, and import the `.rdf` from inside the unzipped folder (the `files` folder must sit next to it). |
+| Sync says the note "has no citekey in its frontmatter" | Sync only works in a literature note created by the import command, which records the paper's citekey at the top of the note. Don't delete the `citekey:` line. |
+| Quotes show the PDF's sheet number instead of the printed page | The PDF's page numbering is missing or wrong. In Zotero's reader, right-click a page in the thumbnails sidebar → **Rename Page…** to set the correct number; future syncs will use it (quotes already synced keep their old number — edit them by hand). |
+| A quote I deleted from the note came back after syncing | Syncing adds any highlight that isn't in the note yet. To remove a quote for good, delete the highlight in Zotero too. |
+| A highlight you deleted in Zotero is still in the note | Syncing only *adds* quotes; it never removes them. Delete the quote in Obsidian by hand. |
+| Citation key or reference comes out blank, or shows `{{citekey}}` literally | Better BibTeX isn't installed, or Zotero wasn't restarted after installing it. |
+| Import errors on a paper with no publication year | Fixed as of the current template — if you're on an older copy, update to the latest from [the class repo](https://github.com/kevinmil54/second-reader-obsidian-promote/tree/main/Templates). |
+| Checking a candidate box just crosses out the text — no new note appears | The "Second Reader" plugin isn't enabled, the note's frontmatter is missing `tags: [literature-note]`, or the heading isn't exactly `## Permanent note candidates`. |
+| BRAT can't find the plugin, or "Latest version" won't install | Double-check the repo name is exactly `kevinmil54/second-reader-obsidian-promote`. If "Latest version" fails, pick the specific version number from the dropdown instead. |
+| Reference style isn't APA | You likely set the "Citation Style" (used for inline citations) instead of the **Import Format's own "Bibliography Style"** field — these are two separate settings in the plugin. |

@@ -1,0 +1,10 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "baseFontSize": 16,
+  "accentColor": "#8b6df0",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "SR 101 - callouts and properties"
+  ]
+}
