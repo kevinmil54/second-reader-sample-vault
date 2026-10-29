@@ -7,7 +7,7 @@ Use it to try Second Reader before setting up your own course, or as a starting 
 ## What's here
 
 ```
-SR 101 vault/                      open this folder in Obsidian
+second-reader-sample-vault/        open this folder in Obsidian
   READ ME FIRST.md
   Home.md
   STUDENT SETUP GUIDE - SR 101.md
@@ -19,19 +19,20 @@ SR 101 vault/                      open this folder in Obsidian
   Literature notes/                empty; Second Reader's import fills it
   Permanent notes/  Synthesis notes/  Projects/  Inbox/  Attachments/  Uploads/
   Templates/                       literature, permanent, synthesis, project and class meeting templates
-  .obsidian/                       Second Reader plugin, AnuPpuccin theme, settings; no personal data
-SR 101 Zotero readings/
-  SR 101 readings.ris              references for Zotero, pointing at files/
-  files/                           PDFs whose licenses allow redistribution
-  fetch_readings.py                downloads the others to your own computer
-SOURCES.md                         every reading with its license
+  .obsidian/                       Second Reader, Dataview, Templater and Style Settings plugins,
+                                   AnuPpuccin theme and settings; no personal data
+  SR 101 Zotero readings/
+    SR 101 readings.ris            references for Zotero, pointing at files/
+    files/                         PDFs whose licenses allow redistribution
+    fetch_readings.py              downloads the others to your own computer
+  SOURCES.md                       every reading with its license
 ```
 
 ## Getting started
 
 1. Download this repository (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy) and unzip it.
 2. Fetch the readings and import them into Zotero, following `SR 101 Zotero readings/README.md`.
-3. Open `SR 101 vault` in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
+3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 
 You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader runs on desktop only.
 
@@ -54,4 +55,4 @@ Replace the syllabus, course home and meeting notes with your own. For your stud
 
 ## Licenses
 
-The notes, syllabus, templates and CSS snippet are CC BY 4.0. The readings keep their own licenses (see SOURCES.md). The bundled Second Reader plugin and AnuPpuccin theme are GPL-3.0. See [LICENSE.md](LICENSE.md).
+The notes, syllabus, templates and CSS snippet are CC BY 4.0. The readings keep their own licenses (see SOURCES.md). The bundled plugins and theme keep their own licenses: Second Reader, Style Settings and AnuPpuccin are GPL-3.0, Templater is AGPL-3.0, and Dataview is MIT. See [LICENSE.md](LICENSE.md).

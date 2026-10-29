@@ -1,0 +1,68 @@
+/* SR 101 sample vault: callout types used in the syllabus, folder colors for
+   AnuPpuccin's full-rainbow style, and two small layout tweaks.
+   CC BY 4.0, like the rest of the sample vault. */
+
+/* Themes or goals */
+.callout[data-callout="goal"] {
+  --callout-color: 26, 125, 164;
+  --callout-icon: lucide-target;
+}
+
+/* Questions to think about before class */
+.callout[data-callout="question"] {
+  --callout-color: 210, 112, 162;
+  --callout-icon: lucide-message-circle-question;
+}
+
+/* Keep callout icons and titles on one line */
+.callout .callout-title {
+  align-items: center;
+}
+
+/* Tighter space below the properties block */
+.metadata-container {
+  border-style: solid;
+  margin: 0;
+}
+
+/* Folder colors in the file list: red, lavender, yellow, teal, then grey,
+   repeating every eleven folders. */
+.nav-files-container > div > .nav-folder,
+.nav-folder-children > .nav-folder {
+  --rainbow-folder-color: var(--ctp-mauve);
+}
+.nav-files-container > div > .nav-folder:nth-child(11n + 2),
+.nav-folder-children > .nav-folder:nth-child(11n + 2) {
+  --rainbow-folder-color: var(--ctp-red);
+}
+.nav-files-container > div > .nav-folder:nth-child(11n + 3),
+.nav-folder-children > .nav-folder:nth-child(11n + 3) {
+  --rainbow-folder-color: var(--ctp-lavender);
+}
+.nav-files-container > div > .nav-folder:nth-child(11n + 4),
+.nav-folder-children > .nav-folder:nth-child(11n + 4) {
+  --rainbow-folder-color: var(--ctp-yellow);
+}
+.nav-files-container > div > .nav-folder:nth-child(11n + 5),
+.nav-folder-children > .nav-folder:nth-child(11n + 5) {
+  --rainbow-folder-color: var(--ctp-teal);
+}
+
+/* Light text and icons on the colored folder bars */
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-folder-title,
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-file-title {
+  color: #eee6dd;
+}
+.anp-full-rainbow-color-toggle .nav-files-container .collapse-icon svg.svg-icon,
+.anp-full-rainbow-color-toggle .tree-item-self .tree-item-icon {
+  color: var(--anp-full-rainbow-text-inverted);
+  --icon-color: var(--anp-full-rainbow-text-inverted, var(--background-primary));
+}
+
+/* Vault name at the bottom of the sidebar, readable on the colored frame */
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
+  color: #c4c5c1;
+}
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:hover {
+  color: #eee6dd;
+}

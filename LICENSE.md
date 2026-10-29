@@ -12,12 +12,16 @@ The PDFs in `SR 101 Zotero readings/files/` belong to their authors and publishe
 
 ## Second Reader plugin
 
-`SR 101 vault/.obsidian/plugins/second-reader-promote/` contains a build of the Second Reader plugin, licensed under the GNU General Public License v3.0. Its source code is at https://github.com/kevinmil54/second-reader-obsidian-promote
+`.obsidian/plugins/second-reader-promote/` contains a build of the Second Reader plugin, licensed under the GNU General Public License v3.0. Its source code is at https://github.com/kevinmil54/second-reader-obsidian-promote
 
 ## AnuPpuccin theme
 
-`SR 101 vault/.obsidian/themes/AnuPpuccin/` is the AnuPpuccin theme by Anubis (https://github.com/AnubisNekhet/AnuPpuccin), version 1.5.0, licensed under the GNU General Public License v3.0. Its license file is included in that folder. Support the author at https://www.buymeacoffee.com/anubisnekhet
+`.obsidian/themes/AnuPpuccin/` is the AnuPpuccin theme by Anubis (https://github.com/AnubisNekhet/AnuPpuccin), version 1.5.0, licensed under the GNU General Public License v3.0. Its license file is included in that folder. Support the author at https://www.buymeacoffee.com/anubisnekhet
 
 ## Other plugins
 
-Dataview, Style Settings and Templater are not included. Their settings files are, so the vault looks and works as intended once you install them from Obsidian's community plugin directory.
+These are unmodified release builds of community plugins, included so the vault works when first opened. Each folder holds the plugin's license.
+
+- `.obsidian/plugins/dataview/`: Dataview 0.5.68 by Michael Brenan, MIT License. Source: https://github.com/blacksmithgu/obsidian-dataview
+- `.obsidian/plugins/templater-obsidian/`: Templater 2.25.1 by SilentVoid13, GNU Affero General Public License v3.0. Source: https://github.com/SilentVoid13/Templater
+- `.obsidian/plugins/obsidian-style-settings/`: Style Settings 1.0.9 by mgmeyers, GNU General Public License v3.0. Source: https://github.com/mgmeyers/obsidian-style-settings

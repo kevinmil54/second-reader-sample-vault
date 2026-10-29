@@ -3,7 +3,7 @@
 This folder holds the SR 101 readings in a form Zotero can import.
 
 - `SR 101 readings.ris` has the reference for each reading and points to its PDF under `files/`.
-- `files/` holds the PDFs. Only the ones whose licenses allow redistribution are included in the repository. See `SOURCES.md` at the top of the repository.
+- `files/` holds the PDFs. Only the ones whose licenses allow redistribution are included in the repository. See `SOURCES.md` in the vault.
 - `fetch_readings.py` downloads the rest to your own computer.
 
 ## Steps

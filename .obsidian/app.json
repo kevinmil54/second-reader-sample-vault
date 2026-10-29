@@ -11,5 +11,11 @@
   "defaultViewMode": "preview",
   "showInlineTitle": true,
   "foldHeading": true,
-  "foldIndent": true
+  "foldIndent": true,
+  "userIgnoreFilters": [
+    "SR 101 Zotero readings/",
+    "README.md",
+    "LICENSE.md",
+    "SOURCES.md"
+  ]
 }
