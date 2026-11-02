@@ -32,7 +32,7 @@ second-reader-sample-vault/        open this folder in Obsidian
 
 ## Getting started
 
-1. Download this repository (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy) and unzip it.
+1. Download a release (version 1.0: https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/tags/v1.0.zip) or the latest version (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy), and unzip it.
 2. Import the Zotero collection in `Second Reader Sample Readings (Zotero)`, following its README.
 3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 

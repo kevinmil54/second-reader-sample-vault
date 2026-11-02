@@ -84,10 +84,12 @@ pinch; on Mac, use TextEdit's **Format → Make Plain Text** first.
    finishes.
 3. On first launch, open or create a vault (a vault is just a folder of
    notes).
-   - **If you have the SR 101 starter vault:** on the GitHub page, click the
-     green **Code** button → **Download ZIP**, and unzip it somewhere that
-     isn't inside another vault. The unzipped folder is usually named
-     `second-reader-sample-vault-main`; you can rename it. In Obsidian choose
+   - **If you have the SR 101 starter vault:** download it from the link
+     you were given, or from the GitHub page with the green **Code** button →
+     **Download ZIP**. Unzip it somewhere that isn't inside another vault.
+     The unzipped folder is named after the version you downloaded, such as
+     `second-reader-sample-vault-1.0` or `second-reader-sample-vault-main`;
+     you can rename it. In Obsidian choose
      **Open folder as vault** and pick that folder itself, not the folder
      that contains it. When Obsidian asks whether you trust the author,
      choose **Trust author and enable plugins**.
