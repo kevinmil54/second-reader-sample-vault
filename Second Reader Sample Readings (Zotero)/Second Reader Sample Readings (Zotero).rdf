@@ -1,0 +1,793 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="https://www.frontiersin.org/articles/10.3389/fpsyg.2025.1550621/full">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1664-1078"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jose</foaf:surname>
+                        <foaf:givenName>Binny</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cherian</foaf:surname>
+                        <foaf:givenName>Jaya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Verghis</foaf:surname>
+                        <foaf:givenName>Alie Molly</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varghise</foaf:surname>
+                        <foaf:givenName>Sony Mary</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mumthas</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joseph</foaf:surname>
+                        <foaf:givenName>Sibichan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7633"/>
+        <dc:title>The cognitive paradox of AI in education: between enhancement and erosion</dc:title>
+        <dc:date>2025-4-14</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>The cognitive paradox of AI in education</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/articles/10.3389/fpsyg.2025.1550621/full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-03 19:27:01</dcterms:dateSubmitted>
+        <bib:pages>1550621</bib:pages>
+        <z:citationKey>jose2025</z:citationKey>
+        <dc:description>Citation Key: jose2025</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1664-1078">
+        <prism:volume>16</prism:volume>
+        <dc:title>Frontiers in Psychology</dc:title>
+        <dc:identifier>DOI 10.3389/fpsyg.2025.1550621</dc:identifier>
+        <dcterms:alternative>Front. Psychol.</dcterms:alternative>
+        <dc:identifier>ISSN 1664-1078</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_7633">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/7633/Jose et al. (2025) - The cognitive paradox of AI in education between enhancement and erosion.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.science.org/doi/10.1126/sciadv.adn5290">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2375-2548"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doshi</foaf:surname>
+                        <foaf:givenName>Anil R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hauser</foaf:surname>
+                        <foaf:givenName>Oliver P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7692"/>
+        <dc:subject>docling/error</dc:subject>
+        <dc:title>Generative AI enhances individual creativity but reduces the collective diversity of novel content</dc:title>
+        <dcterms:abstract>Creativity is core to being human. Generative artificial intelligence (AI)—including powerful large language models (LLMs)—holds promise for humans to be more creative by offering new ideas, or less creative by anchoring on generative AI ideas. We study the causal impact of generative AI ideas on the production of short stories in an online experiment where some writers obtained story ideas from an LLM. We find that access to generative AI ideas causes stories to be evaluated as more creative, better written, and more enjoyable, especially among less creative writers. However, generative AI–enabled stories are more similar to each other than stories by humans alone. These results point to an increase in individual creativity at the risk of losing collective novelty. This dynamic resembles a social dilemma: With generative AI, writers are individually better off, but collectively a narrower scope of novel content is produced. Our results have implications for researchers, policy-makers, and practitioners interested in bolstering creativity.
+          , 
+            Generative AI can enhance the creativity of short stories but may limit the variation in diverse outputs.</dcterms:abstract>
+        <dc:date>2024-07-12</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.science.org/doi/10.1126/sciadv.adn5290</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-01-06 23:36:19</dcterms:dateSubmitted>
+        <bib:pages>eadn5290</bib:pages>
+        <z:citationKey>doshi2024</z:citationKey>
+        <dc:description>Citation Key: doshi2024</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2375-2548">
+        <prism:volume>10</prism:volume>
+        <dc:title>Science Advances</dc:title>
+        <dc:identifier>DOI 10.1126/sciadv.adn5290</dc:identifier>
+        <prism:number>28</prism:number>
+        <dcterms:alternative>Sci. Adv.</dcterms:alternative>
+        <dc:identifier>ISSN 2375-2548</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_7692">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/7692/Doshi &amp; Hauser (2024) - Generative AI enhances individual creativity but reduces the collective diversit.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-4007-1394-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>CHI '25</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 979-8-4007-1394-1</dc:identifier>
+                <dc:title>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</dc:title>
+                <dc:identifier>DOI 10.1145/3706598.3713778</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Hao-Ping (Hank)</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sarkar</foaf:surname>
+                        <foaf:givenName>Advait</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tankelevitch</foaf:surname>
+                        <foaf:givenName>Lev</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Drosos</foaf:surname>
+                        <foaf:givenName>Ian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rintel</foaf:surname>
+                        <foaf:givenName>Sean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Banks</foaf:surname>
+                        <foaf:givenName>Richard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wilson</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8707"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Bloom’s taxonomy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Critical thinking</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Generative AI tools</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Knowledge worker</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Survey</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers</dc:title>
+        <dcterms:abstract>The rise of Generative AI (GenAI) in knowledge workflows raises questions about its impact on critical thinking skills and practices. We survey 319 knowledge workers to investigate 1) when and how they perceive the enaction of critical thinking when using GenAI, and 2) when and why GenAI affects their effort to do so. Participants shared 936 first-hand examples of using GenAI in work tasks. Quantitatively, when considering both task- and user-specific factors, a user’s task-specific self-confidence and confidence in GenAI are predictive of whether critical thinking is enacted and the effort of doing so in GenAI-assisted tasks. Specifically, higher confidence in GenAI is associated with less critical thinking, while higher self-confidence is associated with more critical thinking. Qualitatively, GenAI shifts the nature of critical thinking toward information verification, response integration, and task stewardship. Our insights reveal new design challenges and opportunities for developing GenAI tools for knowledge work.</dcterms:abstract>
+        <dc:date>2025-04-25</dc:date>
+        <z:shortTitle>The Impact of Generative AI on Critical Thinking</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3706598.3713778</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02</dcterms:dateSubmitted>
+        <bib:pages>1–22</bib:pages>
+        <z:citationKey>lee2025</z:citationKey>
+        <dc:description>Citation Key: lee2025</dc:description>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_8707">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8707/Lee et al. (2025) - The Impact of Generative AI on Critical Thinking Self-Reported Reductions in Co.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3706598.3713778?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:49:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/2075-4698/15/1/6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2075-4698"/>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Multidisciplinary Digital Publishing Institute</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gerlich</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8709"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>AI</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>AI tools</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>AI trust</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>artificial intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>cognitive development</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>cognitive offloading</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>critical thinking</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>digital dependence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Halpern Critical Thinking Assessment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>technology and education</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking</dc:title>
+        <dcterms:abstract>The proliferation of artificial intelligence (AI) tools has transformed numerous aspects of daily life, yet its impact on critical thinking remains underexplored. This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor. Utilising a mixed-method approach, we conducted surveys and in-depth interviews with 666 participants across diverse age groups and educational backgrounds. Quantitative data were analysed using ANOVA and correlation analysis, while qualitative insights were obtained through thematic analysis of interview transcripts. The findings revealed a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by increased cognitive offloading. Younger participants exhibited higher dependence on AI tools and lower critical thinking scores compared to older participants. Furthermore, higher educational attainment was associated with better critical thinking skills, regardless of AI usage. These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies. This study contributes to the growing discourse on AI’s cognitive implications, offering practical recommendations for mitigating its adverse effects on critical thinking. The findings underscore the importance of fostering critical thinking in an AI-driven world, making this research essential reading for educators, policymakers, and technologists.</dcterms:abstract>
+        <dc:date>2025/1</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>AI Tools in Society</z:shortTitle>
+        <z:libraryCatalog>www.mdpi.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/2075-4698/15/1/6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:50:09</dcterms:dateSubmitted>
+        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+        <bib:pages>6</bib:pages>
+        <z:citationKey>gerlich2025</z:citationKey>
+        <dc:description>Citation Key: gerlich2025</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2075-4698">
+        <prism:volume>15</prism:volume>
+        <dc:title>Societies</dc:title>
+        <dc:identifier>DOI 10.3390/soc15010006</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 2075-4698</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8709">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8709/Gerlich (2025) - AI Tools in Society Impacts on Cognitive Offloading and the Future of Critical.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/2075-4698/15/1/6/pdf?version=1757508056</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:50:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1186/s40561-024-00316-7">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2196-7091"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhai</foaf:surname>
+                        <foaf:givenName>Chunpeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wibowo</foaf:surname>
+                        <foaf:givenName>Santoso</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Lily D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8711"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Analytical thinking</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cognitive abilities</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Critical thinking</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Decision-making</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ethical issues of AI</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Generative AI</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The effects of over-reliance on AI dialogue systems on students' cognitive abilities: a systematic review</dc:title>
+        <dcterms:abstract>The growing integration of artificial intelligence (AI) dialogue systems within educational and research settings highlights the importance of learning aids. Despite examination of the ethical concerns associated with these technologies, there is a noticeable gap in investigations on how these ethical issues of AI contribute to students’ over-reliance on AI dialogue systems, and how such over-reliance affects students’ cognitive abilities. Overreliance on AI occurs when users accept AI-generated recommendations without question, leading to errors in task performance in the context of decision-making. This typically arises when individuals struggle to assess the reliability of AI or how much trust to place in its suggestions. This systematic review investigates how students’ over-reliance on AI dialogue systems, particularly those embedded with generative models for academic research and learning, affects their critical cognitive capabilities including decision-making, critical thinking, and analytical reasoning. By using the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, our systematic review evaluated a body of literature addressing the contributing factors and effects of such over-reliance within educational and research contexts. The comprehensive literature review spanned 14 articles retrieved from four distinguished databases: ProQuest, IEEE Xplore, ScienceDirect, and Web of Science. Our findings indicate that over-reliance stemming from ethical issues of AI impacts cognitive abilities, as individuals increasingly favor fast and optimal solutions over slow ones constrained by practicality. This tendency explains why users prefer efficient cognitive shortcuts, or heuristics, even amidst the ethical issues presented by AI technologies.</dcterms:abstract>
+        <dc:date>2024-06-18</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>The effects of over-reliance on AI dialogue systems on students' cognitive abilities</z:shortTitle>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1186/s40561-024-00316-7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:51:42</dcterms:dateSubmitted>
+        <bib:pages>28</bib:pages>
+        <z:citationKey>zhai2024</z:citationKey>
+        <dc:description>Citation Key: zhai2024</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2196-7091">
+        <prism:volume>11</prism:volume>
+        <dc:title>Smart Learning Environments</dc:title>
+        <dc:identifier>DOI 10.1186/s40561-024-00316-7</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Smart Learn. Environ.</dcterms:alternative>
+        <dc:identifier>ISSN 2196-7091</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8711">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8711/Zhai et al. (2024) - The effects of over-reliance on AI dialogue systems on students' cognitive abili.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1186%2Fs40561-024-00316-7.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:51:44</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/2102.09692">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2573-0142"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buçinca</foaf:surname>
+                        <foaf:givenName>Zana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Malaya</foaf:surname>
+                        <foaf:givenName>Maja Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gajos</foaf:surname>
+                        <foaf:givenName>Krzysztof Z.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8717"/>
+        <link:link rdf:resource="#item_8718"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Human-Computer Interaction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making</dc:title>
+        <dcterms:abstract>People supported by AI-powered decision support tools frequently overrely on the AI: they accept an AI's suggestion even when that suggestion is wrong. Adding explanations to the AI decisions does not appear to reduce the overreliance and some studies suggest that it might even increase it. Informed by the dual-process theory of cognition, we posit that people rarely engage analytically with each individual AI recommendation and explanation, and instead develop general heuristics about whether and when to follow the AI suggestions. Building on prior research on medical decision-making, we designed three cognitive forcing interventions to compel people to engage more thoughtfully with the AI-generated explanations. We conducted an experiment (N=199), in which we compared our three cognitive forcing designs to two simple explainable AI approaches and to a no-AI baseline. The results demonstrate that cognitive forcing significantly reduced overreliance compared to the simple explainable AI approaches. However, there was a trade-off: people assigned the least favorable subjective ratings to the designs that reduced the overreliance the most. To audit our work for intervention-generated inequalities, we investigated whether our interventions benefited equally people with different levels of Need for Cognition (i.e., motivation to engage in effortful mental activities). Our results show that, on average, cognitive forcing interventions benefited participants higher in Need for Cognition more. Our research suggests that human cognitive motivation moderates the effectiveness of explainable AI solutions.</dcterms:abstract>
+        <dc:date>2021-04-13</dc:date>
+        <z:shortTitle>To Trust or to Think</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2102.09692</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:53:16</dcterms:dateSubmitted>
+        <dc:description>arXiv:2102.09692 [cs.HC]
+Citation Key: bucinca2021</dc:description>
+        <bib:pages>1-21</bib:pages>
+        <z:citationKey>bucinca2021</z:citationKey>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2573-0142">
+        <prism:volume>5</prism:volume>
+        <dc:title>Proceedings of the ACM on Human-Computer Interaction</dc:title>
+        <dc:identifier>DOI 10.1145/3449287</dc:identifier>
+        <prism:number>CSCW1</prism:number>
+        <dcterms:alternative>Proc. ACM Hum.-Comput. Interact.</dcterms:alternative>
+        <dc:identifier>ISSN 2573-0142</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8717">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8717/Buçinca et al. (2021) - To Trust or to Think Cognitive Forcing Functions Can Reduce Overreliance on AI.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2102.09692v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:53:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_8718">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8718/2102.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2102.09692</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:53:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2310.13548">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenName>Mrinank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tong</foaf:surname>
+                        <foaf:givenName>Meg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Korbak</foaf:surname>
+                        <foaf:givenName>Tomasz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duvenaud</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Askell</foaf:surname>
+                        <foaf:givenName>Amanda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bowman</foaf:surname>
+                        <foaf:givenName>Samuel R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Newton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Durmus</foaf:surname>
+                        <foaf:givenName>Esin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hatfield-Dodds</foaf:surname>
+                        <foaf:givenName>Zac</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnston</foaf:surname>
+                        <foaf:givenName>Scott R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kravec</foaf:surname>
+                        <foaf:givenName>Shauna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maxwell</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCandlish</foaf:surname>
+                        <foaf:givenName>Sam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ndousse</foaf:surname>
+                        <foaf:givenName>Kamal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rausch</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schiefer</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenName>Da</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Miranda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perez</foaf:surname>
+                        <foaf:givenName>Ethan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8721"/>
+        <link:link rdf:resource="#item_8722"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Towards Understanding Sycophancy in Language Models</dc:title>
+        <dcterms:abstract>Human feedback is commonly utilized to finetune AI assistants. But human feedback may also encourage model responses that match user beliefs over truthful ones, a behaviour known as sycophancy. We investigate the prevalence of sycophancy in models whose finetuning procedure made use of human feedback, and the potential role of human preference judgments in such behavior. We first demonstrate that five state-of-the-art AI assistants consistently exhibit sycophancy across four varied free-form text-generation tasks. To understand if human preferences drive this broadly observed behavior, we analyze existing human preference data. We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy. Overall, our results indicate that sycophancy is a general behavior of state-of-the-art AI assistants, likely driven in part by human preference judgments favoring sycophantic responses.</dcterms:abstract>
+        <dc:date>2025-05-10</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2310.13548</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:53:45</dcterms:dateSubmitted>
+        <dc:description>arXiv:2310.13548 [cs.CL]
+Citation Key: sharma2025</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2310.13548</dc:identifier>
+        <prism:number>arXiv:2310.13548</prism:number>
+        <z:citationKey>sharma2025</z:citationKey>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_8721">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8721/Sharma et al. (2025) - Towards Understanding Sycophancy in Language Models.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2310.13548v4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:53:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_8722">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8722/2310.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2310.13548</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 19:53:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0747563224002541">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0747-5632"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stadler</foaf:surname>
+                        <foaf:givenName>Matthias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bannert</foaf:surname>
+                        <foaf:givenName>Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sailer</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8728"/>
+        <link:link rdf:resource="#item_8727"/>
+        <dc:title>Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry</dc:title>
+        <dcterms:abstract>This study explores the cognitive load and learning outcomes associated with using large language models (LLMs) versus traditional search engines for information gathering during learning. A total of 91 university students were randomly assigned to either use ChatGPT3.5 or Google to research the socio-scientific issue of nanoparticles in sunscreen to derive valid recommendations and justifications. The study aimed to investigate potential differences in cognitive load, as well as the quality and homogeneity of the students' recommendations and justifications. Results indicated that students using LLMs experienced significantly lower cognitive load. However, despite this reduction, these students demonstrated lower-quality reasoning and argumentation in their final recommendations compared to those who used traditional search engines. Further, the homogeneity of the recommendations and justifications did not differ significantly between the two groups, suggesting that LLMs did not restrict the diversity of students’ perspectives. These findings highlight the nuanced implications of digital tools on learning, suggesting that while LLMs can decrease the cognitive burden associated with information gathering during a learning task, they may not promote deeper engagement with content necessary for high-quality learning per se.</dcterms:abstract>
+        <dc:date>2024-11-01</dc:date>
+        <z:shortTitle>Cognitive ease at a cost</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0747563224002541</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 20:16:16</dcterms:dateSubmitted>
+        <bib:pages>108386</bib:pages>
+        <z:citationKey>stadler2024</z:citationKey>
+        <dc:description>Citation Key: stadler2024</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0747-5632">
+        <prism:volume>160</prism:volume>
+        <dc:title>Computers in Human Behavior</dc:title>
+        <dc:identifier>DOI 10.1016/j.chb.2024.108386</dc:identifier>
+        <dcterms:alternative>Computers in Human Behavior</dcterms:alternative>
+        <dc:identifier>ISSN 0747-5632</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8728">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8728/S0747563224002541.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0747563224002541</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 20:16:24</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_8727">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8727/Stadler et al. (2024) - Cognitive ease at a cost LLMs reduce mental effort but compromise depth in stud.pdf"/>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://epub.ub.uni-muenchen.de/125262/1/1-s2.0-S0747563224002541-main.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-11-02 20:16:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

@@ -13,3 +13,4 @@ Uploads/*.zip
 !.obsidian/plugins/second-reader-promote/data.json
 !.obsidian/plugins/obsidian-style-settings/data.json
 !.obsidian/plugins/templater-obsidian/data.json
+__pycache__/

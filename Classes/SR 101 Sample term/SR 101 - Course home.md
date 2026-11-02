@@ -24,7 +24,7 @@ Each class has its own note. It shows the goals, the questions to think about be
 
 | Week | Date | Topic | Class note | Assignments |
 |---|---|---|---|---|
-| 3 | Jan 27 | Writing, memory, and sameness | [[Class 03 - 2027-01-27 - Student\|Open]] | Literature notes for this week's readings |
+| 3 | Jan 27 | Ease, depth, and sameness | [[Class 03 - 2027-01-27 - Student\|Open]] | Literature notes for this week's readings |
 | 4 | Feb 3 | Who makes the judgment calls | [[Class 04 - 2027-02-03 - Student\|Open]] | Synthesis note due |
 
 ## Other course material

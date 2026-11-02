@@ -38,16 +38,6 @@
       "https://loop.frontiersin.org/people/2719972/overview"
     ]
   },
-  "Nataliya Kosmyna": {
-    "position": "Research Scientist, Fluid Interfaces group, MIT Media Lab; Radcliffe Fellow, Harvard Radcliffe Institute, 2026–2027",
-    "bio": "Kosmyna builds brain-computer interfaces, drawing on AI, neuroscience and human-computer interaction. Her work includes EEG-based interfaces, measuring engagement and fatigue, assistive communication for people with ALS, and the cognitive cost of tools such as LLM chatbots. She earned her PhD at Université Grenoble-Alpes in 2015, was a postdoctoral researcher at Inria Rennes, and joined the MIT Media Lab in 2017.",
-    "homepage": "https://www.media.mit.edu/people/nkosmyna/",
-    "openalex": "A5068310449",
-    "sources": [
-      "https://www.media.mit.edu/people/nkosmyna/",
-      "https://www.radcliffe.harvard.edu/people/nataliya-kosmyna"
-    ]
-  },
   "Anil R. Doshi": {
     "position": "Strategy and Entrepreneurship faculty, UCL School of Management",
     "bio": "Doshi studies how data and information environments shape behavior, with research on generative AI, social media and the commercial space sector. He holds a doctorate from the Technology and Operations Management unit at Harvard Business School and an AB from Dartmouth, and teaches data analytics and generative AI at UCL.",
@@ -75,6 +65,15 @@
     "sources": [
       "https://www.mrinanksharma.net/",
       "https://www.exchange4media.com/people-movement-news/anthropic-safeguards-researcher-mrinank-sharma-resigns-warns-of-interconnected-crises-151859.html"
+    ]
+  },
+  "Matthias Stadler": {
+    "position": "Institute of Medical Education, LMU University Hospital, LMU Munich (affiliation given in the 2024 article)",
+    "bio": "",
+    "homepage": "",
+    "openalex": "",
+    "sources": [
+      "https://doi.org/10.1016/j.chb.2024.108386"
     ]
   }
 }

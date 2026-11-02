@@ -24,17 +24,16 @@ second-reader-sample-vault/        open this folder in Obsidian
   Templates/                       literature, permanent, synthesis, project and class meeting templates
   .obsidian/                       Second Reader, Dataview, Templater and Style Settings plugins,
                                    AnuPpuccin theme and settings; no personal data
-  SR 101 Zotero readings/
-    SR 101 - Thinking With Machines.rdf   Zotero collection file, pointing at files/
-    files/                         the PDFs, all openly licensed
-    fetch_readings.py              downloads any that are missing
+  Second Reader Sample Readings (Zotero)/
+    Second Reader Sample Readings (Zotero).rdf   Zotero collection file, pointing at files/
+    files/                         the PDFs, all openly licensed, plus snapshots of some article pages
   SOURCES.md                       every reading with its license
 ```
 
 ## Getting started
 
 1. Download this repository (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy) and unzip it.
-2. Import the Zotero collection in `SR 101 Zotero readings`, following its README.
+2. Import the Zotero collection in `Second Reader Sample Readings (Zotero)`, following its README.
 3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 
 You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader, which is in Obsidian's community plugin directory, comes installed in the vault. It runs on desktop only.
@@ -45,8 +44,8 @@ You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Read
 |---|---|---|
 | 1 | Confidence, effort, and critical thinking | Lee et al. (2025); Gerlich (2025) |
 | 2 | Learning when the machine has the answers | Zhai et al. (2024); Jose et al. (2025) |
-| 3 | Writing, memory, and sameness | Kosmyna et al. (2025); Doshi & Hauser (2023) |
-| 4 | Who makes the judgment calls | Buçinca et al. (2021); Sharma et al. (2023) |
+| 3 | Ease, depth, and sameness | Stadler et al. (2024); Doshi & Hauser (2024) |
+| 4 | Who makes the judgment calls | Buçinca et al. (2021); Sharma et al. (2025) |
 
 Full references and licenses are in [SOURCES.md](SOURCES.md).
 

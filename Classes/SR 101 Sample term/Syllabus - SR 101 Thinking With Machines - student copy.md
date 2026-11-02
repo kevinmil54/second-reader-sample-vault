@@ -25,9 +25,7 @@ Sample term (last updated 2026-10-29)
 
 ## Course Description
 
-Large language models now sit beside people while they read, write, study and make decisions. This course looks at what the research says happens to the people. We start with effort and confidence, then look at learning, at writing and creativity, and finally at who is making the decisions when AI does part of the work.
-
-The readings are recent and mostly empirical. Several are preprints, so part of the job is judging how much weight a single study can carry.
+Large language models are widely available and accessible when people read, write, study and make decisions. This course looks at what research says happens to people as they interact with these tools. Because this is a sample course, it only considers a few topics and readings are limited to those that can be freely distributed. The readings address an enormous issue facing societies as well as individuals. This Obsidian vault is designed as something that each person can personalize and have on their own computer as they build their own understanding of these questions. 
 
 ---
 
@@ -35,27 +33,29 @@ The readings are recent and mostly empirical. Several are preprints, so part of 
 
 If this course is successful you will:
 
-- Know what the current evidence says about how people rely on AI assistants and what that does to their thinking
-- Be able to tell when using an AI tool supports your own thinking and learning and when it replaces it
-- Read an empirical study of human-AI interaction critically, including its design, its measures and its limits
+- Know more than you do now about how people rely on AI assistants and what that does to their thinking
+- Be thoughtful about when using an AI tool supports your own thinking and learning and when it replaces it
+- Be able to critically analyze research on human-AI interaction, including design, measures and limitations
 - Build a set of permanent notes and one synthesis note that state your own position on a question from the readings
 
 ---
 
 ## What You'll Do
 
-| Component | What it involves |
-|-----------|--------|
-| Literature notes | One per reading, handed in each week with the syllabus's "Package my Week N literature notes" link |
-| Permanent notes | At least two a week, in your own words |
-| Synthesis note | One, due Week 4, on a question of your choice from the readings |
-| Class participation | Come with the "Questions to think about before class" in mind |
+| Component           | What it involves                                                                                      |
+| ------------------- | ----------------------------------------------------------------------------------------------------- |
+| Literature notes    | One per reading, handed in each week with the syllabus's "Package my Week N literature notes" link    |
+| Permanent notes     | Identifying ideas and facts that you want to take away from the readings, stated in your own terms    |
+| Synthesis note      | One, due Week 4, on a question of your choice from the readings                                       |
+| Class participation | Generate questions to think about in the literature notes and come to class preparted to discuss them |
 
 ### How the notes work
 
 Each reading below has two links. **open pdf** opens your own copy of the paper in Zotero's PDF reader; it works once you've made that reading's literature note. **Literature note** is your note on the reading, and its color shows where you are: dimmed until you make it, normal once it exists, yellow once you've synced Zotero highlights into it, green once you've written in it.
 
-To make a literature note, run **Second Reader: APA Zotero import** from the command palette and pick the reading. Read in Zotero with the note open beside you, click the highlighter button at the top right of the note to bring in your highlights with page numbers, and write your own notes as you go. When an idea is worth keeping, write it as a permanent note candidate and check the box.
+To make a literature note, run **Second Reader: APA Zotero import** from the command palette (hit command-P or whatever you've set the command hotkeyu to) and pick the reading. Read in Zotero with the note open beside you, click the highlighter button at the top right of the note to bring in your highlights with page numbers, and write your own notes as you go. When an idea is worth keeping, write it as a permanent note candidate and check the box to generate it as a permanent note.
+
+Both the literature notes and the permanent notes use templates are in the "Templates" folder. Those are text files written in markdown. You should change them to include just the features you want to use and then any future notes will use that modified template.
 
 ---
 
@@ -68,13 +68,13 @@ To make a literature note, run **Second Reader: APA Zotero import** from the com
 [Package my Week 1 literature notes for upload](obsidian://second-reader?package-week=1&syllabus=Syllabus%20-%20SR%20101%20Thinking%20With%20Machines%20-%20student%20copy)
 
 > [!goal] Themes or goals
-> When a tool takes over part of a task, the thinking that's left changes. These readings look at how confidence in the tool and confidence in yourself shape how much checking and critical thinking people do, and at what happens when people hand thinking off to AI tools.
+> When a tool takes over part of a task, what's left to the person changes. These readings look at how confidence in the tool and confidence in yourself shape how much checking and critical thinking people do, and what happens when people hand thinking off to AI tools.
 
 ^w01-goal
 
 > [!question] Questions to think about before class
-> - *Lee and colleagues separate confidence in the AI from confidence in yourself. Why might those pull in opposite directions?*
-> - *If critical thinking moves from producing work to checking and integrating it, is that a loss, a gain, or a different skill?*
+> - *Lee and colleagues separate confidence in the AI from confidence in yourself. How do these interact?*
+> - *If critical thinking moves from producing work to checking and integrating it, is that a loss, a gain, or something entirely new?*
 > - *Both papers rely on self-report. What would you want to measure directly, and how?*
 > - *What makes offloading a task to a tool harmful in one case and sensible in another?*
 
@@ -88,7 +88,7 @@ To make a literature note, run **Second Reader: APA Zotero import** from the com
 
 ^w01-readings
 
-*Assignments:* Literature notes for this week's readings
+*Assignments:* Create literature notes for this week's readings and permanent notes for the ideas you take away from each paper
 
 ---
 
@@ -97,7 +97,7 @@ To make a literature note, run **Second Reader: APA Zotero import** from the com
 [Package my Week 2 literature notes for upload](obsidian://second-reader?package-week=2&syllabus=Syllabus%20-%20SR%20101%20Thinking%20With%20Machines%20-%20student%20copy)
 
 > [!goal] Themes or goals
-> A tool that helps you get the answer may or may not help you learn. A systematic review and a conceptual paper look at what relying on AI does to students' thinking, and what kinds of use might support learning instead.
+> A tool that helps you get the answer may or may not help you learn. Two papers consider what relying on AI does to students' thinking, and what might support learning instead.
 
 ^w02-goal
 
@@ -111,44 +111,44 @@ To make a literature note, run **Second Reader: APA Zotero import** from the com
 
 *Readings:*
 1. Zhai, C., Wibowo, S., & Li, L. D. (2024). The effects of over-reliance on AI dialogue systems on students' cognitive abilities: A systematic review. *Smart Learning Environments, 11*, 28. https://doi.org/10.1186/s40561-024-00316-7
-   - Zotero: [open pdf](obsidian://second-reader?open-pdf=The%20Effects%20of%20Over-Reliance%20on%20AI%20Dialogue%20Systems%20on%20Students%27%20Cognitive%20Abilities%20-%20A%20Systematic%20Review) · Literature note: [[The Effects of Over-Reliance on AI Dialogue Systems on Students' Cognitive Abilities - A Systematic Review]]
+   - Zotero: [open pdf](obsidian://second-reader?open-pdf=The%20effects%20of%20over-reliance%20on%20AI%20dialogue%20systems%20on%20students%27%20cognitive%20abilities%20-%20a%20systematic%20review) · Literature note: [[The effects of over-reliance on AI dialogue systems on students' cognitive abilities - a systematic review]]
 2. Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., S, M., & Joseph, S. (2025). The cognitive paradox of AI in education: Between enhancement and erosion. *Frontiers in Psychology, 16*, 1550621. https://doi.org/10.3389/fpsyg.2025.1550621
-   - Zotero: [open pdf](obsidian://second-reader?open-pdf=The%20Cognitive%20Paradox%20of%20AI%20in%20Education%20-%20Between%20Enhancement%20and%20Erosion) · Literature note: [[The Cognitive Paradox of AI in Education - Between Enhancement and Erosion]]
+   - Zotero: [open pdf](obsidian://second-reader?open-pdf=The%20cognitive%20paradox%20of%20AI%20in%20education%20-%20between%20enhancement%20and%20erosion) · Literature note: [[The cognitive paradox of AI in education - between enhancement and erosion]]
 
 ^w02-readings
 
-*Assignments:* Literature notes for this week's readings; at least two permanent notes
+*Assignments:* Create literature notes for this week's readings and permanent notes for the ideas you take away from each paper
 
 ---
 
 ### PART 2: WRITING AND JUDGMENT (Weeks 3–4)
 
-#### Week 3 (Jan 27): Writing, memory, and sameness
+#### Week 3 (Jan 27): Ease, depth, and sameness
 
 [Package my Week 3 literature notes for upload](obsidian://second-reader?package-week=3&syllabus=Syllabus%20-%20SR%20101%20Thinking%20With%20Machines%20-%20student%20copy)
 
 > [!goal] Themes or goals
-> Writing is one of the main ways people think. One study asks what happens to memory, ownership and brain activity when an AI assistant helps write an essay. The other asks what happens to the variety of creative work when many people use the same tool.
+> An AI tool can make a task feel easier. One study compares students who researched a question with ChatGPT or with Google and asks whether the easier search led to weaker reasoning, and whether their conclusions became more alike. The other asks what happens to the variety of creative work when many people use the same tool.
 
 ^w03-goal
 
 > [!question] Questions to think about before class
-> - *What does it mean to own a piece of writing? Which of the measures in Kosmyna and colleagues get at that?*
-> - *The Kosmyna study is a preprint with a small sample. Which claims would you repeat to a friend, and which would you hold back?*
+> - *Stadler and colleagues found that students who used ChatGPT felt less mental effort and gave weaker justifications. Is less effort the cause, or could something else explain both?*
+> - *Their students' recommendations were no more alike with ChatGPT than with Google, while Doshi and Hauser found that AI-assisted stories were more alike. What differences between the two studies might account for that?*
 > - *How can a tool make each person's work better while making everyone's work more alike?*
-> - *If outputs converge, who loses: readers, writers, or the culture that draws on both?*
+> - *If the artifacts that individuals produce converge, who loses: readers, writers, or the culture that draws on both? All of the above? Who might gain?* 
 
 ^w03-questions
 
 *Readings:*
-1. Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X.-H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). *Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task* (arXiv:2506.08872). arXiv. https://doi.org/10.48550/arXiv.2506.08872
-   - Zotero: [open pdf](obsidian://second-reader?open-pdf=Your%20Brain%20on%20ChatGPT%20-%20Accumulation%20of%20Cognitive%20Debt%20when%20Using%20an%20AI%20Assistant%20for%20Essay%20Writing%20Task) · Literature note: [[Your Brain on ChatGPT - Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task]]
-2. Doshi, A. R., & Hauser, O. P. (2023). *Generative artificial intelligence enhances individual creativity but reduces the collective diversity of novel content* (arXiv:2312.00506). arXiv. https://doi.org/10.48550/arXiv.2312.00506
-   - Zotero: [open pdf](obsidian://second-reader?open-pdf=Generative%20Artificial%20Intelligence%20Enhances%20Individual%20Creativity%20but%20Reduces%20the%20Collective%20Diversity%20of%20Novel%20Content) · Literature note: [[Generative Artificial Intelligence Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content]]
+1. Stadler, M., Bannert, M., & Sailer, M. (2024). Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry. *Computers in Human Behavior, 160*, 108386. https://doi.org/10.1016/j.chb.2024.108386
+   - Zotero: [open pdf](obsidian://second-reader?open-pdf=Cognitive%20ease%20at%20a%20cost%20-%20LLMs%20reduce%20mental%20effort%20but%20compromise%20depth%20in%20student%20scientific%20inquiry) · Literature note: [[Cognitive ease at a cost - LLMs reduce mental effort but compromise depth in student scientific inquiry]]
+2. Doshi, A. R., & Hauser, O. P. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. *Science Advances, 10*(28), eadn5290. https://doi.org/10.1126/sciadv.adn5290
+   - Zotero: [open pdf](obsidian://second-reader?open-pdf=Generative%20AI%20enhances%20individual%20creativity%20but%20reduces%20the%20collective%20diversity%20of%20novel%20content) · Literature note: [[Generative AI enhances individual creativity but reduces the collective diversity of novel content]]
 
 ^w03-readings
 
-*Assignments:* Literature notes for this week's readings
+*Assignments:* Create literature notes for this week's readings and permanent notes for the ideas you take away from each paper
 
 ---
 
@@ -157,27 +157,27 @@ To make a literature note, run **Second Reader: APA Zotero import** from the com
 [Package my Week 4 literature notes for upload](obsidian://second-reader?package-week=4&syllabus=Syllabus%20-%20SR%20101%20Thinking%20With%20Machines%20-%20student%20copy)
 
 > [!goal] Themes or goals
-> As AI takes over more of the work, the decisions left to people are the judgment calls. One paper tests designs that make people think before accepting an AI recommendation. The other shows that language models tend to tell people what they want to hear. Together they ask whose judgment ends up in the result.
+> When an AI system produces work, this puts people in the role of evaluating what's produced and making judgment calls about its value and trustworthiness. One paper tests designs that make people think before accepting an AI recommendation. The other shows that language models tend to tell people what they want to hear. Together they raise questions about whose judgment ends up in the final result.
 
 ^w04-goal
 
 > [!question] Questions to think about before class
 > - *Buçinca and colleagues found that the designs that reduced over-reliance were the ones people liked least. What does that mean for how AI tools get built?*
-> - *If a model tends to agree with you, what happens to its value as a second reader?*
+> - *If a model tends to agree with you, what happens to its value as a critic of your work?*
 > - *What would it look like to keep a judgment call your own while still using AI to do the work?*
-> - *Looking back over the course: where does a second reader help, and where does it start to replace the first reader?*
+
 
 ^w04-questions
 
 *Readings:*
 1. Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). *To trust or to think: Cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making* (arXiv:2102.09692). arXiv. https://doi.org/10.48550/arXiv.2102.09692
    - Zotero: [open pdf](obsidian://second-reader?open-pdf=To%20Trust%20or%20to%20Think%20-%20Cognitive%20Forcing%20Functions%20Can%20Reduce%20Overreliance%20on%20AI%20in%20AI-assisted%20Decision-making) · Literature note: [[To Trust or to Think - Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making]]
-2. Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2023). *Towards understanding sycophancy in language models* (arXiv:2310.13548). arXiv. https://doi.org/10.48550/arXiv.2310.13548
+2. Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2025). *Towards understanding sycophancy in language models* (arXiv:2310.13548). arXiv. https://doi.org/10.48550/arXiv.2310.13548
    - Zotero: [open pdf](obsidian://second-reader?open-pdf=Towards%20Understanding%20Sycophancy%20in%20Language%20Models) · Literature note: [[Towards Understanding Sycophancy in Language Models]]
 
 ^w04-readings
 
-*Assignments:* Synthesis note due
+*Assignments:* Synthesis note due. Also, create literature notes for this week's readings and permanent notes for the ideas you take away from each paper
 
 ---
 
@@ -193,15 +193,15 @@ To make a literature note, run **Second Reader: APA Zotero import** from the com
 ### Using GenAI in This Course
 
 This course is about using GenAI intentionally. You may use GenAI tools as a second reader: to question your summary, to point out what you skipped, or to argue with one of your permanent notes. However:
-- Be open about when and how you used GenAI
+- Be transparent with yourself (and me!) about when and how you used GenAI
 - Do the reading and the thinking yourself; don't let GenAI read for you or write your notes
-- The literature-note template asks how you read each paper. One of the options is "GenAI read this for me." Be honest there.
+- The literature-note template asks how you read each paper. Be honest about how you read it.
 
 If you have questions about what's appropriate, ask.
 
 ### Let Me Know if Problems Arise
 
-If anything comes up that might interfere with your ability to do the work or get the most from this class, let me know early, when more solutions are available.
+If anything comes up that might interfere with your ability to do the work or get the most from this class, let me know early, because more solutions are available the earlier I can help.
 
 ---
 

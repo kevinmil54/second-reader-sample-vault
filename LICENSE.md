@@ -8,7 +8,7 @@ The syllabus, course home, meeting notes, templates, other notes and the CSS sni
 
 ## Readings
 
-The PDFs in `SR 101 Zotero readings/files/` belong to their authors and publishers and are included under their own open licenses (CC BY, CC BY-NC-SA or CC BY-NC-ND), listed with attribution in `SOURCES.md`.
+The PDFs in `Second Reader Sample Readings (Zotero)/files/` belong to their authors and publishers and are included under their own open licenses (all CC BY), listed with attribution in `SOURCES.md`.
 
 ## Second Reader plugin
 

@@ -1,4 +1,4 @@
-*This is the general Second Reader setup guide. In the SR 101 starter vault, the folders, templates, plugin and import format are already set up, so you can skip Part 4 steps a–e. The import command in this vault is "Second Reader: APA Zotero import".*
+*This guide covers two cases. If you downloaded the SR 101 starter vault from GitHub, the vault and the course's Zotero collection come together in one download. Its folders, templates, plugins and import format are already set up, so in Part 4 you can skip "Vault folders" and steps a–e. If you are setting up your own vault from scratch, follow every step. The import command in the starter vault is "Second Reader: APA Zotero import".*
 
 # Setting Up Your Second Reader Note System
 
@@ -82,9 +82,16 @@ pinch; on Mac, use TextEdit's **Format → Make Plain Text** first.
    launch it.
    **Windows:** run the downloaded installer, launch Obsidian when it
    finishes.
-3. On first launch: **Create a new vault** (a vault is just a folder of
-   notes). If your instructor gave you a starter vault instead, choose
-   **Open folder as vault** and pick that folder.
+3. On first launch, open or create a vault (a vault is just a folder of
+   notes).
+   - **If you have the SR 101 starter vault:** on the GitHub page, click the
+     green **Code** button → **Download ZIP**, and unzip it somewhere that
+     isn't inside another vault. The unzipped folder is usually named
+     `second-reader-sample-vault-main`; you can rename it. In Obsidian choose
+     **Open folder as vault** and pick that folder itself, not the folder
+     that contains it. When Obsidian asks whether you trust the author,
+     choose **Trust author and enable plugins**.
+   - **If you're starting from scratch:** choose **Create a new vault**.
 
 ---
 
@@ -129,50 +136,71 @@ This is what saves an article into Zotero straight from your browser.
 
 ### 3b. Add the class readings to Zotero
 
-Your instructor posts the course readings on Canvas as a single download
-(a `.zip` file). Importing it puts every reading — with its PDF — into your
-own Zotero library in one step. **Install Better BibTeX (step 3.5) before
-doing this.**
+The class readings come as a Zotero collection: a `.rdf` file with a
+`files` folder of PDFs next to it. Importing it puts every reading, with its
+PDF, into your own Zotero library in one step. **Install Better BibTeX
+(step 3, item 5) before doing this**, so each reading gets the same citation
+key the literature notes expect.
 
-1. Download the readings file from Canvas and unzip it (**Mac:**
-   double-click it; **Windows:** right-click → **Extract All…**). You'll get
-   a folder containing a `.rdf` file and a `files` folder.
+1. Find the collection.
+   - **Starter vault from GitHub:** it's already in the vault, in the
+     `Second Reader Sample Readings (Zotero)` folder (`Second Reader Sample
+     Readings (Zotero).rdf` and `files`). There's nothing else to download.
+   - **A course that posts its readings on Canvas:** download the readings
+     file (a `.zip`) and unzip it (**Mac:** double-click it; **Windows:**
+     right-click → **Extract All…**). You'll get a folder containing a
+     `.rdf` file and a `files` folder.
 2. In Zotero: **File → Import…** → choose **"A file (BibTeX, RIS, Zotero
-   RDF, etc.)"** → **Next** → select the `.rdf` file inside the folder you
-   just unzipped.
+   RDF, etc.)"** → **Next** → select the `.rdf` file. Keep it where it is,
+   with the `files` folder beside it; Zotero looks for the PDFs there.
 3. On the options screen:
    - Leave **"Place imported collections and items into new collection"**
      checked, so the readings arrive in their own collection.
    - Under **File Handling**, choose **"Copy files to the Zotero storage
      folder."**
 4. Click **Next**, then **Finish**. The readings appear in a new collection
-   in your library, each with its PDF.
+   in your library, each with its PDF. Check that each item has a PDF under
+   it.
 
-When your instructor adds readings later, they'll post another file —
-import it the same way.
+Don't rename the items or change their citation keys in Zotero. The
+literature notes find each reading by its citation key.
+
+When your instructor adds readings later, they'll post another file.
+Import it the same way.
 
 ---
 
 ## 4. Set up Obsidian for the Second Reader note system
 
 ### Vault folders
-Create these folders at the top level of your vault (in Obsidian's file
-explorer, right-click the vault's root → **New folder**, once per name):
 
-**Templates**, **Literature notes**, **Permanent notes**, **Synthesis
-notes**, **Projects**, **Authors**, **Images**
+If you're using the starter vault, these folders are already there, along
+with everything in steps a–e, so you can skip ahead to step f. If you're setting up your own
+vault, create each of these at the top level of your vault (in Obsidian's
+file explorer, right-click the vault's root → **New folder**, once per
+name). It's often easier to start from the starter vault, rename it, and
+delete the sample course.
 
-`Authors` holds one note per author (a short bio, links and, if you like,
-a photo), which literature notes embed. `Images` holds figures from the
-papers, images from your Zotero highlights, and screenshots; set it as the
-attachment folder under Settings → Files and links.
+| Folder | What it holds |
+|---|---|
+| `Classes` | One folder per course, with the syllabus, a course home note, and a `Meeting notes` folder with one note per class |
+| `Literature notes` | One note per reading, made by the import command |
+| `Authors` | One note per author, with a short bio, links and, if you like, a photo; literature notes embed these |
+| `Permanent notes` | Your own ideas, one idea per note, made from literature notes |
+| `Synthesis notes` | Notes that pull several permanent notes together on one topic |
+| `Projects` | Notes for something you're writing, such as a paper or talk |
+| `Inbox` | New and unsorted notes until you file them |
+| `Images` | Figures from the papers, images from your Zotero highlights, and screenshots |
+| `Templates` | The literature note, permanent note, synthesis note, project and class meeting templates |
+| `Uploads` | Zips made by the syllabus's "Package my Week N" links, ready to hand in |
 
-If you're using your instructor's starter vault, these folders are already
-there.
+Then set `Images` as the attachment folder: Settings → **Files and links** →
+**Default location for new attachments** → **In the folder specified below**
+→ `Images`.
 
-Everything below — the plugin's defaults, the import format, the
-templates' Connections section — assumes these exist with these exact
-names (plain spaces, no underscores or abbreviations).
+Everything below (the plugin's defaults, the import format, the templates'
+Connections section) assumes these folders exist with these exact names:
+plain spaces, no underscores or abbreviations.
 
 ### a. Turn on community plugins
 Settings (gear icon) → **Community plugins** → **Turn on community
@@ -289,8 +317,9 @@ Once setup is done, this is the whole routine per paper.
    format from step 4e). Search for the article by title or author and
    select it. Obsidian creates the note, pre-filled with title, authors,
    year, an **Open PDF** link, the Zotero link, and the full APA reference.
-   Make every class reading's note this way — don't rename the note, so the
-   syllabus can find it.
+   Make every class reading's note this way, and don't rename the note, so
+   the syllabus can find it. In the starter vault, every class reading
+   already has its literature note; open it from the syllabus instead.
 3. **Open the paper** with the **Open PDF** link at the top of the note, or
    with the **open pdf** link next to that reading in the class syllabus
    (see [Using the class syllabus](#using-the-class-syllabus)).
@@ -342,7 +371,7 @@ Once setup is done, this is the whole routine per paper.
    it.
 10. Over time, gather related Permanent notes into a **Synthesis note** (in
    your `Synthesis notes` folder) that says what you now think about a
-   topic. Use **Project notes** (in `Project notes`) when you're actually
+   topic. Use **Project notes** (in `Projects`) when you're actually
    writing something and want to pull together the Permanent notes that
    support it. Link back to a Permanent note's **Connections** section as
    you build these.
@@ -351,8 +380,10 @@ Once setup is done, this is the whole routine per paper.
 
 ## Using the class syllabus
 
-Your instructor gives you the syllabus as an Obsidian note (download it
-from Canvas and put it anywhere in your vault). Each reading in it has two
+The syllabus is an Obsidian note. In the starter vault it's already in
+`Classes/SR 101 Sample term`, with a course home note and a meeting note
+for each class. For another course, your instructor gives you the syllabus
+(for example on Canvas); put it in that course's folder under `Classes`. Each reading in it has two
 links:
 
 > Zotero: **open pdf** · Literature note: **[[Title of the reading]]**
@@ -382,9 +413,10 @@ Week N literature notes for upload**. Click it and Second Reader:
 1. finds the literature notes you have worked on for that week's readings
    (one file per reading). Notes that are still blank, and readings you
    haven't made a note for, are skipped and listed in the message;
-2. puts them in a zip named like `ED 336 Week 05 literature notes - Your Name.zip`
+2. puts them in a zip named like `SR 101 Week 01 literature notes - Your Name.zip`
    in the `Uploads` folder of your vault;
-3. shows the zip in Finder (Explorer on Windows), ready to upload to Canvas.
+3. shows the zip in Finder (Explorer on Windows), ready to hand in (for
+   example on Canvas).
 
 The first time, it asks for your name; you can change it later under
 Settings → Second Reader → "Your name". Clicking the link again replaces
@@ -409,6 +441,12 @@ template first. For any other template change, re-download it from
 **[the class repo](https://github.com/kevinmil54/second-reader-obsidian-promote/tree/main/Templates)**
 and replace your copy.
 
+A newer copy of the starter vault on GitHub won't replace yours
+automatically. If you want something from it, such as an updated syllabus,
+download the new copy somewhere else and copy over only the files you need.
+Don't copy over your literature notes or permanent notes, or you'll lose
+what you wrote.
+
 ### Upgrading to Second Reader 2
 
 If you set things up earlier this term (with "Second Reader: Promote
@@ -427,10 +465,10 @@ step-by-step instructions in **[UPDATING.md](https://github.com/kevinmil54/secon
 | Import or sync fails / "could not connect to Zotero" / "is Zotero running?" | Zotero desktop must be running. Check Zotero → Settings → Advanced → "Allow other applications to communicate with Zotero" is checked. |
 | Sync says "No new highlights" but you just highlighted | The highlights were made in another PDF app (Preview, Adobe) — make them in **Zotero's** PDF reader. Also check that the note you have open is the literature note for that paper. |
 | "open pdf" in the syllabus says you haven't made the literature note yet, but you have | The note's name doesn't match the syllabus link. If it's named by citation key (like `cai2009`), run **"Second Reader: Name literature notes by title"**; if you renamed it, rename it back to the title shown in the syllabus link. |
-| "open pdf" says it couldn't find a PDF | Make sure Zotero is open, and that the reading has its PDF attached in your Zotero library (re-import the class readings file from Canvas if it's missing). |
+| "open pdf" says it couldn't find a PDF | Make sure Zotero is open, and that the reading has its PDF attached in your Zotero library (re-import the class readings from the vault's `Second Reader Sample Readings (Zotero)` folder, or from Canvas, if it's missing). |
 | A syllabus link stays dimmed after you made the note | The note's name has to match the link exactly. If your notes are named by citation key (like `cai2009`), run **"Second Reader: Name literature notes by title"** — it renames them and fixes your import format. Otherwise rename the note to the title shown in the link. |
 | A syllabus link is green but you haven't written anything | Anything typed in the note body counts — check for a stray word or line. Filling in the top section (your name, course, date read) doesn't count. |
-| Readings import into Zotero without PDFs | When importing the class readings file, choose **"Copy files to the Zotero storage folder"**, and import the `.rdf` from inside the unzipped folder (the `files` folder must sit next to it). |
+| Readings import into Zotero without PDFs | When importing the class readings file, choose **"Copy files to the Zotero storage folder"**, and import the `.rdf` from where it sits, with its `files` folder next to it. In the starter vault that's the `Second Reader Sample Readings (Zotero)` folder. |
 | Sync says the note "has no citekey in its frontmatter" | Sync only works in a literature note created by the import command, which records the paper's citekey at the top of the note. Don't delete the `citekey:` line. |
 | Quotes show the PDF's sheet number instead of the printed page | The PDF's page numbering is missing or wrong. In Zotero's reader, right-click a page in the thumbnails sidebar → **Rename Page…** to set the correct number; future syncs will use it (quotes already synced keep their old number — edit them by hand). |
 | A quote I deleted from the note came back after syncing | Syncing adds any highlight that isn't in the note yet. To remove a quote for good, delete the highlight in Zotero too. |
