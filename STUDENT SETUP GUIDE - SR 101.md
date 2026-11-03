@@ -88,7 +88,7 @@ pinch; on Mac, use TextEdit's **Format → Make Plain Text** first.
      you were given, or from the GitHub page with the green **Code** button →
      **Download ZIP**. Unzip it somewhere that isn't inside another vault.
      The unzipped folder is named after the version you downloaded, such as
-     `second-reader-sample-vault-1.0` or `second-reader-sample-vault-main`;
+     `second-reader-sample-vault-1.1` or `second-reader-sample-vault-main`;
      you can rename it. In Obsidian choose
      **Open folder as vault** and pick that folder itself, not the folder
      that contains it. When Obsidian asks whether you trust the author,
