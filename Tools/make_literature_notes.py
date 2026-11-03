@@ -17,11 +17,17 @@ readings. Author details come from an optional JSON file (--authors), keyed by
 the author's name as "First Last":
 
   {"Hao-Ping Lee": {"position": "...", "bio": "...", "homepage": "...",
-                    "openalex": "A5...", "sources": ["https://..."]}}
+                    "openalex": "A5...", "sources": ["https://..."],
+                    "photo": "https://...", "photo_page": "https://...",
+                    "photo_credit": "CMU HCII profile"}}
+
+A photo is linked from where it is published, not copied into the vault,
+because profile photos are usually copyrighted.
 
 Figures can be added from an optional JSON file (--figures), keyed by citation
 key: {"lee2025": [{"file": "lee2025 fig01.png", "caption": "...", "page": 3}]},
-with the images already in Images/<citekey>/.
+with the images already in Images/<citekey>/. An optional "note" is shown
+under the caption.
 
 Usage:
   python3 make_literature_notes.py --rdf "path/to/Course.rdf" --vault "path/to/vault"
@@ -215,8 +221,14 @@ def author_note(name, info):
     lines = ["---", f'name: "{name}"']
     if info.get("openalex"):
         lines.append(f"openalex: {info['openalex']}")
-    lines += ["tags: [author]", "---", f"# {name}", "", "## About", "%% author-info start %%",
-              f"%% Photo: save a photo in the Authors folder and embed it on the next line, e.g. ![[{name}.jpg|160]] %%"]
+    lines += ["tags: [author]", "---", f"# {name}", "", "## About", "%% author-info start %%"]
+    if info.get("photo"):
+        # Linked, not copied: profile photos are usually copyrighted
+        credit = info.get("photo_credit") or "source"
+        page = info.get("photo_page") or info["photo"]
+        lines += [f"![{name}|160]({info['photo']})", f"*Photo: [{credit}]({page}), linked, not copied*"]
+    else:
+        lines.append(f"%% Photo: save a photo in the Authors folder and embed it on the next line, e.g. ![[{name}.jpg|160]] %%")
     if info.get("position"):
         lines.append(f"- **Position:** {info['position']}")
     if info.get("bio"):
@@ -269,7 +281,10 @@ def literature_note(it, template, lead, figures):
         figs = ["%% begin paper-figures %%"]
         for f in figures:
             page = f" (PDF p. {f['page']})" if f.get("page") else ""
-            figs += [f"![[{f['file']}]]", f"*Caption from the paper:* {f['caption']}{page}", ""]
+            figs += [f"![[{f['file']}]]", f"*Caption from the paper:* {f['caption']}{page}"]
+            if f.get("note"):
+                figs.append(f"*Note:* {f['note']}")
+            figs.append("")
         figs[-1] = "%% end paper-figures %%"
         body = re.sub(r"(## Figures & images\n\*[^\n]*\*\n\n)!\[\[\]\]\n",
                       lambda m: m.group(1) + "\n".join(figs) + "\n", body)

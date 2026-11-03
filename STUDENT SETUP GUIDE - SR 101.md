@@ -383,7 +383,7 @@ Once setup is done, this is the whole routine per paper.
 ## Using the class syllabus
 
 The syllabus is an Obsidian note. In the starter vault it's already in
-`Classes/SR 101 Sample term`, with a course home note and a meeting note
+`Classes/SR 101 example/Winter 2027`, with a course home note and a meeting note
 for each class. For another course, your instructor gives you the syllabus
 (for example on Canvas); put it in that course's folder under `Classes`. Each reading in it has two
 links:

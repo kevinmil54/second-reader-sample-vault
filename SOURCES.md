@@ -1,6 +1,6 @@
 # Readings and their licenses
 
-The notes, syllabus and templates in this repository are licensed under CC BY 4.0 (see LICENSE.md). The readings keep their own licenses, listed below. Every reading was chosen because its license allows the PDF to be shared publicly, so all of them are in `Second Reader Sample Readings (Zotero)/files/`.
+The notes, syllabus and templates in this repository are licensed under CC BY 4.0 (see LICENSE.md). The readings keep their own licenses, listed below. Every reading was chosen because its license allows the PDF to be shared publicly, so all of them are in `Second Reader Sample Readings (Zotero)/files/`. The figures in `Images/` are taken from these readings under the same licenses, and each literature note gives the full reference. Author photos are not stored in the vault; each author note links to the photo on the author's own or institutional page.
 
 | # | Week | Reading | License |
 |---|---|---|---|

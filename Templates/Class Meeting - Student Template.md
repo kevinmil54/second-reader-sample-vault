@@ -1,6 +1,6 @@
 <%*
 const course = await tp.system.prompt("Course", "SR 101");
-const offering = await tp.system.prompt("Offering", "Sample term");
+const offering = await tp.system.prompt("Offering", "Winter 2027");
 const num = String(await tp.system.prompt("Meeting number (e.g. 3)", "")).padStart(2, "0");
 const date = await tp.system.prompt("Date (YYYY-MM-DD)", tp.date.now("YYYY-MM-DD"));
 const topic = await tp.system.prompt("Topic", "");

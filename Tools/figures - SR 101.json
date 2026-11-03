@@ -1,0 +1,125 @@
+{
+ "bucinca2021": [
+  {
+   "file": "bucinca2021 fig01.png",
+   "caption": "Fig. 1. Multiple conditions. (a) depicts the main interface with the explanation condition, where the ingredients are recognized correctly and an explanation is provided for top replacements. In uncertainty condition (b) participants were shown AI’s confidence along with the explanation. In on demand condition (c) participants could click to see the AI’s suggestion and explanation, whereas in wait condition (d) they were shown a message “AI is processing the image” for 30 seconds before the suggestion and explanation were presented to them.",
+   "page": 6
+  },
+  {
+   "file": "bucinca2021 fig02.png",
+   "caption": "Fig. 2. Subjective measures vs. performance",
+   "page": 13
+  },
+  {
+   "file": "bucinca2021 fig03.png",
+   "caption": "Fig. 3. Trust vs. reliance on AI for correct model predictions and incorrect model predictions (i.e., overreliance)",
+   "page": 13
+  }
+ ],
+ "doshi2024": [
+  {
+   "file": "doshi2024 fig01.png",
+   "caption": "Fig. 1. Visual representation of experimental design. (A) Participants are recruited, provide consent to participate in the study, and complete the divergent association task (DAT)—a measure of an individual’s inherent creativity (25)—before being randomly assigned to one of three experimental conditions: a Human-only condition where the story was written with no generative AI assistance, a Human with one GenAI idea condition, and a Human with five GenAI ideas condition. A total of 293 stories are collected and then passed to evaluators. (B) Evaluators provide ratings on six randomly assigned stories. The evaluators cycle through each story three times. First, before any information revelation, the evaluator assesses the creativity and emotional characteristics of the story. Second, the evaluator is asked to assess how likely the story was written by an AI versus a human. Third, the evaluator is told about whether the writer had access to and used generative AI and then provides responses about the ownership claim of the writer of each story. Evaluators then provide general responses to their views of generative AI.",
+   "page": 2
+  },
+  {
+   "file": "doshi2024 fig02.png",
+   "caption": "Fig. 2. Evaluation of creativity and emotional characteristics by third-party evaluators. (A) Compares novelty and usefulness indices (with constituent components of each index below) of participants in the Human-only condition (dashed vertical line) to participants who had access to one generative AI idea (top half in each panel, blue) or five generative AI ideas (bottom half, red). (B) Compares emotional characteristics of the Human-only condition (dashed vertical line) to Human with one GenAI idea and Human with five GenAI ideas conditions.",
+   "page": 3
+  },
+  {
+   "file": "doshi2024 fig03.png",
+   "caption": "Fig. 3. Marginal effect of writer’s inherent creativity (as measured by DAT score) on the creativity indices and on select emotional characteristics by condition.",
+   "page": 4
+  },
+  {
+   "file": "doshi2024 fig04.png",
+   "caption": "Fig. 4. Comparison of similarity of writer stories to generative AI ideas and others stories. (A) Kernel density plots comparing story similarity to all other stories in the same condition and ideas produced by generative AI for each condition. (B) Compares story outcomes of Human-only (reference category) to humans with access to one and five generative AI ideas.",
+   "page": 5
+  }
+ ],
+ "gerlich2025": [
+  {
+   "file": "gerlich2025 fig01.png",
+   "caption": "Figure 1. Feature importance in random forest regression.",
+   "page": 17
+  },
+  {
+   "file": "gerlich2025 fig02.png",
+   "caption": "Figure 2. Distribution of residuals—random forest regression.",
+   "page": 18,
+   "note": "In this PDF the plot above this caption shows actual vs. predicted critical thinking scores, not residuals."
+  },
+  {
+   "file": "gerlich2025 fig03.png",
+   "caption": "Figure 3. Actual vs. predicted critical thinking scores—random forest regression.",
+   "page": 19
+  }
+ ],
+ "lee2025": [
+  {
+   "file": "lee2025 fig01.png",
+   "caption": "Figure 1: Schematic overview of the survey design and our corresponding analysis approach.",
+   "page": 7
+  },
+  {
+   "file": "lee2025 fig02.png",
+   "caption": "Figure 2: Distribution of perceived effort (%) in cognitive activities (based on Bloom’s taxonomy) when using a GenAI tool compared to not using one.",
+   "page": 13
+  }
+ ],
+ "sharma2025": [
+  {
+   "file": "sharma2025 fig01.png",
+   "caption": "Figure 1: AI Assistants Can Give Biased Feedback (Feedback Sycophancy). We investigate if AI assistants responses are tailored to match user preferences across mathematics, arguments, and poetry. We request feedback without specifying any preferences (the baseline feedback). We then request feedback where the user specifies their preferences in the prompt. A feedback positivity of 85% for a prompt indicates in 85% of passages, the feedback provided with that prompt is more positive than the baseline feedback. Mean and standard error across domains shown. Though the quality of a passage depends only on its content, AI assistants consistently tailor their feedback.",
+   "page": 3
+  },
+  {
+   "file": "sharma2025 fig02.png",
+   "caption": "Figure 2: AI Assistants Can Be Easily Swayed (Are You Sure? Sycophancy). We use subsets of five QA datasets: (i) MMLU; (ii) MATH; (iii) AQuA; (iv) TruthfulQA; and (v) TriviaQA and examine AI assistant behavior when challenged by the user. (a) We measure the frequency of questions on which the AI assistant apologizes despite having given a correct answer. (b) We further measure the frequency the assistant revises correct responses to inaccurate responses when questioned. Mean and standard error shown. When challenged, AI assistants sometimes provide incorrect, sycophantic responses, even when the assistant originally provided accurate information.",
+   "page": 4
+  },
+  {
+   "file": "sharma2025 fig03.png",
+   "caption": "Figure 3: AI Assistants Can Provide Answers that Conform to User Beliefs (Answer Sycophancy). We consider user-stated beliefs affect AI assistant accuracy. We use free-form variants of TruthfulQA and TriviaQA, and show the mean baseline accuracy alongside mean change in accuracy and standard error. Overall, the AI assistants tend to modify their beliefs to agree with the user, which can lead to a drop in accuracy.",
+   "page": 5
+  },
+  {
+   "file": "sharma2025 fig04.png",
+   "caption": "Figure 4: AI Assistant Responses Sometimes Mimic User Mistakes (Mimicry Sycophancy). We ask AI assistants to analyze poems the user has incorrectly attributed to the wrong poet. We only consider poems where the assistants correctly identify the true poet when asked to do so. We measure the frequency the AI assistant provides analysis that mentions the mistaken attribution in the user’s query without correcting the user. For example, when shown John Donne’s “Song,” the assistant correctly identifies John Donne as the author but incorrectly identifies Sylvia Plath as the author when the user does. Overall, AI assistants frequently do not correct the user’s mistake and instead provide responses that repeat with the user’s incorrect attribution.",
+   "page": 5
+  },
+  {
+   "file": "sharma2025 fig05.png",
+   "caption": "Figure 5: Human Preference Data Analysis. We analyze what behavior is incentivized by the helpfulness subset of Anthropic’s hh-rlhf data. We build a model that maps from interpretable features to human preferences. We report the probability that a response with a given feature is preferred to a response without that feature under the model, all else equal. Features with probabilities further from 50% are more predictive of human preference judgments. Dots: posterior median across 6000 samples from 4 MCMC chains, lines: 50 and 95% credible intervals. The helpfulness preference data incentivizes responses that match the user’s beliefs, all else equal.",
+   "page": 6
+  },
+  {
+   "file": "sharma2025 fig06.png",
+   "caption": "Figure 6: Effect of Best-of-N Sampling and RL Training on Sycophancy. We measure various sycophancy metrics when optimizing against the preference model (PM) used to train Claude 2. (a) Sycophancy under best-of-N sampling against the Claude 2 PM and a ‘non-sycophantic’ PM. Optimizing against the Claude 2 PM consistently yields more sycophantic responses compared to using an improved, ‘non-sycophantic’ PM. (b) Sycophancy throughout RL training. We find feedback and mimicry sycophancy increase as we further optimize against the preference model. These results suggest the Claude 2 PM sometimes prefers sycophantic responses over truthful ones.",
+   "page": 7
+  },
+  {
+   "file": "sharma2025 fig07.png",
+   "caption": "Figure 7: Humans and PMs Sometimes Prefer Sycophantic Responses Over Truthful Ones. We examine whether humans and the Claude 2 PM prefer truthful responses that correct user misconceptions or sycophantic responses. (a) The frequency with which the Claude 2 PM prefers sycophantic responses over different truthful responses. (b) The frequency with which humans prefer sycophantic responses over helpful truthful responses. (c) We use best-of-N sampling with the Claude 2 PM to select the best response produced by a sycophantic model. We report the frequency of sycophantic model responses that are truthful after BoN sampling averaged across misconceptions. (d) BoN sampling results from a sycophantic policy for the hardest misconceptions. Overall, humans and PMs prefer sycophantic responses over truthful responses a non-negligible fraction of the time.",
+   "page": 8
+  }
+ ],
+ "zhai2024": [
+  {
+   "file": "zhai2024 fig01.png",
+   "caption": "Fig. 1 The PRISMA flowchart",
+   "page": 10
+  },
+  {
+   "file": "zhai2024 fig02.png",
+   "caption": "Fig. 2 Three key cognitive abilities",
+   "page": 15
+  },
+  {
+   "file": "zhai2024 fig03.png",
+   "caption": "Fig. 3 Five ethical issues of AI identified in this study",
+   "page": 19
+  }
+ ]
+}

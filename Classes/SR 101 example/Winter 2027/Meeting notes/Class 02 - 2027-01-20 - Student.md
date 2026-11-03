@@ -1,25 +1,25 @@
 ---
 type: class-note
 course: "SR 101: Thinking With Machines (sample course)"
-offering: Sample term
-meeting: 4
-date: 2027-02-03
-topic: "Who makes the judgment calls"
+offering: Winter 2027
+meeting: 2
+date: 2027-01-20
+topic: "Learning when the machine has the answers"
 tags: [class-note, teaching]
 ---
 
-# Class 04 - 2027-02-03: Who makes the judgment calls
+# Class 02 - 2027-01-20: Learning when the machine has the answers
 
-Previous: [[Class 03 - 2027-01-27 - Student]] · Next: none · [[SR 101 - Course home|Course home]] · [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
+Previous: [[Class 01 - 2027-01-13 - Student]] · Next: [[Class 03 - 2027-01-27 - Student]] · [[SR 101 - Course home|Course home]] · [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
 
 ## Themes or goals
-![[Syllabus - SR 101 Thinking With Machines - student copy#^w04-goal]]
+![[Syllabus - SR 101 Thinking With Machines - student copy#^w02-goal]]
 
 ## Questions to think about before class
-![[Syllabus - SR 101 Thinking With Machines - student copy#^w04-questions]]
+![[Syllabus - SR 101 Thinking With Machines - student copy#^w02-questions]]
 
 ## Readings
-![[Syllabus - SR 101 Thinking With Machines - student copy#^w04-readings]]
+![[Syllabus - SR 101 Thinking With Machines - student copy#^w02-readings]]
 
 ## Your notes
 *Write here before and during class. Put `?` on anything you want to ask about.*

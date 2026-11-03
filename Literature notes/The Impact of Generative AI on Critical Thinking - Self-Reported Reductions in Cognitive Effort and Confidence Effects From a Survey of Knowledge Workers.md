@@ -70,7 +70,13 @@ date-read:
 ## Figures & images
 *Screenshots, diagrams, or tables worth keeping. Embed with `![[filename]]`, and caption each one in your own words — why does it matter?*
 
-![[]]
+%% begin paper-figures %%
+![[lee2025 fig01.png]]
+*Caption from the paper:* Figure 1: Schematic overview of the survey design and our corresponding analysis approach. (PDF p. 7)
+
+![[lee2025 fig02.png]]
+*Caption from the paper:* Figure 2: Distribution of perceived effort (%) in cognitive activities (based on Bloom’s taxonomy) when using a GenAI tool compared to not using one. (PDF p. 13)
+%% end paper-figures %%
 
 ## Permanent note candidates
 *Write your own permanent note titles in your own words. These should be "nuggets" — ideas that are interesting to you and/or that you might use in your own work. Checking the box promotes it: a new permanent note gets created automatically and this line becomes a link to it, carrying over any tags you've added above (`literature-note` itself doesn't carry over — the new note is tagged `permanent-note` instead). Want to say more before you promote it? Press Enter then Tab right after the title to add an indented line or two — that carries over into the new note's Core idea too.*

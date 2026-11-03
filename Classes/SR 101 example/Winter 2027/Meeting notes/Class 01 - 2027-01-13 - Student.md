@@ -1,7 +1,7 @@
 ---
 type: class-note
 course: "SR 101: Thinking With Machines (sample course)"
-offering: Sample term
+offering: Winter 2027
 meeting: 1
 date: 2027-01-13
 topic: "Confidence, effort, and critical thinking"

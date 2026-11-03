@@ -7,7 +7,8 @@ tags: [author]
 
 ## About
 %% author-info start %%
-%% Photo: save a photo in the Authors folder and embed it on the next line, e.g. ![[Binny Jose.jpg|160]] %%
+![Binny Jose|160](https://loop.frontiersin.org/images/profile/2719972/203)
+*Photo: [Frontiers Loop profile](https://loop.frontiersin.org/people/2719972/overview), linked, not copied*
 - **Position:** Assistant Professor, Department of Health and Wellness, Marian College Kuttikkanam (Autonomous), Kerala, India; also affiliated with Lincoln University College, Malaysia (affiliations in the 2025 paper)
 - Jose was corresponding author of this paper. No published biography or statement of research interests was found beyond these affiliations.
 - **Links:** [Homepage](https://loop.frontiersin.org/people/2719972/overview) · [OpenAlex profile](https://openalex.org/A5095913993)

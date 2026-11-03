@@ -1,79 +1,100 @@
 {
-  "Hao-Ping Lee": {
-    "position": "PhD candidate, Human-Computer Interaction Institute, Carnegie Mellon University (homepage, August 2026)",
-    "bio": "Lee is a PhD student at CMU's Human-Computer Interaction Institute, advised by Sauvik Das and Jodi Forlizzi. His research covers privacy and security, human-computer interaction, and responsible AI, with a focus on privacy risks from AI and how AI systems affect people's agency. He has interned at IBM Research, Microsoft Research and Brave.",
-    "homepage": "https://hankhplee.com/",
-    "openalex": "A5062891440",
-    "sources": [
-      "https://hankhplee.com/",
-      "https://hcii.cmu.edu/people/hao-ping-hank-lee"
-    ]
-  },
-  "Michael Gerlich": {
-    "position": "Head of the Center for Strategic Corporate Foresight and Sustainability, SBS Swiss Business School (November 2025)",
-    "bio": "Gerlich is a management researcher whose recent work deals with AI's effects on society, organizations and individuals, including public perception and acceptance of AI. He holds a PhD from Anglia Ruskin University and an MBA from the University of Cambridge, and worked for more than 30 years in business, including as a CEO, before his academic career.",
-    "homepage": "https://www.aru.ac.uk/people/michael-gerlich",
-    "openalex": "A5058773312",
-    "sources": [
-      "https://www.sbs.edu/news/sbs-swiss-business-school-celebrates-prof-dr-michael-gerlich-recognized-among-the-top-10-leading-speakers-to-follow-in-2025-2-2/",
-      "https://www.aru.ac.uk/people/michael-gerlich"
-    ]
-  },
-  "Chunpeng Zhai": {
-    "position": "Lecturer and tutor, School of Engineering and Technology, CQUniversity, Australia",
-    "bio": "Zhai (also known as Gary Zhai) holds an MA in Applied Linguistics and a PhD in Computer Science from CQUniversity. His research spans intelligent information systems, e-learning, and applied linguistics and education, including how culture, empathy and humor can improve learning outcomes.",
-    "homepage": "https://staff-profiles.cqu.edu.au/home/view/26478",
-    "openalex": "A5087956754",
-    "sources": [
-      "https://staff-profiles.cqu.edu.au/home/view/26478"
-    ]
-  },
-  "Binny Jose": {
-    "position": "Assistant Professor, Department of Health and Wellness, Marian College Kuttikkanam (Autonomous), Kerala, India; also affiliated with Lincoln University College, Malaysia (affiliations in the 2025 paper)",
-    "bio": "Jose was corresponding author of this paper. No published biography or statement of research interests was found beyond these affiliations.",
-    "homepage": "https://loop.frontiersin.org/people/2719972/overview",
-    "openalex": "A5095913993",
-    "sources": [
-      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full",
-      "https://loop.frontiersin.org/people/2719972/overview"
-    ]
-  },
-  "Anil R. Doshi": {
-    "position": "Strategy and Entrepreneurship faculty, UCL School of Management",
-    "bio": "Doshi studies how data and information environments shape behavior, with research on generative AI, social media and the commercial space sector. He holds a doctorate from the Technology and Operations Management unit at Harvard Business School and an AB from Dartmouth, and teaches data analytics and generative AI at UCL.",
-    "homepage": "https://www.mgmt.ucl.ac.uk/people/anildoshi",
-    "openalex": "A5011170431",
-    "sources": [
-      "https://www.mgmt.ucl.ac.uk/people/anildoshi"
-    ]
-  },
-  "Zana Buçinca": {
-    "position": "Assistant Professor, Work and Organization Studies, MIT Sloan School of Management, with a joint appointment in MIT EECS (from fall 2026)",
-    "bio": "Buçinca studies human-AI interaction and the future of work, designing explanations and systems for AI-assisted decision-making that aim to improve both task performance and people's skills and agency. She received her PhD in computer science from Harvard in 2025, advised by Krzysztof Gajos, and was a postdoctoral researcher at Microsoft before joining MIT.",
-    "homepage": "https://zbucinca.github.io/",
-    "openalex": "A5073269010",
-    "sources": [
-      "https://zbucinca.github.io/",
-      "https://mitsloan.mit.edu/centers-initiatives/institute-work-and-employment-research/bucinca-to-join-iwer-faculty"
-    ]
-  },
-  "Mrinank Sharma": {
-    "position": "Led the Safeguards Research Team at Anthropic until February 2026",
-    "bio": "Sharma holds a PhD in statistical machine learning from the University of Oxford and then worked on AI safety at Anthropic, where his research included AI sycophancy and safeguards against misuse of AI. He left Anthropic in February 2026.",
-    "homepage": "https://www.mrinanksharma.net/",
-    "openalex": null,
-    "sources": [
-      "https://www.mrinanksharma.net/",
-      "https://www.exchange4media.com/people-movement-news/anthropic-safeguards-researcher-mrinank-sharma-resigns-warns-of-interconnected-crises-151859.html"
-    ]
-  },
-  "Matthias Stadler": {
-    "position": "Institute of Medical Education, LMU University Hospital, LMU Munich (affiliation given in the 2024 article)",
-    "bio": "",
-    "homepage": "",
-    "openalex": "",
-    "sources": [
-      "https://doi.org/10.1016/j.chb.2024.108386"
-    ]
-  }
+ "Hao-Ping Lee": {
+  "position": "PhD candidate, Human-Computer Interaction Institute, Carnegie Mellon University (homepage, August 2026)",
+  "bio": "Lee is a PhD student at CMU's Human-Computer Interaction Institute, advised by Sauvik Das and Jodi Forlizzi. His research covers privacy and security, human-computer interaction, and responsible AI, with a focus on privacy risks from AI and how AI systems affect people's agency. He has interned at IBM Research, Microsoft Research and Brave.",
+  "homepage": "https://hankhplee.com/",
+  "openalex": "A5062891440",
+  "sources": [
+   "https://hankhplee.com/",
+   "https://hcii.cmu.edu/people/hao-ping-hank-lee"
+  ],
+  "photo": "https://hcii.cmu.edu/sites/default/files/styles/person_portrait_image/public/2022-10/Hank_Lee%2010.10.22.jpeg.webp?h=86c0e0e6&itok=mXakLmwn",
+  "photo_page": "https://hcii.cmu.edu/people/hao-ping-hank-lee",
+  "photo_credit": "CMU HCII profile"
+ },
+ "Michael Gerlich": {
+  "position": "Head of the Center for Strategic Corporate Foresight and Sustainability, SBS Swiss Business School (November 2025)",
+  "bio": "Gerlich is a management researcher whose recent work deals with AI's effects on society, organizations and individuals, including public perception and acceptance of AI. He holds a PhD from Anglia Ruskin University and an MBA from the University of Cambridge, and worked for more than 30 years in business, including as a CEO, before his academic career.",
+  "homepage": "https://www.aru.ac.uk/people/michael-gerlich",
+  "openalex": "A5058773312",
+  "sources": [
+   "https://www.sbs.edu/news/sbs-swiss-business-school-celebrates-prof-dr-michael-gerlich-recognized-among-the-top-10-leading-speakers-to-follow-in-2025-2-2/",
+   "https://www.aru.ac.uk/people/michael-gerlich"
+  ],
+  "photo": "https://www.aru.ac.uk/-/media/Images/people/Michael-Gerlich.jpg",
+  "photo_page": "https://www.aru.ac.uk/people/michael-gerlich",
+  "photo_credit": "Anglia Ruskin University profile"
+ },
+ "Chunpeng Zhai": {
+  "position": "Lecturer and tutor, School of Engineering and Technology, CQUniversity, Australia",
+  "bio": "Zhai (also known as Gary Zhai) holds an MA in Applied Linguistics and a PhD in Computer Science from CQUniversity. His research spans intelligent information systems, e-learning, and applied linguistics and education, including how culture, empathy and humor can improve learning outcomes.",
+  "homepage": "https://staff-profiles.cqu.edu.au/home/view/26478",
+  "openalex": "A5087956754",
+  "sources": [
+   "https://staff-profiles.cqu.edu.au/home/view/26478"
+  ],
+  "photo": "https://staff-profiles.cqu.edu.au/files/downloadPhoto/16492/profile.png",
+  "photo_page": "https://staff-profiles.cqu.edu.au/home/view/26478",
+  "photo_credit": "CQUniversity staff profile"
+ },
+ "Binny Jose": {
+  "position": "Assistant Professor, Department of Health and Wellness, Marian College Kuttikkanam (Autonomous), Kerala, India; also affiliated with Lincoln University College, Malaysia (affiliations in the 2025 paper)",
+  "bio": "Jose was corresponding author of this paper. No published biography or statement of research interests was found beyond these affiliations.",
+  "homepage": "https://loop.frontiersin.org/people/2719972/overview",
+  "openalex": "A5095913993",
+  "sources": [
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full",
+   "https://loop.frontiersin.org/people/2719972/overview"
+  ],
+  "photo": "https://loop.frontiersin.org/images/profile/2719972/203",
+  "photo_page": "https://loop.frontiersin.org/people/2719972/overview",
+  "photo_credit": "Frontiers Loop profile"
+ },
+ "Anil R. Doshi": {
+  "position": "Strategy and Entrepreneurship faculty, UCL School of Management",
+  "bio": "Doshi studies how data and information environments shape behavior, with research on generative AI, social media and the commercial space sector. He holds a doctorate from the Technology and Operations Management unit at Harvard Business School and an AB from Dartmouth, and teaches data analytics and generative AI at UCL.",
+  "homepage": "https://www.mgmt.ucl.ac.uk/people/anildoshi",
+  "openalex": "A5011170431",
+  "sources": [
+   "https://www.mgmt.ucl.ac.uk/people/anildoshi"
+  ]
+ },
+ "Zana Buçinca": {
+  "position": "Assistant Professor, Work and Organization Studies, MIT Sloan School of Management, with a joint appointment in MIT EECS (from fall 2026)",
+  "bio": "Buçinca studies human-AI interaction and the future of work, designing explanations and systems for AI-assisted decision-making that aim to improve both task performance and people's skills and agency. She received her PhD in computer science from Harvard in 2025, advised by Krzysztof Gajos, and was a postdoctoral researcher at Microsoft before joining MIT.",
+  "homepage": "https://zbucinca.github.io/",
+  "openalex": "A5073269010",
+  "sources": [
+   "https://zbucinca.github.io/",
+   "https://mitsloan.mit.edu/centers-initiatives/institute-work-and-employment-research/bucinca-to-join-iwer-faculty"
+  ],
+  "photo": "https://zbucinca.github.io/assets/img/zbucinca_updated.jpeg",
+  "photo_page": "https://zbucinca.github.io/",
+  "photo_credit": "personal homepage"
+ },
+ "Mrinank Sharma": {
+  "position": "Led the Safeguards Research Team at Anthropic until February 2026",
+  "bio": "Sharma holds a PhD in statistical machine learning from the University of Oxford and then worked on AI safety at Anthropic, where his research included AI sycophancy and safeguards against misuse of AI. He left Anthropic in February 2026.",
+  "homepage": "https://www.mrinanksharma.net/",
+  "openalex": null,
+  "sources": [
+   "https://www.mrinanksharma.net/",
+   "https://www.exchange4media.com/people-movement-news/anthropic-safeguards-researcher-mrinank-sharma-resigns-warns-of-interconnected-crises-151859.html"
+  ],
+  "photo": "https://images.squarespace-cdn.com/content/v1/66f11218ceee6777b21675e2/7fea99d9-ae7b-485c-91fa-a8f53acc8ec6/306DBEF2-1DFE-4972-B79E-E2F1E0F785B7.jpg",
+  "photo_page": "https://www.mrinanksharma.net/",
+  "photo_credit": "personal homepage"
+ },
+ "Matthias Stadler": {
+  "position": "Institute of Medical Education, LMU University Hospital, LMU Munich (affiliation given in the 2024 article)",
+  "bio": "",
+  "homepage": "",
+  "openalex": "",
+  "sources": [
+   "https://doi.org/10.1016/j.chb.2024.108386"
+  ],
+  "photo": "https://cdn.lmu-klinikum.de/7032fb0e270ff2e9/8fcb9015b510/Stadler-Matthias-trans.png",
+  "photo_page": "https://www.lmu-klinikum.de/institut-dam/0080b49e887e7825/dd6c770b231bbb62",
+  "photo_credit": "LMU Klinikum profile"
+ }
 }

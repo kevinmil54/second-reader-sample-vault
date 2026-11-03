@@ -2,12 +2,12 @@
 tags: [teaching, sr101, class-note]
 type: course-home
 course: "SR 101: Thinking With Machines (sample course)"
-offering: Sample term
+offering: Winter 2027
 ---
 
 # SR 101: Thinking With Machines
 
-Sample term · Wednesdays · A four-week sample course for the Second Reader starter vault
+Winter 2027 · Wednesdays · A four-week sample course for the Second Reader starter vault
 
 Start here: [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
 

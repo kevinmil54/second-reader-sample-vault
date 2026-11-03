@@ -70,7 +70,19 @@ date-read:
 ## Figures & images
 *Screenshots, diagrams, or tables worth keeping. Embed with `![[filename]]`, and caption each one in your own words — why does it matter?*
 
-![[]]
+%% begin paper-figures %%
+![[doshi2024 fig01.png]]
+*Caption from the paper:* Fig. 1. Visual representation of experimental design. (A) Participants are recruited, provide consent to participate in the study, and complete the divergent association task (DAT)—a measure of an individual’s inherent creativity (25)—before being randomly assigned to one of three experimental conditions: a Human-only condition where the story was written with no generative AI assistance, a Human with one GenAI idea condition, and a Human with five GenAI ideas condition. A total of 293 stories are collected and then passed to evaluators. (B) Evaluators provide ratings on six randomly assigned stories. The evaluators cycle through each story three times. First, before any information revelation, the evaluator assesses the creativity and emotional characteristics of the story. Second, the evaluator is asked to assess how likely the story was written by an AI versus a human. Third, the evaluator is told about whether the writer had access to and used generative AI and then provides responses about the ownership claim of the writer of each story. Evaluators then provide general responses to their views of generative AI. (PDF p. 2)
+
+![[doshi2024 fig02.png]]
+*Caption from the paper:* Fig. 2. Evaluation of creativity and emotional characteristics by third-party evaluators. (A) Compares novelty and usefulness indices (with constituent components of each index below) of participants in the Human-only condition (dashed vertical line) to participants who had access to one generative AI idea (top half in each panel, blue) or five generative AI ideas (bottom half, red). (B) Compares emotional characteristics of the Human-only condition (dashed vertical line) to Human with one GenAI idea and Human with five GenAI ideas conditions. (PDF p. 3)
+
+![[doshi2024 fig03.png]]
+*Caption from the paper:* Fig. 3. Marginal effect of writer’s inherent creativity (as measured by DAT score) on the creativity indices and on select emotional characteristics by condition. (PDF p. 4)
+
+![[doshi2024 fig04.png]]
+*Caption from the paper:* Fig. 4. Comparison of similarity of writer stories to generative AI ideas and others stories. (A) Kernel density plots comparing story similarity to all other stories in the same condition and ideas produced by generative AI for each condition. (B) Compares story outcomes of Human-only (reference category) to humans with access to one and five generative AI ideas. (PDF p. 5)
+%% end paper-figures %%
 
 ## Permanent note candidates
 *Write your own permanent note titles in your own words. These should be "nuggets" — ideas that are interesting to you and/or that you might use in your own work. Checking the box promotes it: a new permanent note gets created automatically and this line becomes a link to it, carrying over any tags you've added above (`literature-note` itself doesn't carry over — the new note is tagged `permanent-note` instead). Want to say more before you promote it? Press Enter then Tab right after the title to add an indented line or two — that carries over into the new note's Core idea too.*

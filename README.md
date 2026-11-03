@@ -12,16 +12,22 @@ second-reader-sample-vault/        open this folder in Obsidian
   Home.md
   STUDENT SETUP GUIDE - SR 101.md
   How was GenAI used in the preparation of these materials.md
-  Classes/SR 101 Sample term/
-    Syllabus - SR 101 Thinking With Machines - student copy.md
-    SR 101 - Course home.md
-    Meeting notes/                 one note per class, pulling goals, questions and readings from the syllabus
+  Classes/
+    Lesson flow schematic.md       the five planning phases the Instructor notes follow
+    SR 101 example/
+      SR 101 changes for next time.md   changes to make the next time the course is taught
+      Winter 2027/                 one folder per offering of the course
+        Syllabus - SR 101 Thinking With Machines - student copy.md
+        SR 101 - Course home.md
+        Meeting notes/             one note per class, pulling goals, questions and readings from the syllabus
+        Planning/                  one folder per class with the instructor's planning note, for that day's materials
   Literature notes/                one note per reading, linked to the reader's own Zotero copy
-  Authors/                         one note per lead author: short bio, links, room for a photo
-  Images/                          figures from the papers and from Zotero highlights
+  Authors/                         one note per lead author: short bio, links, and a photo linked from their own page
+  Images/                          figures from the papers (one folder per reading), and from Zotero highlights
   Permanent notes/  Synthesis notes/  Projects/  Inbox/  Uploads/
-  Tools/make_literature_notes.py   makes the literature and author notes from a Zotero RDF export
-  Templates/                       literature, permanent, synthesis, project and class meeting templates
+  Tools/make_literature_notes.py   makes the literature and author notes from a Zotero RDF export,
+                                   using the author details and figure lists in Tools/
+  Templates/                       literature, permanent, synthesis, project, course offering, and student and instructor class meeting templates
   .obsidian/                       Second Reader, Dataview, Templater and Style Settings plugins,
                                    AnuPpuccin theme and settings; no personal data
   Second Reader Sample Readings (Zotero)/

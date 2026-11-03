@@ -7,7 +7,8 @@ tags: [author]
 
 ## About
 %% author-info start %%
-%% Photo: save a photo in the Authors folder and embed it on the next line, e.g. ![[Hao-Ping (Hank) Lee.jpg|160]] %%
+![Hao-Ping (Hank) Lee|160](https://hcii.cmu.edu/sites/default/files/styles/person_portrait_image/public/2022-10/Hank_Lee%2010.10.22.jpeg.webp?h=86c0e0e6&itok=mXakLmwn)
+*Photo: [CMU HCII profile](https://hcii.cmu.edu/people/hao-ping-hank-lee), linked, not copied*
 - **Position:** PhD candidate, Human-Computer Interaction Institute, Carnegie Mellon University (homepage, August 2026)
 - Lee is a PhD student at CMU's Human-Computer Interaction Institute, advised by Sauvik Das and Jodi Forlizzi. His research covers privacy and security, human-computer interaction, and responsible AI, with a focus on privacy risks from AI and how AI systems affect people's agency. He has interned at IBM Research, Microsoft Research and Brave.
 - **Links:** [Homepage](https://hankhplee.com/) · [OpenAlex profile](https://openalex.org/A5062891440)

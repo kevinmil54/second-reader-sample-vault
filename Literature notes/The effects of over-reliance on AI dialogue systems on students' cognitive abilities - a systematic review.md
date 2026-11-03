@@ -70,7 +70,16 @@ date-read:
 ## Figures & images
 *Screenshots, diagrams, or tables worth keeping. Embed with `![[filename]]`, and caption each one in your own words — why does it matter?*
 
-![[]]
+%% begin paper-figures %%
+![[zhai2024 fig01.png]]
+*Caption from the paper:* Fig. 1 The PRISMA flowchart (PDF p. 10)
+
+![[zhai2024 fig02.png]]
+*Caption from the paper:* Fig. 2 Three key cognitive abilities (PDF p. 15)
+
+![[zhai2024 fig03.png]]
+*Caption from the paper:* Fig. 3 Five ethical issues of AI identified in this study (PDF p. 19)
+%% end paper-figures %%
 
 ## Permanent note candidates
 *Write your own permanent note titles in your own words. These should be "nuggets" — ideas that are interesting to you and/or that you might use in your own work. Checking the box promotes it: a new permanent note gets created automatically and this line becomes a link to it, carrying over any tags you've added above (`literature-note` itself doesn't carry over — the new note is tagged `permanent-note` instead). Want to say more before you promote it? Press Enter then Tab right after the title to add an indented line or two — that carries over into the new note's Core idea too.*

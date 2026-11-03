@@ -71,7 +71,17 @@ correction: "Societies 15(9), 252 (2025): error in a table; the PDF is the corre
 ## Figures & images
 *Screenshots, diagrams, or tables worth keeping. Embed with `![[filename]]`, and caption each one in your own words — why does it matter?*
 
-![[]]
+%% begin paper-figures %%
+![[gerlich2025 fig01.png]]
+*Caption from the paper:* Figure 1. Feature importance in random forest regression. (PDF p. 17)
+
+![[gerlich2025 fig02.png]]
+*Caption from the paper:* Figure 2. Distribution of residuals—random forest regression. (PDF p. 18)
+*Note:* In this PDF the plot above this caption shows actual vs. predicted critical thinking scores, not residuals.
+
+![[gerlich2025 fig03.png]]
+*Caption from the paper:* Figure 3. Actual vs. predicted critical thinking scores—random forest regression. (PDF p. 19)
+%% end paper-figures %%
 
 ## Permanent note candidates
 *Write your own permanent note titles in your own words. These should be "nuggets" — ideas that are interesting to you and/or that you might use in your own work. Checking the box promotes it: a new permanent note gets created automatically and this line becomes a link to it, carrying over any tags you've added above (`literature-note` itself doesn't carry over — the new note is tagged `permanent-note` instead). Want to say more before you promote it? Press Enter then Tab right after the title to add an indented line or two — that carries over into the new note's Core idea too.*

@@ -2,7 +2,7 @@
 tags: [teaching, sr101, syllabus]
 course: "SR 101: Thinking With Machines (sample course)"
 title: "Thinking With Machines"
-term: Sample term
+term: Winter 2027
 instructor: 
 meeting: Wednesdays
 credits: 
@@ -13,7 +13,7 @@ syllabus-version: 2026-10-29
 
 # SR 101: "Thinking With Machines"
 
-Sample term (last updated 2026-10-29)
+Winter 2027 (last updated 2026-10-29)
 
 **Instructor:** *your name*  
 **Class:** Wednesdays, four meetings  

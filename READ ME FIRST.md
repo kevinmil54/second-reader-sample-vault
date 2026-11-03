@@ -8,7 +8,7 @@ This folder (`second-reader-sample-vault`) is a ready-made Obsidian vault for th
 4. Open Settings > Second Reader and click the download button next to "PDF Utility".
 5. Install Zotero 7 with the Better BibTeX add-on (Part 3 of `STUDENT SETUP GUIDE - SR 101.md`).
 6. Import the course readings into Zotero (the `README.md` in the `Second Reader Sample Readings (Zotero)` folder).
-7. Start at `Classes/SR 101 Sample term`: the syllabus, the course home note, and one meeting note per class. Each reading's literature note is already there; open it from the syllabus.
+7. Start at `Classes/SR 101 example/Winter 2027`: the syllabus, the course home note, and one meeting note per class. The `Planning` folder there has an instructor's planning note for each class. Each reading's literature note is already there; open it from the syllabus.
 
 ## What is in the folders
 

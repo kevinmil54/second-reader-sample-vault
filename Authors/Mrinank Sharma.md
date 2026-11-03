@@ -6,7 +6,8 @@ tags: [author]
 
 ## About
 %% author-info start %%
-%% Photo: save a photo in the Authors folder and embed it on the next line, e.g. ![[Mrinank Sharma.jpg|160]] %%
+![Mrinank Sharma|160](https://images.squarespace-cdn.com/content/v1/66f11218ceee6777b21675e2/7fea99d9-ae7b-485c-91fa-a8f53acc8ec6/306DBEF2-1DFE-4972-B79E-E2F1E0F785B7.jpg)
+*Photo: [personal homepage](https://www.mrinanksharma.net/), linked, not copied*
 - **Position:** Led the Safeguards Research Team at Anthropic until February 2026
 - Sharma holds a PhD in statistical machine learning from the University of Oxford and then worked on AI safety at Anthropic, where his research included AI sycophancy and safeguards against misuse of AI. He left Anthropic in February 2026.
 - **Links:** [Homepage](https://www.mrinanksharma.net/)
