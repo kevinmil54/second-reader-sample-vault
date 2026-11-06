@@ -10,6 +10,7 @@ student:
 course: 
 status: literature
 tags: [literature-note]
+topics: [ai-and-thinking, ai-limits]
 date-read: 
 ---
 

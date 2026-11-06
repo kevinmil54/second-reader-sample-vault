@@ -40,9 +40,18 @@ Literature note → Permanent notes → Synthesis note
                                   ↘ Project note
 ```
 
+**Topics tie these together.** Each literature note and permanent note has
+a `topics:` property, a list of one or two words for what it is about (for
+example `ai-and-thinking`). Obsidian suggests the words you have already
+used, so pick one when it fits and type a new word when none does. A
+permanent note starts with the topics of the literature note it came from,
+and you can change them. A synthesis note names one topic in its own
+`topic:` property, and the list of permanent notes on that topic fills
+itself.
+
 A Permanent note's **Connections** section is where you link it to the
-Synthesis and Project notes that draw on it — you build those links by hand
-as your vault grows; nothing does it for you automatically.
+Synthesis and Project notes that draw on it. You add those links by hand as
+your vault grows.
 
 ---
 
@@ -371,9 +380,13 @@ Once setup is done, this is the whole routine per paper.
 9. **Coming back to the paper later?** Keep highlighting in Zotero and sync
    again — new highlights are added and everything else stays as you left
    it.
-10. Over time, gather related Permanent notes into a **Synthesis note** (in
-   your `Synthesis notes` folder) that says what you now think about a
-   topic. Use **Project notes** (in `Projects`) when you're actually
+10. When you finish a literature note, fill in its `topics:` property. When
+   three or four permanent notes share a topic, gather them into a
+   **Synthesis note** (in your `Synthesis notes` folder) that says what you
+   now think about it. With Second Reader 2.11 or later the note is created
+   for you when a topic reaches four permanent notes, and its list of
+   permanent notes stays current. To make one yourself, put the topic in
+   the synthesis note's `topic:` property. Use **Project notes** (in `Projects`) when you're actually
    writing something and want to pull together the Permanent notes that
    support it. Link back to a Permanent note's **Connections** section as
    you build these.
