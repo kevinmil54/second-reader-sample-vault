@@ -10,6 +10,7 @@ student:
 course: 
 status: literature
 tags: [literature-note]
+topics: [ai-and-thinking]
 date-read: 
 correction: "Societies 15(9), 252 (2025): error in a table; the PDF is the corrected version of 10 September 2025"
 ---

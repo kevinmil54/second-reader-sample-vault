@@ -3,36 +3,61 @@ type: synthesis
 topic: 
 status: draft
 created: {{date}}
+updated: {{date}}
+tags: [synthesis]
 ---
 
 # {{title}}
 
-*A synthesis note gathers your permanent notes on one topic and states what you now think. Write it in your own words and keep it short enough to reread in two minutes.*
+*A synthesis note gathers what you know on one topic, built from your permanent notes. Write it in your own words. Every claim links to the permanent notes behind it. Keep it short enough to reread in a few minutes.*
 
 ## The question
 *What are you trying to understand? One or two sentences.*
 
-## What I think right now
-*Your current position, in a few short paragraphs or a numbered list of claims. Link each claim to the permanent notes that support it, like [[Permanent note title]].*
+
+
+## Where I stand now
+*Your current position as a short numbered list of claims. End each claim with links to the permanent notes that support it, like ([[Permanent note title]]).*
 
 1. 
 2. 
+3. 
 
 ## Permanent notes on this topic
-*Give this note a topic word in the `topic:` property above (for example `memory`). Add the same word as a tag to each permanent note you want to include. This list fills itself.*
+*Put a topic word in the `topic:` property above (for example `memory`). Every permanent note whose `topics:` list contains that word is listed here. This list fills itself.*
+
+```dataview
+TABLE WITHOUT ID file.link AS "Permanent note", source AS "Source", created AS "Created"
+FROM "Permanent notes"
+WHERE contains(topics, this.topic)
+SORT created DESC
+```
+
+## Where the notes agree and disagree
+*Which claims are well supported across sources? Which pull against each other? Name the notes.*
+
+- Agree: 
+- Disagree: 
+
+## Gaps
+*What is missing: evidence, a population, a counterexample, a source you haven't read.*
+
+- 
+
+## Still to read or think through
+
+- [ ] 
+
+## How my thinking has changed
+*One dated line each time your position above shifts, with the reason.*
+
+- {{date}}: first draft
+
+## Used in
+*Fills itself from the `synthesis:` property on project notes.*
 
 ```dataview
 LIST
-FROM "Permanent notes"
-WHERE contains(file.tags, "#" + this.topic)
-SORT file.name ASC
+FROM ""
+WHERE type = "project" AND contains(synthesis, this.file.link)
 ```
-
-## Where the notes disagree or leave gaps
-- 
-
-## What I still need to read or think through
-- 
-
-## Where I will use this
-*A class paper, the final project, a discussion. Link the project note if there is one: [[Project - ]]*
