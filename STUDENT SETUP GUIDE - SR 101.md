@@ -48,7 +48,8 @@ permanent note starts with the topics of the literature note it came from,
 and you can change them. A synthesis note names one topic in its own
 `topic:` property, and a list of the permanent notes on that topic that
 the synthesis note does not link to yet fills itself. A note leaves the list
-when you link it in your own writing.
+when you link it in your own writing. To link one without typing, put the cursor in a claim and run
+"Second Reader: Cite a permanent note here" from the Command Palette.
 
 A Permanent note's **Connections** section is where you link it to the
 Synthesis and Project notes that draw on it. You add those links by hand as
