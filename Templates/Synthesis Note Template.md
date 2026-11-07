@@ -23,14 +23,14 @@ tags: [synthesis]
 2. 
 3. 
 
-## Permanent notes on this topic
-*Put a topic word in the `topic:` property above (for example `memory`). Every permanent note whose `topics:` list contains that word is listed here. This list fills itself.*
+## Permanent notes not yet used
+*Permanent notes with your topic word that this note does not link to yet. Link one in a claim above and it leaves this list. The list fills itself.*
 
 ```dataview
-TABLE WITHOUT ID file.link AS "Permanent note", source AS "Source", created AS "Created"
+LIST WITHOUT ID link(file.path, default(title, file.name))
 FROM "Permanent notes"
-WHERE contains(topics, this.topic)
-SORT created DESC
+WHERE contains(topics, this.topic) AND !contains(this.file.outlinks, file.link)
+SORT file.name ASC
 ```
 
 ## Where the notes agree and disagree
