@@ -13,9 +13,29 @@ tags: [project]
 
 %% project: a short word, the same on every note you want collected here, for example final-project. synthesis: links to your synthesis notes. draft: a link to your draft note. Links in properties need quotes, like "[[Note title]]". %%
 
-## Notes
+## What this is for
+
+- 
+
+## Central claim
 
 
+
+## Outline
+
+1. 
+
+## Notes I'm drawing on
+
+- 
+
+## To check
+
+- 
+
+## Tasks
+
+- [ ] 
 
 ## Draft
 
