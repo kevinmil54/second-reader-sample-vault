@@ -4,6 +4,8 @@ A starter Obsidian vault for the [Second Reader](https://github.com/kevinmil54/s
 
 Use it to try Second Reader before setting up your own course, or as a starting point for one.
 
+This is the version to give students. Instructors who want the same vault with the master syllabus, lesson-planning templates and the Claude skills I use to plan classes should download the **instructor version** from the [`instructor` branch](https://github.com/kevinmil54/second-reader-sample-vault/tree/instructor) ([zip](https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/heads/instructor.zip)).
+
 ## What's here
 
 ```
@@ -24,7 +26,8 @@ second-reader-sample-vault/        open this folder in Obsidian
   Literature notes/                one note per reading, linked to the reader's own Zotero copy
   Authors/                         one note per lead author: short bio, links, and a photo linked from their own page
   Images/                          figures from the papers (one folder per reading), and from Zotero highlights
-  Permanent notes/  Synthesis notes/  Projects/  Inbox/  Uploads/
+  Permanent notes/  Synthesis notes/  Inbox/  Uploads/
+  Projects/                        project notes and letters; "New project" makes them, Start/Stop time each session
   Tools/make_literature_notes.py   makes the literature and author notes from a Zotero RDF export,
                                    using the author details and figure lists in Tools/
   Templates/                       literature, permanent, synthesis, project, course offering, and student and instructor class meeting templates
@@ -38,7 +41,7 @@ second-reader-sample-vault/        open this folder in Obsidian
 
 ## Getting started
 
-1. Download a release (version 1.1: https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/tags/v1.1.zip) or the latest version (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy), and unzip it.
+1. Download a release (version 1.2: https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/tags/v1.2.zip) or the latest version (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy), and unzip it.
 2. Import the Zotero collection in `Second Reader Sample Readings (Zotero)`, following its README.
 3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
 

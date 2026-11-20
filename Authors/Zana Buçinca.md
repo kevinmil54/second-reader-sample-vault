@@ -2,6 +2,7 @@
 name: "Zana Buçinca"
 openalex: A5073269010
 tags: [author]
+verified: false
 ---
 # Zana Buçinca
 

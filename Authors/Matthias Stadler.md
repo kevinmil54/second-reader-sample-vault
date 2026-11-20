@@ -1,6 +1,7 @@
 ---
 name: "Matthias Stadler"
 tags: [author]
+verified: false
 ---
 # Matthias Stadler
 
