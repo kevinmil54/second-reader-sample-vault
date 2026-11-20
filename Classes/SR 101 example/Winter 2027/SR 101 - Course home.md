@@ -11,6 +11,8 @@ Winter 2027 · Wednesdays · A four-week sample course for the Second Reader sta
 
 Start here: [[Syllabus - SR 101 Thinking With Machines - student copy|Syllabus]]
 
+Instructor: [[Syllabus - SR 101 Thinking With Machines|master syllabus]] · planning notes in `Planning/` · [[SR 101 changes for next time|changes for next time]]
+
 Each class has its own note. It shows the goals, the questions to think about before class, and the readings for that week. It also has space for your own notes and for ideas you want to turn into permanent notes.
 
 ## Thinking & Learning With AI (Weeks 1–2)

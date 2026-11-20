@@ -66,7 +66,7 @@ Student note: [[<% base %> - Student]] · Syllabus: [[Syllabus - SR 101 Thinking
 - 
 
 ## Phase 3: Student agenda
-- [ ] Agenda made · file: 
+- [ ] Agenda PDF made (`Skills/agenda_md_to_pdf.py`) · file: 
 
 ## Phase 4: Slides
 - [ ] Slides made · file: 

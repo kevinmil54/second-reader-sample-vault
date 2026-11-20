@@ -1,15 +1,18 @@
-# Second Reader sample vault
+# Second Reader sample vault: instructor version
 
 A starter Obsidian vault for the [Second Reader](https://github.com/kevinmil54/second-reader-obsidian-promote) literature-note workflow, set up the way I set up vaults for my own courses, with a four-week sample course, SR 101: Thinking With Machines, built on eight openly licensed readings about how people interact with large language models. All the PDFs are included.
 
 Use it to try Second Reader before setting up your own course, or as a starting point for one.
 
-This is the version to give students. Instructors who want the same vault with the master syllabus, lesson-planning templates and the Claude skills I use to plan classes should download the **instructor version** from the [`instructor` branch](https://github.com/kevinmil54/second-reader-sample-vault/tree/instructor) ([zip](https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/heads/instructor.zip)).
+This is the **instructor version**. It adds the master syllabus (with Zotero links), the lesson-planning templates, the Claude skills I use to plan classes, the `coursenotes` course-setup tool, and a projects page with a project timer. Start with `INSTRUCTOR GUIDE.md` inside the vault.
+
+Give students the **student version** from the [`main` branch](https://github.com/kevinmil54/second-reader-sample-vault) instead.
 
 ## What's here
 
 ```
 second-reader-sample-vault/        open this folder in Obsidian
+  INSTRUCTOR GUIDE.md              start here
   READ ME FIRST.md
   Home.md
   STUDENT SETUP GUIDE - SR 101.md
@@ -19,7 +22,8 @@ second-reader-sample-vault/        open this folder in Obsidian
     SR 101 example/
       SR 101 changes for next time.md   changes to make the next time the course is taught
       Winter 2027/                 one folder per offering of the course
-        Syllabus - SR 101 Thinking With Machines - student copy.md
+        Syllabus - SR 101 Thinking With Machines.md                master syllabus, with Zotero links
+        Syllabus - SR 101 Thinking With Machines - student copy.md  made from it by Second Reader
         SR 101 - Course home.md
         Meeting notes/             one note per class, pulling goals, questions and readings from the syllabus
         Planning/                  one folder per class with the instructor's planning note, for that day's materials
@@ -28,6 +32,8 @@ second-reader-sample-vault/        open this folder in Obsidian
   Images/                          figures from the papers (one folder per reading), and from Zotero highlights
   Permanent notes/  Synthesis notes/  Inbox/  Uploads/
   Projects/                        project notes and letters; "New project" makes them, Start/Stop time each session
+  Skills/                          Claude skills: lesson planning, agendas, board plans, term reports, course setup
+  Tools/coursenotes/               links a syllabus to Zotero and makes literature and class notes
   Tools/make_literature_notes.py   makes the literature and author notes from a Zotero RDF export,
                                    using the author details and figure lists in Tools/
   Templates/                       literature, permanent, synthesis, project, course offering, and student and instructor class meeting templates
@@ -41,9 +47,9 @@ second-reader-sample-vault/        open this folder in Obsidian
 
 ## Getting started
 
-1. Download a release (version 1.2: https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/tags/v1.2.zip) or the latest version (green **Code** button → **Download ZIP**, or **Use this template** to make your own copy), and unzip it.
+1. Download the instructor version (https://github.com/kevinmil54/second-reader-sample-vault/archive/refs/heads/instructor.zip) and unzip it.
 2. Import the Zotero collection in `Second Reader Sample Readings (Zotero)`, following its README.
-3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `READ ME FIRST`.
+3. Open the unzipped folder itself in Obsidian with **Open folder as vault**, trust the plugins, and follow `INSTRUCTOR GUIDE`.
 
 You need Obsidian, Zotero 7 and the Better BibTeX plugin for Zotero. Second Reader, which is in Obsidian's community plugin directory, comes installed in the vault. It runs on desktop only.
 
@@ -60,7 +66,7 @@ Full references and licenses are in [SOURCES.md](SOURCES.md).
 
 ## Using it for your own course
 
-Replace the syllabus, course home and meeting notes with your own. Then:
+Replace the syllabus, course home and meeting notes with your own (the Course Offering template sets up a new offering). Then:
 
 1. In Zotero, export your course collection with **Export Collection… → Zotero RDF**, checking **Export Files**.
 2. Make the literature and author notes from it:

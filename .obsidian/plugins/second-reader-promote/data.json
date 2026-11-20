@@ -27,9 +27,9 @@
   "openNoteAfterImport": true,
   "whichNotesToOpenAfterImport": "all-imported-notes",
   "_importedLegacyZoteroSettings": true,
-  "projectCategories": "Course project | Projects | Templates/Project Template (student).md\nPaper | Projects | Templates/Project Template (student).md\nOther",
+  "projectCategories": "Course development | Projects | Templates/Project Template.md\nAcademic writing\nTalks\nGrants and service\nOther",
   "projectFolder": "Projects",
-  "projectTemplatePath": "Templates/Project Template (student).md",
+  "projectTemplatePath": "Templates/Project Template.md",
   "projectLetterTemplatePath": "Templates/Project Letter Template.md",
   "projectTimeLog": "Projects/project-time-log.csv"
 }

@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Blank board plan</title>
+<style>
+@page { size: 11in 8.5in; margin: 0.35in; }
+body { font-family: "Noto Sans", "Noto Sans CJK JP", Arial, sans-serif; color:#222; margin:0; }
+.top { display:flex; align-items:flex-end; gap: 14pt; margin-bottom: 5pt; }
+.field { border-bottom: 1.5px solid #555; font-size: 10pt; color:#666; padding: 0 4pt 2pt 0; }
+.f-date { width: 1.3in; } .f-course { width: 1.6in; } .f-title { flex: 1; }
+.board { display:flex; border: 3px solid #2f5d3a; height: 7.15in; }
+.panel { flex:1; border-right: 1.5px dashed #9bb59f; padding: 6pt 8pt; display:flex; flex-direction:column; }
+.panel:last-child { border-right:none; }
+.lab { font-size: 9pt; color:#2f5d3a; font-weight:700; letter-spacing: 0.4pt; text-transform: uppercase; }
+.jp { font-weight:400; color:#7d9a82; text-transform:none; margin-left: 3pt; }
+.meate { border: 2px solid #c0392b; height: 1.25in; margin: 4pt 0 10pt; }
+.space { flex: 1; }
+.matome { border: 2.5px double #c0392b; height: 2.4in; margin-top: 6pt; padding: 5pt 7pt; }
+.legend { font-size: 8.5pt; color:#666; margin-top: 4pt; }
+</style></head>
+<body>
+<div class="top">
+  <div class="field f-date">Date</div>
+  <div class="field f-course">Class</div>
+  <div class="field f-title">Title</div>
+</div>
+<div class="board">
+  <div class="panel">
+    <div class="lab">Today's question <span class="jp">めあて</span></div>
+    <div class="meate"></div>
+    <div class="lab">What we noticed <span class="jp">気づき</span></div>
+    <div class="space"></div>
+  </div>
+  <div class="panel">
+    <div class="lab">The readings <span class="jp">教材</span></div>
+    <div class="space"></div>
+  </div>
+  <div class="panel">
+    <div class="lab">Comparing ideas <span class="jp">比べる</span></div>
+    <div class="space"></div>
+  </div>
+  <div class="panel">
+    <div class="lab">Your questions <span class="jp">疑問</span></div>
+    <div class="space"></div>
+    <div class="matome"><div class="lab">Summary <span class="jp">まとめ</span></div></div>
+  </div>
+</div>
+<div class="legend">Write left to right and don't erase. Leave room in the summary for students' own words.</div>
+</body></html>

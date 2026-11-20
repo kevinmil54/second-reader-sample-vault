@@ -1,4 +1,6 @@
-# SR 101 starter vault
+# SR 101 starter vault (instructor version)
+
+This is the instructor version. Start with `INSTRUCTOR GUIDE`. The steps below are the same ones students follow in the student version.
 
 This folder (`second-reader-sample-vault`) is a ready-made Obsidian vault for the Second Reader note system, with a four-week sample course on how people interact with large language models.
 
@@ -19,10 +21,11 @@ This folder (`second-reader-sample-vault`) is a ready-made Obsidian vault for th
 | Authors | One note per author, with a short bio and links; add a photo if you like |
 | Permanent notes | Your own ideas, one idea per note (empty) |
 | Synthesis notes | Where you pull several ideas together (empty) |
-| Projects | Your project work: run "Second Reader: New project" to start one (empty) |
+| Projects | Projects home, and your projects: run "Second Reader: New project" to start one |
 | Inbox | New notes land here until you file them |
 | Images | Figures from the papers, images from your Zotero highlights, and screenshots |
-| Templates | Literature note, permanent note, synthesis note, project, project letter and class meeting templates |
+| Templates | Literature note, permanent note, synthesis note, project, project letter, course offering and class meeting templates |
+| Skills | The Claude skills for lesson planning, agendas, board plans, term reports and course setup |
 | Uploads | Zips made by the syllabus's "Package my Week N" links |
 | Second Reader Sample Readings (Zotero) | The readings, ready to import into Zotero |
 

@@ -1,0 +1,35 @@
+# coursenotes configuration. Paths may be absolute or "~/..."; relative paths are explained below.
+[vault]
+root = "~/Obsidian-KFM"                      # your Obsidian vault
+
+[course]
+name = "ED 336/536 & Psych 401-026"          # written into literature notes ("course:") and class notes
+offering = "2026-Fall"                       # shown in class notes; defaults to the syllabus folder name
+year = "2026"                                # used with week dates such as "(Sept 9)"
+syllabus = "Classes/My course/2026-Fall/Syllabus.md"   # relative to the vault root
+literature_dir = "Literature notes"          # relative to the vault root; new literature notes go here
+classes_dir = "Meeting notes"                # relative to the folder that holds the syllabus
+# home = "ED 336 Fall 2026 - Course home"    # optional: name of a course-home note to link from class notes
+
+[zotero]
+data_dir = "~/Zotero"                        # folder with zotero.sqlite
+csl_json = "My Library.json"                 # CSL JSON export (Better BibTeX auto-export works); relative to data_dir
+csl_style = "styles/apa.csl"                 # relative to data_dir
+sqlite = "zotero.sqlite"                     # read from a temporary copy, never modified
+# bbt_sqlite = "better-bibtex.migrated"      # optional, for Better BibTeX citation keys
+collections = ["My course collection"]       # optional: prefer items from these Zotero collections when a paper has duplicates
+
+[syllabus]
+# Regex for a week heading: group 1 = week number, group 2 = date text, group 3 = title.
+# The default matches "#### Week 5 (Sept 30): Title".
+# week_heading = '^#{2,6}\s*Week\s+(\d+)\s*(?:\(([^)]*)\))?\s*[:\-–—]?\s*(.*?)\s*$'
+
+[notes]
+# template = "Templates/My literature template.md"   # uses {{title}} {{authors}} {{year}} {{citekey}} {{zotero_uri}} {{reference}} ...
+
+[classes]
+# name_format = "Class {nn} - {date} - Student"
+# template = "Templates/My class template.md"
+
+[verify]
+# mailto = "you@example.edu"   # optional: Crossref asks for a contact address in the request header

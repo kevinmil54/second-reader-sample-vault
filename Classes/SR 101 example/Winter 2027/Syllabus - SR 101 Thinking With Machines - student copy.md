@@ -11,6 +11,8 @@ last-class: 2027-02-03
 syllabus-version: 2026-10-29
 ---
 
+%% Student copy made by Second Reader from [[Syllabus - SR 101 Thinking With Machines]] on 2026-11-20. Edit the original and run "Make class copy of syllabus" again rather than editing this copy. %%
+
 # SR 101: "Thinking With Machines"
 
 Winter 2027 (last updated 2026-10-29)

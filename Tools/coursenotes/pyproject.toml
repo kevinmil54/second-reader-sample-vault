@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coursenotes"
+version = "0.1.0"
+description = "Link a course syllabus to Zotero and Obsidian literature notes"
+requires-python = ">=3.9"
+dependencies = ["citeproc-py>=0.6"]
+
+[project.scripts]
+coursenotes = "coursenotes.cli:main"
+
+[tool.setuptools]
+packages = ["coursenotes"]
