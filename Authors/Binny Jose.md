@@ -2,6 +2,7 @@
 name: "Binny Jose"
 openalex: A5095913993
 tags: [author]
+verified: false
 ---
 # Binny Jose
 

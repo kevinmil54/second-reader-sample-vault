@@ -7,8 +7,6 @@ updated: {{date}}
 tags: [synthesis]
 ---
 
-# {{title}}
-
 *A synthesis note gathers what you know on one topic, built from your permanent notes. Write it in your own words. Every claim links to the permanent notes behind it. Keep it short enough to reread in a few minutes.*
 
 ## The question

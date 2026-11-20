@@ -22,6 +22,7 @@ date-read:
 - [ ] Read in full
 - [ ] Read partially
 - [ ] Foraged
+- [ ] Someone else read it for me
 - [ ] 😔GenAI read this for me 
 
 **Reference (APA):** Lee, H.-P. (., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. In **. Association for Computing Machinery. https://dl.acm.org/doi/10.1145/3706598.3713778

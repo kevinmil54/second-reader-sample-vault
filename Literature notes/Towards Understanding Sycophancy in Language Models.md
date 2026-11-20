@@ -22,6 +22,7 @@ date-read:
 - [ ] Read in full
 - [ ] Read partially
 - [ ] Foraged
+- [ ] Someone else read it for me
 - [ ] 😔GenAI read this for me 
 
 **Reference (APA):** Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2025). *Towards Understanding Sycophancy in Language Models* (arXiv:2310.13548). arXiv. https://doi.org/10.48550/arXiv.2310.13548

@@ -2,6 +2,7 @@
 name: "Michael Gerlich"
 openalex: A5058773312
 tags: [author]
+verified: false
 ---
 # Michael Gerlich
 

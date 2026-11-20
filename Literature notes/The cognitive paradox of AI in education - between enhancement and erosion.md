@@ -22,6 +22,7 @@ date-read:
 - [ ] Read in full
 - [ ] Read partially
 - [ ] Foraged
+- [ ] Someone else read it for me
 - [ ] 😔GenAI read this for me 
 
 **Reference (APA):** Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., Mumthas, S., & Joseph, S. (2025). The cognitive paradox of AI in education: between enhancement and erosion. *Frontiers in Psychology, 16*, 1550621. https://doi.org/10.3389/fpsyg.2025.1550621

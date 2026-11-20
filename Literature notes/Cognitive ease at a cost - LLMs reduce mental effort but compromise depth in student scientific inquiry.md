@@ -22,6 +22,7 @@ date-read:
 - [ ] Read in full
 - [ ] Read partially
 - [ ] Foraged
+- [ ] Someone else read it for me
 - [ ] 😔GenAI read this for me 
 
 **Reference (APA):** Stadler, M., Bannert, M., & Sailer, M. (2024). Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry. *Computers in Human Behavior, 160*, 108386. https://doi.org/10.1016/j.chb.2024.108386

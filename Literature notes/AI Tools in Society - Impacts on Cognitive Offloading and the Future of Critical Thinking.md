@@ -23,6 +23,7 @@ correction: "Societies 15(9), 252 (2025): error in a table; the PDF is the corre
 - [ ] Read in full
 - [ ] Read partially
 - [ ] Foraged
+- [ ] Someone else read it for me
 - [ ] 😔GenAI read this for me 
 
 **Reference (APA):** Gerlich, M. (2025). AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking. *Societies, 15*(1), 6. https://doi.org/10.3390/soc15010006 · **Correction:** Gerlich, M. (2025). Correction: Gerlich, M. AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies, 15*(9), 252. [Notice](https://ideas.repec.org/a/gam/jsoctx/v15y2025i9p252-d1746512.html). The correction concerns an error in a table; the PDF in Zotero is the corrected version of 10 September 2025.

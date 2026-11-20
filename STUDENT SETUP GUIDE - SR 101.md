@@ -99,7 +99,7 @@ pinch; on Mac, use TextEdit's **Format → Make Plain Text** first.
      you were given, or from the GitHub page with the green **Code** button →
      **Download ZIP**. Unzip it somewhere that isn't inside another vault.
      The unzipped folder is named after the version you downloaded, such as
-     `second-reader-sample-vault-1.1` or `second-reader-sample-vault-main`;
+     `second-reader-sample-vault-1.2` or `second-reader-sample-vault-main`;
      you can rename it. In Obsidian choose
      **Open folder as vault** and pick that folder itself, not the folder
      that contains it. When Obsidian asks whether you trust the author,
@@ -392,6 +392,23 @@ Once setup is done, this is the whole routine per paper.
    writing something and want to pull together the Permanent notes that
    support it. Link back to a Permanent note's **Connections** section as
    you build these.
+
+---
+
+## Writing a project
+
+When you start writing something, such as a paper for this course, run
+**Second Reader: New project** from the Command Palette. Pick a category,
+type a name, and Second Reader makes a folder in `Projects` with a project
+note and a **project letter**. The letter is where you write to your second
+reader as you work: what you plan to do as you start, what you did, and what
+comes next.
+
+Click **▶️ Start** at the top of the letter when you sit down to write. It
+adds today's entry with the time. Click **🛑 Stop** when you finish; a
+message shows how long you worked and your total for the project. Each
+session is saved in `Projects/project-time-log.csv`, which opens in any
+spreadsheet.
 
 ---
 

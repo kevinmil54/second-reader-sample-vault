@@ -26,5 +26,10 @@
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": true,
   "whichNotesToOpenAfterImport": "all-imported-notes",
-  "_importedLegacyZoteroSettings": true
+  "_importedLegacyZoteroSettings": true,
+  "projectCategories": "Course project | Projects | Templates/Project Template (student).md\nPaper | Projects | Templates/Project Template (student).md\nOther",
+  "projectFolder": "Projects",
+  "projectTemplatePath": "Templates/Project Template (student).md",
+  "projectLetterTemplatePath": "Templates/Project Letter Template.md",
+  "projectTimeLog": "Projects/project-time-log.csv"
 }

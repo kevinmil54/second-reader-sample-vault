@@ -9,8 +9,6 @@ created: {{date}}
 tags: [project]
 ---
 
-# {{title}}
-
 %% project: a short word, the same on every note you want collected here, for example final-project. synthesis: links to your synthesis notes. draft: a link to your draft note. Links in properties need quotes, like "[[Note title]]". %%
 
 ## What this is for
